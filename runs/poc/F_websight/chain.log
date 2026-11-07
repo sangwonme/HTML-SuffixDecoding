@@ -1,0 +1,7 @@
+[02:19:45] waiting for 'queue done'
+[05:09:37] GPU start F (ranker weights: runs/study/ranker_mlp_trainsplit.npz, trainsplit)
+[06:47:08] F rc=0
+[06:47:08] GPU released
+[06:47:09] analyze rc=0
+[06:47:14] quality rc=0
+[06:47:14] F done

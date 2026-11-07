@@ -1,0 +1,303 @@
+targets 70
+[1/70] C7g s2w_59299 T=217 std=61 SD=61(study 61) O1=46 O2=37 O3=37 SDjump1=65 1s rss=0.98
+[2/70] C1 s2w_68423 T=234 std=75 SD=87(study 87) O1=63 O2=45 O3=45 SDjump1=88 3s rss=0.98
+[3/70] C4g s2w_71611 T=270 std=69 SD=71(study 71) O1=54 O2=39 O3=39 SDjump1=78 4s rss=0.98
+[4/70] C1 s2w_59299 T=296 std=95 SD=99(study 99) O1=74 O2=52 O3=52 SDjump1=105 5s rss=0.98
+[5/70] C1 s2w_42624 T=298 std=41 SD=38(study 38) O1=32 O2=27 O3=27 SDjump1=41 6s rss=0.98
+[6/70] C4g s2w_42624 T=300 std=36 SD=33(study 33) O1=27 O2=24 O3=24 SDjump1=33 7s rss=0.98
+[7/70] C7g s2w_42624 T=306 std=44 SD=42(study 42) O1=35 O2=29 O3=29 SDjump1=45 8s rss=0.98
+[8/70] C1 s2w_47915 T=310 std=98 SD=99(study 99) O1=72 O2=52 O3=52 SDjump1=108 9s rss=0.98
+[9/70] C4g s2w_47915 T=313 std=56 SD=56(study 56) O1=40 O2=34 O3=34 SDjump1=60 10s rss=0.99
+[10/70] C7g s2w_68423 T=313 std=68 SD=75(study 75) O1=57 O2=44 O3=44 SDjump1=84 12s rss=0.99
+[11/70] C7g s2w_47915 T=332 std=79 SD=82(study 82) O1=61 O2=47 O3=47 SDjump1=87 13s rss=0.99
+[12/70] C7g s2w_8482 T=348 std=114 SD=117(study 117) O1=85 O2=60 O3=60 SDjump1=123 15s rss=0.99
+[13/70] C4g s2w_8482 T=361 std=78 SD=79(study 79) O1=66 O2=50 O3=50 SDjump1=80 16s rss=0.99
+[14/70] C4g s2w_59299 T=364 std=104 SD=105(study 105) O1=72 O2=53 O3=53 SDjump1=110 18s rss=0.99
+[15/70] C4g s2w_49685 T=409 std=60 SD=52(study 52) O1=40 O2=33 O3=33 SDjump1=59 19s rss=0.99
+[16/70] C7g s2w_49685 T=424 std=94 SD=102(study 102) O1=76 O2=54 O3=54 SDjump1=109 20s rss=0.99
+[17/70] C4g s2w_15124 T=425 std=105 SD=122(study 122) O1=90 O2=60 O3=60 SDjump1=116 22s rss=0.99
+[18/70] C7g s2w_70325 T=430 std=81 SD=88(study 88) O1=64 O2=48 O3=48 SDjump1=87 23s rss=0.99
+[19/70] C1 s2w_49685 T=449 std=92 SD=95(study 95) O1=71 O2=51 O3=51 SDjump1=104 25s rss=0.99
+[20/70] C1 s2w_15124 T=461 std=106 SD=142(study 142) O1=92 O2=61 O3=61 SDjump1=121 26s rss=0.99
+[21/70] C4g s2w_70325 T=488 std=115 SD=117(study 117) O1=98 O2=68 O3=68 SDjump1=124 28s rss=0.99
+[22/70] C4g s2w_64206 T=511 std=81 SD=74(study 74) O1=55 O2=47 O3=47 SDjump1=81 29s rss=0.99
+[23/70] C1 s2w_8482 T=536 std=99 SD=104(study 104) O1=73 O2=56 O3=56 SDjump1=112 31s rss=0.99
+[24/70] C7g s2w_71611 T=536 std=166 SD=183(study 183) O1=128 O2=88 O3=87 SDjump1=200 33s rss=0.99
+[25/70] C1 s2w_64206 T=545 std=103 SD=95(study 95) O1=68 O2=55 O3=55 SDjump1=102 34s rss=0.99
+[26/70] C0 s2w_59299 T=550 std=360 SD=372(study 372) O1=319 O2=195 O3=195 SDjump1=413 35s rss=0.99
+[27/70] C1 s2w_70325 T=553 std=170 SD=169(study 169) O1=134 O2=91 O3=91 SDjump1=179 36s rss=0.99
+[28/70] C7g s2w_64206 T=574 std=117 SD=127(study 127) O1=85 O2=63 O3=63 SDjump1=134 38s rss=0.99
+[29/70] C0 s2w_49685 T=642 std=343 SD=365(study 365) O1=291 O2=184 O3=183 SDjump1=407 39s rss=0.99
+[30/70] C1 s2w_71611 T=670 std=104 SD=95(study 95) O1=75 O2=62 O3=62 SDjump1=101 40s rss=0.99
+[31/70] C4g s2w_68423 T=674 std=83 SD=83(study 83) O1=59 O2=51 O3=51 SDjump1=87 43s rss=1.00
+[32/70] C0 s2w_47915 T=769 std=461 SD=489(study 489) O1=403 O2=249 O3=249 SDjump1=539 44s rss=1.00
+[33/70] C0 s2w_64206 T=867 std=433 SD=462(study 462) O1=369 O2=234 O3=234 SDjump1=522 45s rss=1.00
+[34/70] C0 s2w_70325 T=874 std=459 SD=481(study 481) O1=390 O2=235 O3=233 SDjump1=536 45s rss=1.00
+[35/70] C0 s2w_68423 T=954 std=456 SD=483(study 483) O1=384 O2=240 O3=238 SDjump1=548 46s rss=1.00
+[36/70] C0 s2w_8482 T=955 std=518 SD=549(study 549) O1=449 O2=287 O3=285 SDjump1=620 47s rss=0.99
+[37/70] C0 s2w_42624 T=966 std=508 SD=543(study 543) O1=431 O2=271 O3=269 SDjump1=603 48s rss=0.99
+[38/70] C0 s2w_15124 T=1085 std=469 SD=466(study 466) O1=377 O2=226 O3=225 SDjump1=541 49s rss=0.99
+[39/70] C0 s2w_71611 T=1107 std=606 SD=634(study 634) O1=525 O2=351 O3=349 SDjump1=706 50s rss=0.99
+[40/70] C7g s2w_15124 T=2048 std=279 SD=260(study 260) O1=236 O2=182 O3=182 SDjump1=266 52s rss=0.99
+[41/70] gemma_E4B_fs s2w_47915 T=323 std=38 SD=39(study 39) O1=28 O2=26 O3=26 SDjump1=43 53s rss=0.99
+[42/70] gemma_E4B_fs s2w_59299 T=343 std=43 SD=39(study 39) O1=29 O2=26 O3=26 SDjump1=45 55s rss=0.99
+[43/70] gemma_E4B_fs s2w_42624 T=352 std=54 SD=63(study 63) O1=38 O2=35 O3=35 SDjump1=67 56s rss=0.99
+[44/70] gemma_E2B_fs s2w_59299 T=374 std=98 SD=104(study 104) O1=76 O2=52 O3=52 SDjump1=113 57s rss=0.99
+[45/70] gemma_E2B_fs s2w_42624 T=379 std=111 SD=119(study 119) O1=86 O2=60 O3=60 SDjump1=127 58s rss=0.99
+[46/70] gemma_E2B_fs s2w_49685 T=379 std=50 SD=55(study 55) O1=37 O2=32 O3=32 SDjump1=63 59s rss=0.99
+[47/70] gemma_E2B_fs s2w_47915 T=379 std=66 SD=68(study 68) O1=46 O2=38 O3=38 SDjump1=75 60s rss=0.99
+[48/70] gemma_E4B_fs s2w_49685 T=381 std=54 SD=57(study 57) O1=38 O2=32 O3=32 SDjump1=66 61s rss=0.99
+[49/70] gemma_E2B_fs s2w_8482 T=407 std=50 SD=56(study 56) O1=34 O2=30 O3=30 SDjump1=59 62s rss=0.99
+[50/70] gemma_E4B_fs s2w_8482 T=409 std=70 SD=70(study 70) O1=45 O2=36 O3=36 SDjump1=75 64s rss=0.99
+[51/70] gemma_E4B_fs s2w_70325 T=443 std=40 SD=31(study 31) O1=28 O2=28 O3=28 SDjump1=31 64s rss=0.99
+[52/70] gemma_E2B_fs s2w_70325 T=447 std=51 SD=51(study 51) O1=38 O2=35 O3=35 SDjump1=51 65s rss=0.99
+[53/70] gemma_E2B_fs s2w_15124 T=466 std=65 SD=70(study 70) O1=48 O2=40 O3=40 SDjump1=73 66s rss=0.99
+[54/70] gemma_E4B_fs s2w_15124 T=472 std=60 SD=69(study 69) O1=42 O2=36 O3=36 SDjump1=73 68s rss=0.99
+[55/70] gemma_12B_fs s2w_8482 T=497 std=166 SD=176(study 176) O1=118 O2=83 O3=83 SDjump1=188 69s rss=0.99
+[56/70] gemma_E4B_fs s2w_64206 T=861 std=182 SD=199(study 199) O1=129 O2=96 O3=96 SDjump1=218 71s rss=0.99
+[57/70] gemma_E4B_fs s2w_71611 T=885 std=112 SD=102(study 102) O1=78 O2=68 O3=68 SDjump1=110 72s rss=0.99
+[58/70] gemma_12B_fs s2w_71611 T=897 std=240 SD=257(study 257) O1=174 O2=127 O3=127 SDjump1=273 75s rss=0.99
+[59/70] gemma_12B_fs s2w_42624 T=924 std=419 SD=461(study 461) O1=326 O2=211 O3=211 SDjump1=515 77s rss=0.99
+[60/70] gemma_12B_fs s2w_15124 T=951 std=463 SD=501(study 501) O1=346 O2=219 O3=219 SDjump1=541 79s rss=0.99
+[61/70] gemma_12B_fs s2w_49685 T=960 std=401 SD=425(study 425) O1=299 O2=201 O3=201 SDjump1=474 80s rss=0.99
+[62/70] gemma_E4B_fs s2w_68423 T=971 std=173 SD=188(study 188) O1=125 O2=93 O3=93 SDjump1=197 82s rss=0.99
+[63/70] gemma_12B_fs s2w_70325 T=973 std=454 SD=501(study 501) O1=350 O2=223 O3=223 SDjump1=555 84s rss=0.99
+[64/70] gemma_E2B_fs s2w_71611 T=1051 std=165 SD=142(study 142) O1=110 O2=91 O3=91 SDjump1=151 85s rss=0.99
+[65/70] gemma_12B_fs s2w_47915 T=1118 std=612 SD=663(study 663) O1=478 O2=306 O3=306 SDjump1=726 87s rss=0.99
+[66/70] gemma_12B_fs s2w_68423 T=1123 std=226 SD=245(study 245) O1=170 O2=131 O3=131 SDjump1=264 90s rss=0.99
+[67/70] gemma_E2B_fs s2w_64206 T=1316 std=179 SD=200(study 200) O1=128 O2=108 O3=108 SDjump1=218 91s rss=0.99
+[68/70] gemma_12B_fs s2w_64206 T=1325 std=578 SD=621(study 621) O1=428 O2=283 O3=283 SDjump1=679 94s rss=0.99
+[69/70] gemma_E2B_fs s2w_68423 T=1993 std=271 SD=278(study 278) O1=195 O2=161 O3=161 SDjump1=284 96s rss=0.99
+[70/70] gemma_12B_fs s2w_59299 T=2052 std=1046 SD=560(study 560) O1=429 O2=303 O3=303 SDjump1=616 119s rss=0.99
+{
+ "poc_greedy": {
+  "n": 40,
+  "SD_matches_study": 40,
+  "fwd_std": 187.15,
+  "fwd_SD": 194.9,
+  "fwd_O1a_SDset_SDlen": 177.95,
+  "fwd_O1b_SDset_g16": 157.325,
+  "fwd_O1": 154.15,
+  "fwd_O2": 103.375,
+  "fwd_O3": 103.05,
+  "fwd_SDjump_m0": 194.275,
+  "fwd_SDjump_m1": 213.1,
+  "fwd_SDjump_m2": 232.75,
+  "n_split": 40,
+  "split_subset_means": {
+   "fwd_std": 187.15,
+   "fwd_SD": 194.9,
+   "fwd_O1a_SDset_SDlen": 177.95,
+   "fwd_O1b_SDset_g16": 157.325,
+   "fwd_O1": 154.15,
+   "fwd_O2": 103.375
+  },
+  "decomp_std_to_O2": {
+   "total": 83.775,
+   "std->SD": -0.09250969859743359,
+   "ranking SD->O1": 0.4864219635929573,
+   "construction O1->O2": 0.6060877350044763
+  },
+  "decomp_ranking_split(subset, share of std->O2)": {
+   "path choice within SD set (SD->O1a)": 0.20232766338406466,
+   "SD length cap (O1a->O1b)": 0.2461951656222023,
+   "shorter-suffix occurrences (O1b->O1)": 0.037899134586690336
+  },
+  "decomp_SD_to_O2": {
+   "total": 91.525,
+   "ranking": 0.44523354274788307,
+   "construction": 0.5547664572521169
+  },
+  "paired_SD-O1": {
+   "mean": 40.75,
+   "ci95": [
+    31.0975,
+    51.125
+   ],
+   "median": 26.5
+  },
+  "paired_O1-O2": {
+   "mean": 50.775,
+   "ci95": [
+    33.3,
+    69.475625
+   ],
+   "median": 21.0
+  },
+  "paired_O2-O3": {
+   "mean": 0.325,
+   "ci95": [
+    0.125,
+    0.575
+   ],
+   "median": 0.0
+  },
+  "SD-SDjump_m0": {
+   "mean": 0.625,
+   "ci95": [
+    0.425,
+    0.8506249999999965
+   ],
+   "median": 0.5,
+   "red_mean": 0.00400014990259665,
+   "red_total": 0.0032067727039507554,
+   "n_better": 20,
+   "n_worse": 0,
+   "steps_used": 1961
+  },
+  "SDjump_m0_gain_ctx": {
+   "boundary": 24
+  },
+  "SD-SDjump_m1": {
+   "mean": -18.2,
+   "ci95": [
+    -26.6,
+    -10.748750000000006
+   ],
+   "median": -7.0,
+   "red_mean": -0.06995907459837171,
+   "red_total": -0.09338122113904568,
+   "n_better": 3,
+   "n_worse": 36,
+   "steps_used": 4760
+  },
+  "SDjump_m1_gain_ctx": {
+   "boundary": 72
+  },
+  "SD-SDjump_m2": {
+   "mean": -37.85,
+   "ci95": [
+    -51.975625,
+    -25.349375000000006
+   ],
+   "median": -17.0,
+   "red_mean": -0.17431210193078456,
+   "red_total": -0.19420215495125714,
+   "n_better": 1,
+   "n_worse": 39,
+   "steps_used": 6544
+  },
+  "SDjump_m2_gain_ctx": {
+   "boundary": 102
+  },
+  "O3_gain_ctx": {
+   "boundary": 30
+  },
+  "verdict_construction_gt_ranking": true
+ },
+ "gemma_fs(approx)": {
+  "n": 30,
+  "SD_matches_study": 30,
+  "fwd_std": 217.9,
+  "fwd_SD": 213.66666666666666,
+  "fwd_O1a_SDset_SDlen": 174.55172413793105,
+  "fwd_O1b_SDset_g16": 158.66666666666666,
+  "fwd_O1": 149.86666666666667,
+  "fwd_O2": 107.0,
+  "fwd_O3": 107.0,
+  "fwd_SDjump_m0": 213.3,
+  "fwd_SDjump_m1": 232.33333333333334,
+  "fwd_SDjump_m2": 260.6333333333333,
+  "n_split": 29,
+  "split_subset_means": {
+   "fwd_std": 189.3448275862069,
+   "fwd_SD": 201.72413793103448,
+   "fwd_O1a_SDset_SDlen": 174.55172413793105,
+   "fwd_O1b_SDset_g16": 148.41379310344828,
+   "fwd_O1": 140.24137931034483,
+   "fwd_O2": 100.24137931034483
+  },
+  "decomp_std_to_O2": {
+   "total": 110.9,
+   "std->SD": 0.038172527802825505,
+   "ranking SD->O1": 0.5752930568079349,
+   "construction O1->O2": 0.3865344153892396
+  },
+  "decomp_ranking_split(subset, share of std->O2)": {
+   "path choice within SD set (SD->O1a)": 0.30495356037151683,
+   "SD length cap (O1a->O1b)": 0.29334365325077405,
+   "shorter-suffix occurrences (O1b->O1)": 0.0917182662538701
+  },
+  "decomp_SD_to_O2": {
+   "total": 106.66666666666666,
+   "ranking": 0.5981249999999999,
+   "construction": 0.4018750000000001
+  },
+  "paired_SD-O1": {
+   "mean": 63.8,
+   "ci95": [
+    44.697500000000005,
+    84.20083333333334
+   ],
+   "median": 32.5
+  },
+  "paired_O1-O2": {
+   "mean": 42.86666666666667,
+   "ci95": [
+    25.699166666666667,
+    61.66833333333332
+   ],
+   "median": 22.0
+  },
+  "paired_O2-O3": {
+   "mean": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "median": 0.0
+  },
+  "SD-SDjump_m0": {
+   "mean": 0.36666666666666664,
+   "ci95": [
+    0.1,
+    0.7
+   ],
+   "median": 0.0,
+   "red_mean": 0.0006867443154051152,
+   "red_total": 0.0017160686427457605,
+   "n_better": 7,
+   "n_worse": 0,
+   "steps_used": 714
+  },
+  "SDjump_m0_gain_ctx": {
+   "boundary": 11
+  },
+  "SD-SDjump_m1": {
+   "mean": -18.666666666666668,
+   "ci95": [
+    -26.033333333333335,
+    -11.831666666666676
+   ],
+   "median": -9.0,
+   "red_mean": -0.08063319830810518,
+   "red_total": -0.08736349453978165,
+   "n_better": 0,
+   "n_worse": 28,
+   "steps_used": 2788
+  },
+  "SDjump_m1_gain_ctx": {
+   "boundary": 24
+  },
+  "SD-SDjump_m2": {
+   "mean": -46.96666666666667,
+   "ci95": [
+    -63.30333333333333,
+    -31.825833333333374
+   ],
+   "median": -25.0,
+   "red_mean": -0.21208344753723835,
+   "red_total": -0.21981279251170038,
+   "n_better": 0,
+   "n_worse": 30,
+   "steps_used": 4633
+  },
+  "SDjump_m2_gain_ctx": {
+   "boundary": 47
+  },
+  "O3_gain_ctx": {
+   "boundary": 15
+  },
+  "verdict_construction_gt_ranking": false
+ }
+}

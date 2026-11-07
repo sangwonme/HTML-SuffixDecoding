@@ -1,0 +1,362 @@
+{
+  "render": {
+    "pilot": {
+      "n": 50,
+      "flow_ok": 50,
+      "abs_ok": 50,
+      "failures": [],
+      "flow_rate": 1.0,
+      "abs_rate": 1.0,
+      "seconds": 0.3
+    },
+    "dev": {
+      "n": 100,
+      "flow_ok": 100,
+      "abs_ok": 100,
+      "failures": [],
+      "flow_rate": 1.0,
+      "abs_rate": 1.0,
+      "seconds": 0.6
+    },
+    "test": {
+      "n": 500,
+      "flow_ok": 500,
+      "abs_ok": 500,
+      "failures": [],
+      "flow_rate": 1.0,
+      "abs_rate": 1.0,
+      "seconds": 2.7
+    },
+    "train_pool": {
+      "n": 14522,
+      "flow_ok": 14522,
+      "abs_ok": 14522,
+      "failures": [],
+      "flow_rate": 1.0,
+      "abs_rate": 1.0,
+      "seconds": 120.1
+    }
+  },
+  "lengths": {
+    "pilot": {
+      "query_short": {
+        "chars": {
+          "mean": 52.1,
+          "p50": 52,
+          "p95": 69,
+          "min": 31,
+          "max": 79
+        },
+        "gemma4_tokens": {
+          "mean": 10.4,
+          "p50": 10,
+          "p95": 13,
+          "min": 8,
+          "max": 13
+        }
+      },
+      "query_rich": {
+        "chars": {
+          "mean": 288.2,
+          "p50": 255,
+          "p95": 475,
+          "min": 151,
+          "max": 526
+        },
+        "gemma4_tokens": {
+          "mean": 84.6,
+          "p50": 74,
+          "p95": 147,
+          "min": 47,
+          "max": 174
+        }
+      },
+      "gt_html_flow": {
+        "chars": {
+          "mean": 2089.1,
+          "p50": 1527,
+          "p95": 3393,
+          "min": 842,
+          "max": 19726
+        },
+        "gemma4_tokens": {
+          "mean": 647.7,
+          "p50": 505,
+          "p95": 1214,
+          "min": 271,
+          "max": 4014
+        }
+      },
+      "gt_html_abs": {
+        "chars": {
+          "mean": 2797.6,
+          "p50": 2203,
+          "p95": 5085,
+          "min": 952,
+          "max": 19848
+        },
+        "gemma4_tokens": {
+          "mean": 1042.1,
+          "p50": 880,
+          "p95": 2064,
+          "min": 344,
+          "max": 4091
+        }
+      },
+      "elements": {
+        "mean": 17.6,
+        "p50": 11,
+        "p95": 40,
+        "min": 4,
+        "max": 59
+      },
+      "key_texts": {
+        "mean": 7.8,
+        "p50": 6,
+        "p95": 15,
+        "min": 1,
+        "max": 15
+      }
+    },
+    "dev": {
+      "query_short": {
+        "chars": {
+          "mean": 51.8,
+          "p50": 51,
+          "p95": 74,
+          "min": 34,
+          "max": 96
+        },
+        "gemma4_tokens": {
+          "mean": 10.6,
+          "p50": 10,
+          "p95": 13,
+          "min": 8,
+          "max": 17
+        }
+      },
+      "query_rich": {
+        "chars": {
+          "mean": 272.9,
+          "p50": 242,
+          "p95": 511,
+          "min": 125,
+          "max": 596
+        },
+        "gemma4_tokens": {
+          "mean": 82.8,
+          "p50": 72,
+          "p95": 156,
+          "min": 35,
+          "max": 211
+        }
+      },
+      "gt_html_flow": {
+        "chars": {
+          "mean": 1642.8,
+          "p50": 1407,
+          "p95": 2832,
+          "min": 820,
+          "max": 10769
+        },
+        "gemma4_tokens": {
+          "mean": 542.4,
+          "p50": 481,
+          "p95": 1025,
+          "min": 280,
+          "max": 2265
+        }
+      },
+      "gt_html_abs": {
+        "chars": {
+          "mean": 2241.9,
+          "p50": 1866,
+          "p95": 4455,
+          "min": 835,
+          "max": 10953
+        },
+        "gemma4_tokens": {
+          "mean": 879.4,
+          "p50": 741,
+          "p95": 1889,
+          "min": 303,
+          "max": 2560
+        }
+      },
+      "elements": {
+        "mean": 15.6,
+        "p50": 12,
+        "p95": 37,
+        "min": 3,
+        "max": 57
+      },
+      "key_texts": {
+        "mean": 6.9,
+        "p50": 5,
+        "p95": 15,
+        "min": 1,
+        "max": 15
+      }
+    },
+    "test": {
+      "query_short": {
+        "chars": {
+          "mean": 52.9,
+          "p50": 53,
+          "p95": 70,
+          "min": 31,
+          "max": 88
+        },
+        "gemma4_tokens": {
+          "mean": 10.4,
+          "p50": 10,
+          "p95": 13,
+          "min": 7,
+          "max": 15
+        }
+      },
+      "query_rich": {
+        "chars": {
+          "mean": 279.3,
+          "p50": 253,
+          "p95": 474,
+          "min": 113,
+          "max": 634
+        },
+        "gemma4_tokens": {
+          "mean": 82.7,
+          "p50": 73,
+          "p95": 145,
+          "min": 32,
+          "max": 205
+        }
+      },
+      "gt_html_flow": {
+        "chars": {
+          "mean": 1739.3,
+          "p50": 1429,
+          "p95": 3253,
+          "min": 729,
+          "max": 21748
+        },
+        "gemma4_tokens": {
+          "mean": 572.7,
+          "p50": 479,
+          "p95": 1106,
+          "min": 252,
+          "max": 4655
+        }
+      },
+      "gt_html_abs": {
+        "chars": {
+          "mean": 2396.2,
+          "p50": 1892,
+          "p95": 5160,
+          "min": 767,
+          "max": 21932
+        },
+        "gemma4_tokens": {
+          "mean": 941.9,
+          "p50": 746,
+          "p95": 2070,
+          "min": 284,
+          "max": 4764
+        }
+      },
+      "elements": {
+        "mean": 16.9,
+        "p50": 12,
+        "p95": 44,
+        "min": 3,
+        "max": 72
+      },
+      "key_texts": {
+        "mean": 7.1,
+        "p50": 6,
+        "p95": 15,
+        "min": 1,
+        "max": 15
+      }
+    },
+    "train_pool": {
+      "query_short": {
+        "chars": {
+          "mean": 53.3,
+          "p50": 53,
+          "p95": 72,
+          "min": 24,
+          "max": 106
+        },
+        "gemma4_tokens": {
+          "mean": 10.5,
+          "p50": 10,
+          "p95": 13,
+          "min": 7,
+          "max": 18
+        }
+      },
+      "query_rich": {
+        "chars": {
+          "mean": 279.9,
+          "p50": 258,
+          "p95": 474,
+          "min": 95,
+          "max": 749
+        },
+        "gemma4_tokens": {
+          "mean": 84.0,
+          "p50": 76,
+          "p95": 145,
+          "min": 30,
+          "max": 329
+        }
+      },
+      "gt_html_flow": {
+        "chars": {
+          "mean": 1774.9,
+          "p50": 1435,
+          "p95": 3289,
+          "min": 695,
+          "max": 693105
+        },
+        "gemma4_tokens": {
+          "mean": 584.3,
+          "p50": 479,
+          "p95": 1137,
+          "min": 247,
+          "max": 141352
+        }
+      },
+      "gt_html_abs": {
+        "chars": {
+          "mean": 2462.1,
+          "p50": 1940,
+          "p95": 5173,
+          "min": 750,
+          "max": 693247
+        },
+        "gemma4_tokens": {
+          "mean": 968.6,
+          "p50": 768,
+          "p95": 2133,
+          "min": 283,
+          "max": 141441
+        }
+      },
+      "elements": {
+        "mean": 17.5,
+        "p50": 13,
+        "p95": 44,
+        "min": 3,
+        "max": 135
+      },
+      "key_texts": {
+        "mean": 7.4,
+        "p50": 6,
+        "p95": 15,
+        "min": 1,
+        "max": 15
+      }
+    }
+  }
+}

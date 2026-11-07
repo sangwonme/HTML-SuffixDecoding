@@ -1,0 +1,27 @@
+| cond | n | out_tok | TTFT p50 | total p50 | total p95(max) | fwd mean | tok/fwd | speedup p50 | E[tok/step] formula | identical | L1 eq | L2 eq | L3 eq | D p50 | D max | pixdiff>16 p50 | checklist | elem F1 | render_ok | hit_max | fires |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| greedy | 10 | 435 | 0.22 | 27.1 | 38.9 | 435 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 0 | 0 | 0 | 1 | 0.502 | 1 | 0 | {"a": 0, "b": 0} |
+| pld | 10 | 443 | 0.249 | 6.64 | 10.1 | 104 | 4.58 | 4.47 | 5.63 | 0.3 | 0.3 | 0.5 | 0.5 | 0.0199 | 0.0987 | 0.0064 | 1 | 0.503 | 1 | 0 | {"a": 0, "b": 0} |
+| rnsd | 10 | 414 | 0.226 | 5.34 | 6.83 | 80.2 | 5.24 | 5.6 | 6.92 | 0 | 0 | 0 | 0 | 0.0851 | 0.177 | 0.055 | 1 | 0.55 | 1 | 0 | {"a": 24, "b": 11} |
+| greedy_b | 10 | 435 | 0.219 | 28.1 | 41.9 | 435 | 1 | 0.944 | 1 | 1 | 1 | 1 | 1 | 0 | 0 | 0 | 1 | 0.502 | 1 | 0 | {"a": 0, "b": 0} |
+| L1 | 10 | 443 | 0.264 | 6.41 | 11.2 | 104 | 4.58 | 4.29 | 5.63 | 0.3 | 0.3 | 0.5 | 0.5 | 0.0199 | 0.0987 | 0.0064 | 1 | 0.503 | 1 | 0 | {"a": 0, "b": 0} |
+| L2 | 10 | 451 | 0.234 | 6.2 | 7.05 | 86.8 | 5.34 | 4.68 | 6.95 | 0 | 0 | 0 | 0.1 | 0.102 | 0.203 | 0.0822 | 1 | 0.532 | 1 | 0 | {"L2_rename": 14, "L2_sigma_match": 3} |
+| L4 | 10 | 456 | 0.219 | 5.71 | 10.5 | 86.9 | 5.63 | 4.95 | 7.12 | 0 | 0 | 0 | 0.1 | 0.105 | 0.157 | 0.133 | 0.883 | 0.571 | 1 | 0 | {"a2": 19, "L2_rename": 10, "b": 17} |
+| row | few-shot | decoding | n | checklist | elem F1 | type F1 | total p50 (s) | forwards | tok/fwd | speed-up vs C1 (p50) | render = own greedy (L1 DOM / L2 style) | D p50 | pre-<body> char frac |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| C0 | zero-shot | greedy | 10 | 0.867 | 0.480 | 0.675 | 59.4 | 877 | 1.00 | 0.47 | - | - | 0.653 |
+| C1 | TF-IDF | greedy | 10 | 1.000 | 0.502 | 0.747 | 27.1 | 435 | 1.00 | 1.00 | - | - | 0.460 |
+| C2 | TF-IDF | PLD | 10 | 1.000 | 0.503 | 0.757 | 6.6 | 104 | 4.58 | 4.47 | 3/10 / 5/10 | 0.0199 | 0.458 |
+| C3-naive | TF-IDF | RNSD-L2 v1 (naive rename) | 10 | 1.000 | 0.532 | 0.763 | 6.2 | 87 | 5.34 | 4.32 | 0/10 / 0/10 | 0.102 | 0.435 |
+| C3 | TF-IDF | RNSD-L2 v2 (binding-aware) | 10 | 1.000 | 0.526 | 0.763 | 5.8 | 91 | 5.53 | 4.61 | 2/10 / 3/10 | 0.0419 | 0.426 |
+| C4g | struct | greedy | 10 | 1.000 | 0.502 | 0.754 | 24.1 | 412 | 1.00 | 1.04 | - | - | 0.472 |
+| C4 | struct | RNSD-L2 | 10 | 1.000 | 0.509 | 0.754 | 5.3 | 73 | 5.65 | 5.66 | 6/10 / 6/10 | 0 | 0.484 |
+| C5 | oracle | RNSD-L2 | 10 | 0.967 | 0.653 | 0.841 | 4.7 | 86 | 5.97 | 5.58 | 0/10 / 0/10 | 0.15 | 0.428 |
+| C6 | mix (struct top-1 + TF-IDF top-2) | RNSD-L2 | 0 | (not run) |||||||||
+| C7g | TF-IDF, interleaved-CSS exemplars | greedy | 0 | (not run) |||||||||
+| C7 | TF-IDF, interleaved-CSS exemplars | RNSD-L2 | 0 | (not run) |||||||||
+
+Traceback (most recent call last):
+  File "C:\Works\KSEF26\GenerativeUI\scripts\poc_ci.py", line 56, in <module>
+    print(out)
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2212' in position 779: illegal multibyte sequence

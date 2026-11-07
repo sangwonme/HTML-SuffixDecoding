@@ -1,0 +1,33 @@
+# Environments and caches (re-created by setup; see README.md)
+.venv/
+.cache/
+__pycache__/
+*.pyc
+.env
+.gpu_busy
+
+# Model weights (re-download: scripts/download_models.py)
+models/
+
+# Raw data (re-download: scripts/download_data.py)
+data/raw/
+
+# Regenerable large processed data (scripts/build_dataset.py, deterministic)
+data/processed/screenshots/
+data/processed/train_pool.jsonl
+data/processed/external/design2code.jsonl
+
+# Pickle caches and backups (recomputed by the scripts)
+*.pkl
+*.bak
+# keep: evidence for the exemplar 4000-char bug (RESEARCH_CONTEXT.md section 6)
+!runs/poc/poc_rnsd_pre_p1b.py.bak
+
+# Logs that contain local user paths
+runs/retrieval/run.log
+
+# LaTeX by-products
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.synctex.gz

@@ -1,0 +1,156 @@
+exemplar html overridden for 150 ids
+W1108 02:38:16.388000 21168 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+W1108 02:38:16.844000 21168 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+Loading weights:   0%|          | 0/1951 [00:00<?, ?it/s]Loading weights:   5%|4         | 96/1951 [00:00<00:01, 957.55it/s]Loading weights:  14%|#3        | 269/1951 [00:00<00:01, 1405.56it/s]Loading weights:  24%|##4       | 475/1951 [00:00<00:00, 1697.88it/s]Loading weights:  34%|###3      | 663/1951 [00:00<00:00, 1768.41it/s]Loading weights:  43%|####3     | 840/1951 [00:06<00:14, 76.45it/s]  Loading weights:  49%|####8     | 955/1951 [00:07<00:10, 94.16it/s]Loading weights:  53%|#####3    | 1041/1951 [00:07<00:08, 107.70it/s]Loading weights:  57%|#####6    | 1107/1951 [00:07<00:07, 115.30it/s]Loading weights:  59%|#####9    | 1157/1951 [00:08<00:06, 119.52it/s]Loading weights:  61%|######1   | 1196/1951 [00:08<00:05, 125.84it/s]Loading weights:  63%|######2   | 1229/1951 [00:08<00:05, 130.02it/s]Loading weights:  64%|######4   | 1257/1951 [00:08<00:05, 133.47it/s]Loading weights:  66%|######5   | 1281/1951 [00:08<00:05, 131.36it/s]Loading weights:  73%|#######3  | 1425/1951 [00:09<00:01, 281.23it/s]Loading weights:  86%|########5 | 1676/1951 [00:09<00:00, 592.60it/s]Loading weights:  98%|#########8| 1912/1951 [00:09<00:00, 883.01it/s]Loading weights: 100%|##########| 1951/1951 [00:09<00:00, 209.60it/s]
+warm-up done
+[r0 1/50] dom    s2w_8482 in=4518 out=963 fwd=166 tok/fwd=5.80 ttft=0.72s total=10.6s draft=0.10s verify=9.8s
+[r0 1/50] ranker s2w_8482 in=4518 out=638 fwd=123 tok/fwd=5.19 ttft=0.72s total=8.1s draft=0.08s verify=7.3s
+[r0 1/50] pld    s2w_8482 in=4518 out=659 fwd=157 tok/fwd=4.20 ttft=0.72s total=10.1s draft=0.03s verify=9.3s
+[r0 2/50] ranker s2w_42624 in=1286 out=291 fwd=27 tok/fwd=10.78 ttft=0.16s total=1.7s draft=0.01s verify=1.5s
+[r0 2/50] pld    s2w_42624 in=1286 out=291 fwd=36 tok/fwd=8.08 ttft=0.16s total=2.2s draft=0.00s verify=2.1s
+[r0 2/50] dom    s2w_42624 in=1286 out=291 fwd=31 tok/fwd=9.39 ttft=0.16s total=1.9s draft=0.01s verify=1.8s
+[r0 3/50] pld    s2w_70325 in=2216 out=415 fwd=66 tok/fwd=6.29 ttft=0.28s total=4.1s draft=0.01s verify=3.8s
+[r0 3/50] dom    s2w_70325 in=2216 out=412 fwd=49 tok/fwd=8.41 ttft=0.28s total=3.1s draft=0.03s verify=2.8s
+[r0 3/50] ranker s2w_70325 in=2216 out=374 fwd=34 tok/fwd=11.00 ttft=0.28s total=2.2s draft=0.02s verify=1.9s
+[r0 4/50] pld    s2w_49685 in=2535 out=2048 fwd=275 tok/fwd=7.45 ttft=0.32s total=16.6s draft=0.04s verify=16.2s
+[r0 4/50] dom    s2w_49685 in=2535 out=2048 fwd=225 tok/fwd=9.10 ttft=0.32s total=13.9s draft=0.10s verify=13.5s
+[r0 4/50] ranker s2w_49685 in=2535 out=1151 fwd=203 tok/fwd=5.67 ttft=0.32s total=12.4s draft=0.11s verify=11.9s
+[r0 5/50] pld    s2w_59299 in=2115 out=369 fwd=115 tok/fwd=3.21 ttft=0.26s total=7.0s draft=0.02s verify=6.7s
+[r0 5/50] ranker s2w_59299 in=2115 out=369 fwd=106 tok/fwd=3.48 ttft=0.26s total=6.5s draft=0.05s verify=6.2s
+[r0 5/50] dom    s2w_59299 in=2115 out=375 fwd=108 tok/fwd=3.47 ttft=0.26s total=6.7s draft=0.04s verify=6.3s
+[r0 6/50] dom    s2w_71611 in=4243 out=1356 fwd=242 tok/fwd=5.60 ttft=0.66s total=15.1s draft=0.16s verify=14.2s
+[r0 6/50] pld    s2w_71611 in=4243 out=1514 fwd=322 tok/fwd=4.70 ttft=0.66s total=19.8s draft=0.06s verify=19.1s
+[r0 6/50] ranker s2w_71611 in=4243 out=1345 fwd=241 tok/fwd=5.58 ttft=0.65s total=15.4s draft=0.20s verify=14.5s
+[r0 7/50] ranker s2w_15124 in=3069 out=1235 fwd=210 tok/fwd=5.88 ttft=0.41s total=13.2s draft=0.29s verify=12.5s
+[r0 7/50] dom    s2w_15124 in=3069 out=1235 fwd=204 tok/fwd=6.05 ttft=0.41s total=12.6s draft=0.11s verify=12.1s
+[r0 7/50] pld    s2w_15124 in=3069 out=1235 fwd=224 tok/fwd=5.51 ttft=0.41s total=13.6s draft=0.04s verify=13.1s
+[r0 8/50] dom    s2w_64206 in=3867 out=910 fwd=119 tok/fwd=7.65 ttft=0.58s total=7.7s draft=0.07s verify=7.1s
+[r0 8/50] ranker s2w_64206 in=3867 out=910 fwd=112 tok/fwd=8.12 ttft=0.58s total=7.3s draft=0.08s verify=6.6s
+[r0 8/50] pld    s2w_64206 in=3867 out=910 fwd=153 tok/fwd=5.95 ttft=0.58s total=9.6s draft=0.02s verify=9.0s
+[r0 9/50] pld    s2w_47915 in=1402 out=304 fwd=45 tok/fwd=6.76 ttft=0.16s total=2.8s draft=0.01s verify=2.6s
+[r0 9/50] ranker s2w_47915 in=1402 out=304 fwd=48 tok/fwd=6.33 ttft=0.16s total=3.0s draft=0.02s verify=2.8s
+[r0 9/50] dom    s2w_47915 in=1402 out=304 fwd=44 tok/fwd=6.91 ttft=0.16s total=2.7s draft=0.01s verify=2.6s
+[r0 10/50] pld    s2w_68423 in=4994 out=1581 fwd=290 tok/fwd=5.45 ttft=0.84s total=18.0s draft=0.06s verify=17.1s
+[r0 10/50] dom    s2w_68423 in=4994 out=1150 fwd=183 tok/fwd=6.28 ttft=0.83s total=11.8s draft=0.16s verify=10.8s
+[r0 10/50] ranker s2w_68423 in=4994 out=1161 fwd=180 tok/fwd=6.45 ttft=0.83s total=11.7s draft=0.18s verify=10.7s
+[r0 11/50] dom    s2w_69646 in=3225 out=653 fwd=106 tok/fwd=6.16 ttft=0.45s total=6.7s draft=0.05s verify=6.2s
+[r0 11/50] ranker s2w_69646 in=3225 out=676 fwd=102 tok/fwd=6.63 ttft=0.45s total=6.5s draft=0.06s verify=6.0s
+[r0 11/50] pld    s2w_69646 in=3225 out=653 fwd=110 tok/fwd=5.94 ttft=0.45s total=6.9s draft=0.02s verify=6.4s
+[r0 12/50] pld    s2w_67147 in=1415 out=594 fwd=219 tok/fwd=2.71 ttft=0.18s total=13.0s draft=0.03s verify=12.8s
+[r0 12/50] ranker s2w_67147 in=1415 out=510 fwd=160 tok/fwd=3.19 ttft=0.18s total=9.6s draft=0.06s verify=9.4s
+[r0 12/50] dom    s2w_67147 in=1415 out=594 fwd=212 tok/fwd=2.80 ttft=0.18s total=13.1s draft=0.07s verify=12.8s
+[r0 13/50] pld    s2w_38961 in=3545 out=418 fwd=106 tok/fwd=3.94 ttft=0.51s total=6.7s draft=0.02s verify=6.2s
+[r0 13/50] ranker s2w_38961 in=3545 out=500 fwd=105 tok/fwd=4.76 ttft=0.50s total=6.8s draft=0.06s verify=6.2s
+[r0 13/50] dom    s2w_38961 in=3545 out=722 fwd=188 tok/fwd=3.84 ttft=0.51s total=11.7s draft=0.09s verify=11.1s
+[r0 14/50] pld    s2w_64592 in=2985 out=845 fwd=165 tok/fwd=5.12 ttft=0.40s total=10.1s draft=0.03s verify=9.6s
+[r0 14/50] ranker s2w_64592 in=2985 out=752 fwd=135 tok/fwd=5.57 ttft=0.40s total=8.4s draft=0.10s verify=7.9s
+[r0 14/50] dom    s2w_64592 in=2985 out=750 fwd=132 tok/fwd=5.68 ttft=0.40s total=8.2s draft=0.08s verify=7.7s
+[r0 15/50] ranker s2w_23677 in=2899 out=584 fwd=132 tok/fwd=4.42 ttft=0.37s total=8.2s draft=0.07s verify=7.7s
+[r0 15/50] dom    s2w_23677 in=2899 out=559 fwd=119 tok/fwd=4.70 ttft=0.37s total=7.4s draft=0.05s verify=6.9s
+[r0 15/50] pld    s2w_23677 in=2899 out=559 fwd=138 tok/fwd=4.05 ttft=0.37s total=8.5s draft=0.02s verify=8.1s
+[r0 16/50] ranker s2w_22440 in=1344 out=356 fwd=41 tok/fwd=8.68 ttft=0.16s total=2.5s draft=0.02s verify=2.4s
+[r0 16/50] dom    s2w_22440 in=1344 out=303 fwd=34 tok/fwd=8.91 ttft=0.16s total=2.1s draft=0.02s verify=1.9s
+[r0 16/50] pld    s2w_22440 in=1344 out=303 fwd=41 tok/fwd=7.39 ttft=0.16s total=2.5s draft=0.00s verify=2.3s
+[r0 17/50] dom    s2w_62205 in=5018 out=847 fwd=169 tok/fwd=5.01 ttft=0.83s total=10.9s draft=0.11s verify=10.0s
+[r0 17/50] pld    s2w_62205 in=5018 out=794 fwd=209 tok/fwd=3.80 ttft=0.83s total=13.1s draft=0.04s verify=12.2s
+[r0 17/50] ranker s2w_62205 in=5018 out=1367 fwd=274 tok/fwd=4.99 ttft=0.83s total=17.2s draft=0.25s verify=16.0s
+[r0 18/50] dom    s2w_48704 in=3788 out=718 fwd=173 tok/fwd=4.15 ttft=0.56s total=10.8s draft=0.13s verify=10.1s
+[r0 18/50] pld    s2w_48704 in=3788 out=718 fwd=213 tok/fwd=3.37 ttft=0.56s total=13.0s draft=0.04s verify=12.4s
+[r0 18/50] ranker s2w_48704 in=3788 out=717 fwd=175 tok/fwd=4.10 ttft=0.56s total=10.9s draft=0.15s verify=10.2s
+[r0 19/50] dom    s2w_39855 in=2011 out=539 fwd=148 tok/fwd=3.64 ttft=0.24s total=8.9s draft=0.05s verify=8.6s
+[r0 19/50] pld    s2w_39855 in=2011 out=537 fwd=162 tok/fwd=3.31 ttft=0.24s total=10.0s draft=0.02s verify=9.7s
+[r0 19/50] ranker s2w_39855 in=2011 out=559 fwd=151 tok/fwd=3.70 ttft=0.24s total=9.1s draft=0.07s verify=8.8s
+[r0 20/50] ranker s2w_51784 in=1330 out=241 fwd=31 tok/fwd=7.77 ttft=0.16s total=1.9s draft=0.01s verify=1.8s
+[r0 20/50] dom    s2w_51784 in=1330 out=241 fwd=32 tok/fwd=7.53 ttft=0.16s total=2.0s draft=0.01s verify=1.8s
+[r0 20/50] pld    s2w_51784 in=1330 out=241 fwd=37 tok/fwd=6.51 ttft=0.16s total=2.3s draft=0.00s verify=2.1s
+[r0 21/50] dom    s2w_5336 in=1465 out=370 fwd=139 tok/fwd=2.66 ttft=0.18s total=8.4s draft=0.05s verify=8.1s
+[r0 21/50] ranker s2w_5336 in=1465 out=370 fwd=140 tok/fwd=2.64 ttft=0.18s total=8.4s draft=0.06s verify=8.2s
+[r0 21/50] pld    s2w_5336 in=1465 out=370 fwd=141 tok/fwd=2.62 ttft=0.18s total=8.4s draft=0.02s verify=8.1s
+[r0 22/50] ranker s2w_6769 in=3846 out=687 fwd=71 tok/fwd=9.68 ttft=0.58s total=4.7s draft=0.06s verify=4.1s
+[r0 22/50] pld    s2w_6769 in=3846 out=687 fwd=88 tok/fwd=7.81 ttft=0.58s total=5.7s draft=0.01s verify=5.1s
+[r0 22/50] dom    s2w_6769 in=3846 out=687 fwd=72 tok/fwd=9.54 ttft=0.58s total=4.8s draft=0.05s verify=4.2s
+[r0 23/50] pld    s2w_62668 in=3318 out=402 fwd=71 tok/fwd=5.66 ttft=0.46s total=4.6s draft=0.01s verify=4.1s
+[r0 23/50] dom    s2w_62668 in=3318 out=626 fwd=83 tok/fwd=7.54 ttft=0.46s total=5.3s draft=0.04s verify=4.8s
+[r0 23/50] ranker s2w_62668 in=3318 out=402 fwd=56 tok/fwd=7.18 ttft=0.46s total=3.7s draft=0.04s verify=3.2s
+[r0 24/50] pld    s2w_1122 in=1908 out=505 fwd=60 tok/fwd=8.42 ttft=0.23s total=3.7s draft=0.01s verify=3.5s
+[r0 24/50] ranker s2w_1122 in=1908 out=549 fwd=54 tok/fwd=10.17 ttft=0.23s total=3.4s draft=0.02s verify=3.1s
+[r0 24/50] dom    s2w_1122 in=1908 out=505 fwd=56 tok/fwd=9.02 ttft=0.23s total=3.5s draft=0.02s verify=3.2s
+[r0 25/50] pld    s2w_3518 in=2306 out=593 fwd=118 tok/fwd=5.03 ttft=0.29s total=7.2s draft=0.02s verify=6.9s
+[r0 25/50] dom    s2w_3518 in=2306 out=468 fwd=45 tok/fwd=10.40 ttft=0.29s total=2.9s draft=0.02s verify=2.6s
+[r0 25/50] ranker s2w_3518 in=2306 out=468 fwd=42 tok/fwd=11.14 ttft=0.29s total=2.7s draft=0.03s verify=2.4s
+[r0 26/50] dom    s2w_8780 in=2719 out=220 fwd=31 tok/fwd=7.10 ttft=0.35s total=2.1s draft=0.02s verify=1.8s
+[r0 26/50] ranker s2w_8780 in=2719 out=220 fwd=29 tok/fwd=7.59 ttft=0.35s total=2.0s draft=0.03s verify=1.7s
+[r0 26/50] pld    s2w_8780 in=2719 out=220 fwd=38 tok/fwd=5.79 ttft=0.35s total=2.5s draft=0.01s verify=2.1s
+[r0 27/50] dom    s2w_19922 in=3356 out=565 fwd=156 tok/fwd=3.62 ttft=0.47s total=9.7s draft=0.09s verify=9.1s
+[r0 27/50] pld    s2w_19922 in=3356 out=565 fwd=163 tok/fwd=3.47 ttft=0.48s total=10.1s draft=0.03s verify=9.6s
+[r0 27/50] ranker s2w_19922 in=3356 out=565 fwd=156 tok/fwd=3.62 ttft=0.48s total=9.8s draft=0.11s verify=9.2s
+[r0 28/50] dom    s2w_15204 in=2418 out=358 fwd=147 tok/fwd=2.44 ttft=0.30s total=9.0s draft=0.06s verify=8.6s
+[r0 28/50] pld    s2w_15204 in=2418 out=358 fwd=156 tok/fwd=2.29 ttft=0.30s total=9.4s draft=0.02s verify=9.1s
+[r0 28/50] ranker s2w_15204 in=2418 out=358 fwd=145 tok/fwd=2.47 ttft=0.30s total=8.9s draft=0.08s verify=8.5s
+[r0 29/50] ranker s2w_41242 in=1361 out=224 fwd=48 tok/fwd=4.67 ttft=0.16s total=2.9s draft=0.02s verify=2.7s
+[r0 29/50] dom    s2w_41242 in=1361 out=224 fwd=47 tok/fwd=4.77 ttft=0.16s total=2.9s draft=0.02s verify=2.7s
+[r0 29/50] pld    s2w_41242 in=1361 out=224 fwd=53 tok/fwd=4.23 ttft=0.16s total=3.3s draft=0.01s verify=3.1s
+[r0 30/50] dom    s2w_32523 in=3136 out=528 fwd=47 tok/fwd=11.23 ttft=0.42s total=3.3s draft=0.02s verify=2.8s
+[r0 30/50] ranker s2w_32523 in=3136 out=529 fwd=44 tok/fwd=12.02 ttft=0.43s total=3.1s draft=0.03s verify=2.6s
+[r0 30/50] pld    s2w_32523 in=3136 out=529 fwd=65 tok/fwd=8.14 ttft=0.42s total=4.2s draft=0.01s verify=3.8s
+[r0 31/50] ranker s2w_20005 in=1738 out=534 fwd=187 tok/fwd=2.86 ttft=0.21s total=11.3s draft=0.08s verify=11.0s
+[r0 31/50] pld    s2w_20005 in=1738 out=571 fwd=215 tok/fwd=2.66 ttft=0.21s total=12.8s draft=0.03s verify=12.5s
+[r0 31/50] dom    s2w_20005 in=1738 out=542 fwd=190 tok/fwd=2.85 ttft=0.21s total=11.4s draft=0.07s verify=11.1s
+[r0 32/50] dom    s2w_49368 in=4181 out=1121 fwd=138 tok/fwd=8.12 ttft=0.64s total=8.8s draft=0.10s verify=8.1s
+[r0 32/50] ranker s2w_49368 in=4181 out=1121 fwd=128 tok/fwd=8.76 ttft=0.63s total=8.2s draft=0.12s verify=7.5s
+[r0 32/50] pld    s2w_49368 in=4181 out=1121 fwd=163 tok/fwd=6.88 ttft=0.64s total=10.2s draft=0.03s verify=9.5s
+[r0 33/50] dom    s2w_43660 in=2237 out=611 fwd=84 tok/fwd=7.27 ttft=0.28s total=5.2s draft=0.03s verify=4.9s
+[r0 33/50] ranker s2w_43660 in=2237 out=2048 fwd=186 tok/fwd=11.01 ttft=0.28s total=11.3s draft=0.09s verify=10.9s
+[r0 33/50] pld    s2w_43660 in=2237 out=595 fwd=112 tok/fwd=5.31 ttft=0.28s total=6.8s draft=0.01s verify=6.5s
+[r0 34/50] pld    s2w_52721 in=1597 out=423 fwd=80 tok/fwd=5.29 ttft=0.19s total=4.8s draft=0.01s verify=4.6s
+[r0 34/50] ranker s2w_52721 in=1597 out=422 fwd=69 tok/fwd=6.12 ttft=0.19s total=4.2s draft=0.03s verify=4.0s
+[r0 34/50] dom    s2w_52721 in=1597 out=421 fwd=71 tok/fwd=5.93 ttft=0.19s total=4.3s draft=0.03s verify=4.1s
+[r0 35/50] pld    s2w_46795 in=3997 out=1026 fwd=215 tok/fwd=4.77 ttft=0.60s total=13.2s draft=0.04s verify=12.5s
+[r0 35/50] ranker s2w_46795 in=3997 out=995 fwd=178 tok/fwd=5.59 ttft=0.60s total=11.3s draft=0.13s verify=10.5s
+[r0 35/50] dom    s2w_46795 in=3997 out=967 fwd=163 tok/fwd=5.93 ttft=0.60s total=10.3s draft=0.08s verify=9.6s
+[r0 36/50] pld    s2w_14815 in=3819 out=1041 fwd=302 tok/fwd=3.45 ttft=0.56s total=18.5s draft=0.06s verify=17.8s
+[r0 36/50] ranker s2w_14815 in=3819 out=1082 fwd=298 tok/fwd=3.63 ttft=0.56s total=18.4s draft=0.18s verify=17.6s
+[r0 36/50] dom    s2w_14815 in=3819 out=1175 fwd=327 tok/fwd=3.59 ttft=0.56s total=20.0s draft=0.18s verify=19.2s
+[r0 37/50] ranker s2w_47830 in=3276 out=424 fwd=99 tok/fwd=4.28 ttft=0.46s total=6.3s draft=0.06s verify=5.8s
+[r0 37/50] pld    s2w_47830 in=3276 out=463 fwd=138 tok/fwd=3.36 ttft=0.45s total=8.6s draft=0.02s verify=8.1s
+[r0 37/50] dom    s2w_47830 in=3276 out=424 fwd=102 tok/fwd=4.16 ttft=0.45s total=6.5s draft=0.05s verify=5.9s
+[r0 38/50] ranker s2w_49981 in=4126 out=1068 fwd=116 tok/fwd=9.21 ttft=0.63s total=7.5s draft=0.08s verify=6.8s
+[r0 38/50] dom    s2w_49981 in=4126 out=1065 fwd=115 tok/fwd=9.26 ttft=0.63s total=7.4s draft=0.06s verify=6.7s
+[r0 38/50] pld    s2w_49981 in=4126 out=1065 fwd=143 tok/fwd=7.45 ttft=0.63s total=9.1s draft=0.02s verify=8.4s
+[r0 39/50] pld    s2w_1213 in=4396 out=1358 fwd=248 tok/fwd=5.48 ttft=0.69s total=15.5s draft=0.05s verify=14.7s
+[r0 39/50] ranker s2w_1213 in=4396 out=1358 fwd=212 tok/fwd=6.41 ttft=0.69s total=13.4s draft=0.16s verify=12.5s
+[r0 39/50] dom    s2w_1213 in=4396 out=1358 fwd=229 tok/fwd=5.93 ttft=0.69s total=14.3s draft=0.13s verify=13.5s
+[r0 40/50] pld    s2w_29922 in=3629 out=963 fwd=170 tok/fwd=5.66 ttft=0.53s total=10.7s draft=0.03s verify=10.1s
+[r0 40/50] dom    s2w_29922 in=3629 out=961 fwd=139 tok/fwd=6.91 ttft=0.53s total=8.8s draft=0.07s verify=8.2s
+[r0 40/50] ranker s2w_29922 in=3629 out=963 fwd=141 tok/fwd=6.83 ttft=0.53s total=8.9s draft=0.09s verify=8.3s
+[r0 41/50] dom    s2w_43072 in=3752 out=1127 fwd=213 tok/fwd=5.29 ttft=0.55s total=13.2s draft=0.11s verify=12.5s
+[r0 41/50] ranker s2w_43072 in=3752 out=1290 fwd=246 tok/fwd=5.24 ttft=0.55s total=15.2s draft=0.17s verify=14.4s
+[r0 41/50] pld    s2w_43072 in=3752 out=1212 fwd=262 tok/fwd=4.63 ttft=0.55s total=19.7s draft=0.05s verify=19.0s
+[r0 42/50] pld    s2w_37095 in=1734 out=533 fwd=119 tok/fwd=4.48 ttft=0.21s total=9.3s draft=0.02s verify=9.1s
+[r0 42/50] dom    s2w_37095 in=1734 out=622 fwd=153 tok/fwd=4.07 ttft=0.21s total=11.5s draft=0.04s verify=11.2s
+[r0 42/50] ranker s2w_37095 in=1734 out=568 fwd=131 tok/fwd=4.34 ttft=0.22s total=10.3s draft=0.06s verify=10.0s
+[r0 43/50] pld    s2w_37325 in=6078 out=876 fwd=268 tok/fwd=3.27 ttft=1.09s total=21.2s draft=0.07s verify=20.0s
+[r0 43/50] dom    s2w_37325 in=6078 out=805 fwd=225 tok/fwd=3.58 ttft=1.09s total=19.2s draft=0.31s verify=17.8s
+[r0 43/50] ranker s2w_37325 in=6078 out=884 fwd=231 tok/fwd=3.83 ttft=1.08s total=18.4s draft=0.31s verify=16.9s
+[r0 44/50] dom    s2w_49809 in=1937 out=241 fwd=30 tok/fwd=8.03 ttft=0.24s total=2.1s draft=0.02s verify=1.8s
+[r0 44/50] pld    s2w_49809 in=1937 out=241 fwd=35 tok/fwd=6.89 ttft=0.24s total=2.8s draft=0.00s verify=2.5s
+[r0 44/50] ranker s2w_49809 in=1937 out=241 fwd=29 tok/fwd=8.31 ttft=0.26s total=2.2s draft=0.02s verify=1.9s
+[r0 45/50] dom    s2w_60641 in=1947 out=188 fwd=20 tok/fwd=9.40 ttft=0.24s total=1.7s draft=0.01s verify=1.5s
+[r0 45/50] pld    s2w_60641 in=1947 out=188 fwd=26 tok/fwd=7.23 ttft=0.24s total=2.0s draft=0.00s verify=1.7s
+[r0 45/50] ranker s2w_60641 in=1947 out=188 fwd=20 tok/fwd=9.40 ttft=0.24s total=1.7s draft=0.01s verify=1.4s
+[r0 46/50] pld    s2w_43630 in=2178 out=1123 fwd=321 tok/fwd=3.50 ttft=0.27s total=24.0s draft=0.05s verify=23.6s
+[r0 46/50] ranker s2w_43630 in=2178 out=580 fwd=163 tok/fwd=3.56 ttft=0.27s total=12.3s draft=0.11s verify=11.9s
+[r0 46/50] dom    s2w_43630 in=2178 out=580 fwd=160 tok/fwd=3.62 ttft=0.28s total=12.3s draft=0.10s verify=11.9s
+[r0 47/50] dom    s2w_68631 in=1747 out=208 fwd=26 tok/fwd=8.00 ttft=0.22s total=2.0s draft=0.02s verify=1.8s
+[r0 47/50] pld    s2w_68631 in=1747 out=208 fwd=34 tok/fwd=6.12 ttft=0.21s total=2.8s draft=0.00s verify=2.6s
+[r0 47/50] ranker s2w_68631 in=1747 out=208 fwd=25 tok/fwd=8.32 ttft=0.23s total=1.9s draft=0.01s verify=1.7s
+[r0 48/50] dom    s2w_17423 in=2498 out=796 fwd=122 tok/fwd=6.52 ttft=0.32s total=9.0s draft=0.07s verify=8.6s
+[r0 48/50] ranker s2w_17423 in=2498 out=816 fwd=124 tok/fwd=6.58 ttft=0.32s total=9.4s draft=0.09s verify=9.0s
+[r0 48/50] pld    s2w_17423 in=2498 out=776 fwd=135 tok/fwd=5.75 ttft=0.32s total=10.2s draft=0.02s verify=9.9s
+[r0 49/50] ranker s2w_29951 in=5741 out=455 fwd=86 tok/fwd=5.29 ttft=1.01s total=7.7s draft=0.12s verify=6.6s
+[r0 49/50] dom    s2w_29951 in=5741 out=455 fwd=86 tok/fwd=5.29 ttft=1.00s total=6.9s draft=0.09s verify=5.8s
+[r0 49/50] pld    s2w_29951 in=5741 out=455 fwd=101 tok/fwd=4.50 ttft=1.00s total=8.3s draft=0.02s verify=7.2s
+[r0 50/50] dom    s2w_53519 in=5417 out=1108 fwd=197 tok/fwd=5.62 ttft=0.93s total=13.8s draft=0.16s verify=12.7s
+[r0 50/50] ranker s2w_53519 in=5417 out=980 fwd=167 tok/fwd=5.87 ttft=0.93s total=11.2s draft=0.13s verify=10.1s
+[r0 50/50] pld    s2w_53519 in=5417 out=980 fwd=205 tok/fwd=4.78 ttft=0.93s total=13.6s draft=0.04s verify=12.6s
+done

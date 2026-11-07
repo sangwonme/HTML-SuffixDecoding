@@ -1,0 +1,15 @@
+W1107 21:18:28.408000 9648 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+W1107 21:18:28.877000 9648 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+Loading weights:   0%|          | 0/1951 [00:00<?, ?it/s]Loading weights:   6%|6         | 122/1951 [00:00<00:01, 1217.55it/s]Loading weights:  16%|#6        | 318/1951 [00:00<00:01, 1618.83it/s]Loading weights:  26%|##6       | 516/1951 [00:00<00:00, 1763.98it/s]Loading weights:  37%|###6      | 716/1951 [00:00<00:00, 1851.42it/s]Loading weights:  46%|####6     | 902/1951 [00:04<00:07, 133.53it/s] Loading weights:  52%|#####2    | 1023/1951 [00:04<00:06, 152.35it/s]Loading weights:  57%|#####6    | 1112/1951 [00:05<00:05, 152.48it/s]Loading weights:  60%|######    | 1177/1951 [00:05<00:04, 157.46it/s]Loading weights:  63%|######2   | 1227/1951 [00:05<00:04, 158.95it/s]Loading weights:  65%|######4   | 1267/1951 [00:06<00:04, 163.62it/s]Loading weights:  67%|######6   | 1307/1951 [00:06<00:03, 183.37it/s]Loading weights:  82%|########1 | 1593/1951 [00:06<00:00, 470.69it/s]Loading weights:  96%|#########6| 1876/1951 [00:06<00:00, 782.86it/s]Loading weights: 100%|##########| 1951/1951 [00:06<00:00, 306.88it/s]
+warm-up done
+[1/10] L2     s2w_8482 in=2177 out=436 fwd=61 tok/fwd=7.15 ttft=0.27s total=3.7s a=0 b=0
+[2/10] L2     s2w_42624 in=1783 out=392 fwd=48 tok/fwd=8.17 ttft=0.21s total=3.0s a=0 b=0
+[3/10] L2     s2w_70325 in=1587 out=413 fwd=60 tok/fwd=6.88 ttft=0.19s total=3.6s a=0 b=0
+[4/10] L2     s2w_49685 in=2079 out=399 fwd=60 tok/fwd=6.65 ttft=0.26s total=3.7s a=0 b=0
+[5/10] L2     s2w_59299 in=3732 out=371 fwd=85 tok/fwd=4.36 ttft=0.57s total=5.8s a=0 b=0
+[6/10] L2     s2w_71611 in=2490 out=601 fwd=113 tok/fwd=5.32 ttft=0.34s total=6.9s a=0 b=0
+[7/10] L2     s2w_15124 in=3445 out=598 fwd=134 tok/fwd=4.46 ttft=0.49s total=8.1s a=0 b=0
+[8/10] L2     s2w_64206 in=3262 out=496 fwd=110 tok/fwd=4.51 ttft=0.45s total=6.7s a=0 b=0
+[9/10] L2     s2w_47915 in=1654 out=337 fwd=39 tok/fwd=8.64 ttft=0.20s total=2.4s a=0 b=0
+[10/10] L2     s2w_68423 in=3086 out=518 fwd=145 tok/fwd=3.57 ttft=0.42s total=8.7s a=0 b=0
+done

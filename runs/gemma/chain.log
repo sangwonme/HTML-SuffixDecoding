@@ -1,0 +1,90 @@
+=== START E2B rich_zs n=10 2026-11-07T16:58:48+09:00
+RAM at start: {'free_ram_gb': 20.63, 'total_ram_gb': 31.1, 'swap_used_gb': 2.38, 'rss_gb': 0.6}
+{"run_id": "E2B_nf4_rich_zs_pilot", "model_dir": "gemma-4-E2B-it-qat-q4_0-unquantized", "model_class": "Gemma4ForConditionalGeneration", "quant": "nf4", "compute_dtype": "bfloat16", "attn_implementation": {"text_config": "sdpa", "vision_config": "sdpa", "audio_config": "eager"}, "decoding": "greedy", "max_new_tokens": 2048, "thinking": "off (no <|think|> token)", "concurrency": 1, "warmup": 3, "warmup_max_new": 64, "torch": "2.11.0+cu128", "transformers": "5.22.2", "gpu": "NVIDIA GeForce RTX 4070", "ram_at_start": {"free_ram_gb": 20.63, "total_ram_gb": 31.1, "swap_used_gb": 2.38, "rss_gb": 0.6}, "ram_after_load": {"free_ram_gb": 19.96, "total_ram_gb": 31.1, "swap_used_gb": 2.38, "rss_gb": 1.07}, "cpu_threads": 4, "rss_limit_gb": 14.0, "load_seconds": 10.0, "weights_mib": 6541, "started_utc": "2026-11-07T07:59:12.453892+00:00", "gpu_at_start": {"mem_used_mib": 10147, "util_pct": 21, "other_procs_sm": [{"pid": 20836, "name": "WindowsTerminal", "sm": "1"}]}, "bitsandbytes": "0.50.2"}
+warmup s2w_26008 out=64 total=5.7s
+warmup s2w_53795 out=64 total=5.1s
+warmup s2w_32317 out=64 total=5.3s
+[1/10] s2w_8482 in=194 out=707 ttft=0.134s total=54.8s dec=12.9t/s peak=6658MiB shared=True
+[2/10] s2w_42624 in=202 out=1176 ttft=0.114s total=87.6s dec=13.4t/s peak=6660MiB shared=False
+[3/10] s2w_70325 in=173 out=1142 ttft=0.103s total=83.9s dec=13.6t/s peak=6660MiB shared=False
+[4/10] s2w_49685 in=193 out=1204 ttft=0.111s total=88.0s dec=13.7t/s peak=6660MiB shared=False
+[5/10] s2w_59299 in=171 out=842 ttft=0.113s total=62.1s dec=13.6t/s peak=6660MiB shared=False
+[6/10] s2w_71611 in=189 out=2048 ttft=0.111s total=148.6s dec=13.8t/s peak=6660MiB shared=False
+[7/10] s2w_15124 in=181 out=1007 ttft=0.128s total=74.0s dec=13.6t/s peak=6660MiB shared=False
+[8/10] s2w_64206 in=238 out=1509 ttft=0.110s total=110.1s dec=13.7t/s peak=6660MiB shared=False
+[9/10] s2w_47915 in=181 out=1292 ttft=0.104s total=95.7s dec=13.5t/s peak=6660MiB shared=False
+[10/10] s2w_68423 in=210 out=1727 ttft=0.106s total=126.2s dec=13.7t/s peak=6660MiB shared=False
+wrote C:\Works\KSEF26\GenerativeUI\runs\gemma\E2B_nf4_rich_zs_pilot.jsonl
+=== END E2B rich_zs rc=0 2026-11-07T17:15:03+09:00
+=== START E4B rich_zs n=10 2026-11-07T17:15:03+09:00
+RAM at start: {'free_ram_gb': 20.44, 'total_ram_gb': 31.1, 'swap_used_gb': 2.28, 'rss_gb': 0.6}
+{"run_id": "E4B_nf4_rich_zs_pilot", "model_dir": "gemma-4-E4B-it-qat-q4_0-unquantized", "model_class": "Gemma4ForConditionalGeneration", "quant": "nf4", "compute_dtype": "bfloat16", "attn_implementation": {"text_config": "sdpa", "vision_config": "sdpa", "audio_config": "eager"}, "decoding": "greedy", "max_new_tokens": 2048, "thinking": "off (no <|think|> token)", "concurrency": 1, "warmup": 3, "warmup_max_new": 64, "torch": "2.11.0+cu128", "transformers": "5.22.2", "gpu": "NVIDIA GeForce RTX 4070", "ram_at_start": {"free_ram_gb": 20.44, "total_ram_gb": 31.1, "swap_used_gb": 2.28, "rss_gb": 0.6}, "ram_after_load": {"free_ram_gb": 18.49, "total_ram_gb": 31.1, "swap_used_gb": 2.31, "rss_gb": 1.18}, "cpu_threads": 4, "rss_limit_gb": 14.0, "load_seconds": 21.8, "weights_mib": 9081, "started_utc": "2026-11-07T08:15:38.586409+00:00", "gpu_at_start": {"mem_used_mib": 11624, "util_pct": 35, "other_procs_sm": []}, "bitsandbytes": "0.50.2"}
+warmup s2w_26008 out=64 total=8.9s
+warmup s2w_53795 out=64 total=6.7s
+warmup s2w_32317 out=64 total=6.8s
+[1/10] s2w_8482 in=194 out=654 ttft=0.671s total=62.1s dec=10.6t/s peak=9252MiB shared=False
+[2/10] s2w_42624 in=202 out=1213 ttft=0.655s total=114.0s dec=10.7t/s peak=9252MiB shared=False
+[3/10] s2w_70325 in=173 out=745 ttft=0.640s total=70.3s dec=10.7t/s peak=9252MiB shared=False
+[4/10] s2w_49685 in=193 out=1084 ttft=0.662s total=101.2s dec=10.8t/s peak=9252MiB shared=False
+[5/10] s2w_59299 in=171 out=815 ttft=0.641s total=76.5s dec=10.7t/s peak=9252MiB shared=False
+[6/10] s2w_71611 in=189 out=2048 ttft=0.499s total=191.4s dec=10.7t/s peak=9252MiB shared=False
+[7/10] s2w_15124 in=181 out=1031 ttft=0.645s total=97.3s dec=10.7t/s peak=9252MiB shared=False
+[8/10] s2w_64206 in=238 out=1721 ttft=0.776s total=161.2s dec=10.7t/s peak=9252MiB shared=False
+[9/10] s2w_47915 in=181 out=1222 ttft=0.640s total=114.1s dec=10.8t/s peak=9252MiB shared=False
+[10/10] s2w_68423 in=210 out=1456 ttft=0.712s total=136.7s dec=10.7t/s peak=9252MiB shared=False
+wrote C:\Works\KSEF26\GenerativeUI\runs\gemma\E4B_nf4_rich_zs_pilot.jsonl
+=== END E4B rich_zs rc=0 2026-11-07T17:34:48+09:00
+=== START 12B rich_zs n=10 2026-11-07T17:34:49+09:00
+RAM at start: {'free_ram_gb': 19.01, 'total_ram_gb': 31.1, 'swap_used_gb': 2.31, 'rss_gb': 0.6}
+{"run_id": "12B_nf4_rich_zs_pilot", "model_dir": "gemma-4-12B-it-qat-q4_0-unquantized", "model_class": "Gemma4UnifiedForConditionalGeneration", "quant": "nf4", "compute_dtype": "bfloat16", "attn_implementation": "sdpa", "decoding": "greedy", "max_new_tokens": 2048, "thinking": "off (no <|think|> token)", "concurrency": 1, "warmup": 3, "warmup_max_new": 64, "torch": "2.11.0+cu128", "transformers": "5.22.2", "gpu": "NVIDIA GeForce RTX 4070", "ram_at_start": {"free_ram_gb": 19.01, "total_ram_gb": 31.1, "swap_used_gb": 2.31, "rss_gb": 0.6}, "ram_after_load": {"free_ram_gb": 19.52, "total_ram_gb": 31.1, "swap_used_gb": 2.3, "rss_gb": 1.06}, "cpu_threads": 4, "rss_limit_gb": 14.0, "load_seconds": 32.4, "weights_mib": 7835, "started_utc": "2026-11-07T08:35:35.968720+00:00", "gpu_at_start": {"mem_used_mib": 10481, "util_pct": 41, "other_procs_sm": []}, "bitsandbytes": "0.50.2"}
+warmup s2w_26008 out=64 total=7.4s
+warmup s2w_53795 out=64 total=6.5s
+warmup s2w_32317 out=64 total=6.4s
+[1/10] s2w_8482 in=198 out=959 ttft=0.273s total=96.2s dec=10.0t/s peak=8360MiB shared=False
+[2/10] s2w_42624 in=206 out=1210 ttft=0.230s total=109.8s dec=11.0t/s peak=8360MiB shared=False
+[3/10] s2w_70325 in=177 out=1016 ttft=0.185s total=98.7s dec=10.3t/s peak=8360MiB shared=False
+[4/10] s2w_49685 in=197 out=1677 ttft=0.212s total=163.3s dec=10.3t/s peak=8360MiB shared=False
+[5/10] s2w_59299 in=175 out=2048 ttft=0.204s total=198.2s dec=10.3t/s peak=8400MiB shared=False
+[6/10] s2w_71611 in=193 out=1946 ttft=0.216s total=190.9s dec=10.2t/s peak=8400MiB shared=False
+[7/10] s2w_15124 in=185 out=1118 ttft=0.200s total=109.7s dec=10.2t/s peak=8400MiB shared=False
+[8/10] s2w_64206 in=242 out=1639 ttft=0.221s total=161.2s dec=10.2t/s peak=8400MiB shared=False
+[9/10] s2w_47915 in=185 out=1342 ttft=0.211s total=123.5s dec=10.9t/s peak=8400MiB shared=False
+[10/10] s2w_68423 in=214 out=2048 ttft=0.221s total=179.8s dec=11.4t/s peak=8400MiB shared=False
+wrote C:\Works\KSEF26\GenerativeUI\runs\gemma\12B_nf4_rich_zs_pilot.jsonl
+=== END 12B rich_zs rc=0 2026-11-07T17:59:50+09:00
+=== START E2B short_zs n=10 2026-11-07T17:59:50+09:00
+RAM at start: {'free_ram_gb': 20.52, 'total_ram_gb': 31.1, 'swap_used_gb': 2.21, 'rss_gb': 0.6}
+{"run_id": "E2B_nf4_short_zs_pilot", "model_dir": "gemma-4-E2B-it-qat-q4_0-unquantized", "model_class": "Gemma4ForConditionalGeneration", "quant": "nf4", "compute_dtype": "bfloat16", "attn_implementation": {"text_config": "sdpa", "vision_config": "sdpa", "audio_config": "eager"}, "decoding": "greedy", "max_new_tokens": 2048, "thinking": "off (no <|think|> token)", "concurrency": 1, "warmup": 3, "warmup_max_new": 64, "torch": "2.11.0+cu128", "transformers": "5.22.2", "gpu": "NVIDIA GeForce RTX 4070", "ram_at_start": {"free_ram_gb": 20.52, "total_ram_gb": 31.1, "swap_used_gb": 2.21, "rss_gb": 0.6}, "ram_after_load": {"free_ram_gb": 20.06, "total_ram_gb": 31.1, "swap_used_gb": 2.21, "rss_gb": 1.07}, "cpu_threads": 4, "rss_limit_gb": 14.0, "load_seconds": 11.3, "weights_mib": 6541, "started_utc": "2026-11-07T09:00:12.413311+00:00", "gpu_at_start": {"mem_used_mib": 9194, "util_pct": 20, "other_procs_sm": []}, "bitsandbytes": "0.50.2"}
+warmup s2w_26008 out=64 total=4.5s
+warmup s2w_53795 out=64 total=3.9s
+warmup s2w_32317 out=64 total=3.9s
+[1/10] s2w_8482 in=133 out=1229 ttft=0.086s total=71.2s dec=17.3t/s peak=6648MiB shared=False
+[2/10] s2w_42624 in=128 out=841 ttft=0.075s total=48.9s dec=17.2t/s peak=6648MiB shared=False
+[3/10] s2w_70325 in=130 out=882 ttft=0.083s total=51.1s dec=17.3t/s peak=6650MiB shared=False
+[4/10] s2w_49685 in=130 out=1088 ttft=0.081s total=62.7s dec=17.4t/s peak=6650MiB shared=False
+[5/10] s2w_59299 in=130 out=475 ttft=0.082s total=28.3s dec=16.8t/s peak=6650MiB shared=False
+[6/10] s2w_71611 in=128 out=1385 ttft=0.086s total=79.3s dec=17.5t/s peak=6650MiB shared=False
+[7/10] s2w_15124 in=129 out=1062 ttft=0.084s total=61.4s dec=17.3t/s peak=6650MiB shared=False
+[8/10] s2w_64206 in=131 out=1064 ttft=0.082s total=61.9s dec=17.2t/s peak=6650MiB shared=False
+[9/10] s2w_47915 in=129 out=944 ttft=0.082s total=54.8s dec=17.2t/s peak=6650MiB shared=False
+[10/10] s2w_68423 in=132 out=1049 ttft=0.084s total=60.8s dec=17.3t/s peak=6652MiB shared=False
+wrote C:\Works\KSEF26\GenerativeUI\runs\gemma\E2B_nf4_short_zs_pilot.jsonl
+=== END E2B short_zs rc=0 2026-11-07T18:10:07+09:00
+=== START E2B rich_fs n=10 2026-11-07T18:10:07+09:00
+RAM at start: {'free_ram_gb': 20.39, 'total_ram_gb': 31.1, 'swap_used_gb': 2.21, 'rss_gb': 0.6}
+{"run_id": "E2B_nf4_rich_fs_pilot", "model_dir": "gemma-4-E2B-it-qat-q4_0-unquantized", "model_class": "Gemma4ForConditionalGeneration", "quant": "nf4", "compute_dtype": "bfloat16", "attn_implementation": {"text_config": "sdpa", "vision_config": "sdpa", "audio_config": "eager"}, "decoding": "greedy", "max_new_tokens": 2048, "thinking": "off (no <|think|> token)", "concurrency": 1, "warmup": 3, "warmup_max_new": 64, "torch": "2.11.0+cu128", "transformers": "5.22.2", "gpu": "NVIDIA GeForce RTX 4070", "ram_at_start": {"free_ram_gb": 20.39, "total_ram_gb": 31.1, "swap_used_gb": 2.21, "rss_gb": 0.6}, "ram_after_load": {"free_ram_gb": 20.3, "total_ram_gb": 31.1, "swap_used_gb": 2.21, "rss_gb": 1.31}, "cpu_threads": 4, "rss_limit_gb": 14.0, "load_seconds": 7.8, "weights_mib": 6541, "started_utc": "2026-11-07T09:10:29.850122+00:00", "gpu_at_start": {"mem_used_mib": 9191, "util_pct": 8, "other_procs_sm": []}, "bitsandbytes": "0.50.2"}
+warmup s2w_26008 out=64 total=4.3s
+warmup s2w_53795 out=64 total=3.7s
+warmup s2w_32317 out=64 total=3.8s
+[1/10] s2w_8482 in=1809 out=408 ttft=0.282s total=23.2s dec=17.8t/s peak=7094MiB shared=False
+[2/10] s2w_42624 in=1465 out=380 ttft=0.265s total=21.9s dec=17.5t/s peak=7094MiB shared=False
+[3/10] s2w_70325 in=1685 out=444 ttft=0.261s total=25.6s dec=17.5t/s peak=7094MiB shared=False
+[4/10] s2w_49685 in=1354 out=380 ttft=0.214s total=21.7s dec=17.6t/s peak=7094MiB shared=False
+[5/10] s2w_59299 in=1644 out=375 ttft=0.295s total=21.4s dec=17.7t/s peak=7094MiB shared=False
+[6/10] s2w_71611 in=2567 out=1050 ttft=0.385s total=59.4s dec=17.8t/s peak=7094MiB shared=False
+[7/10] s2w_15124 in=1627 out=461 ttft=0.253s total=26.1s dec=17.8t/s peak=7094MiB shared=False
+[8/10] s2w_64206 in=1776 out=1313 ttft=0.281s total=74.2s dec=17.8t/s peak=7094MiB shared=False
+[9/10] s2w_47915 in=1424 out=378 ttft=0.246s total=21.5s dec=17.7t/s peak=7094MiB shared=False
+[10/10] s2w_68423 in=2223 out=1968 ttft=0.360s total=110.8s dec=17.8t/s peak=7094MiB shared=False
+wrote C:\Works\KSEF26\GenerativeUI\runs\gemma\E2B_nf4_rich_fs_pilot.jsonl
+=== END E2B rich_fs rc=0 2026-11-07T18:17:29+09:00

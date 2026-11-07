@@ -1,0 +1,6 @@
+fold 0 3s
+fold 1 4s
+fold 2 8s
+fold 3 11s
+fold 4 14s
+{'fwd_learned': 182.575, 'fwd_std': 187.15, 'fwd_n8': 183.075, 'fwd_dom': 176.525, 'fwd_oracle': 103.375, 'dom_minus_learned': {'mean': -6.05, 'median': -3.0, 'ci95': [-9.975, -2.7]}, 'gapclosed_learned': {'mean': 0.16472991339699164, 'median': 0.14983164983164982, 'ci95': [0.11138382643965895, 0.21861589404249895]}, 'reduction_learned': {'mean': 0.06639636412857684, 'ci95': [0.045151394632676776, 0.08795636044407257]}}

@@ -1,0 +1,29 @@
+# Draft-policy wall-clock comparison (runs/poc/p1A/css)
+
+requests n=50, conditions ['pld', 'dom', 'ranker'], reps 1; exact verification; order shuffled per sample/rep.
+
+| metric (mean over requests) | PLD | DOM | RANKER |
+|---|---|---|---|
+| wall-clock total (s) | 9.457 | 8.174 | 8.068 |
+| target forwards | 146.560 | 125.940 | 124.220 |
+| tokens / forward | 5.173 | 6.176 | 6.378 |
+| verify time (s) | 8.982 | 7.654 | 7.530 |
+| draft time incl. init (s) | 0.024 | 0.072 | 0.089 |
+| output tokens | 693.180 | 685.920 | 692.740 |
+| TTFT (s) | 0.430 | 0.430 | 0.431 |
+
+| paired difference (A - B) | wall-clock s [95% CI] | wall-clock % of A [95% CI] | forwards [95% CI] | forwards % of A [95% CI] |
+|---|---|---|---|---|
+| DOM - RANKER | +0.105 [-0.399, +0.549] | -0.00% [-6.92, +5.31] | +1.720 [-6.580, +8.960] | +0.44% [-6.65, +5.97] |
+| PLD - RANKER | +1.388 [+0.763, +2.077] | +13.38% [+7.82, +18.38] | +22.340 [+12.700, +32.580] | +14.50% [+8.88, +19.62] |
+| PLD - DOM | +1.283 [+0.673, +1.979] | +11.90% [+6.40, +16.80] | +20.620 [+11.300, +30.681] | +12.57% [+6.86, +17.59] |
+
+- PLD: draft 0.166 ms/step (steps 7278), init 0.0 ms/request, draft share 0.26%; peak GPU 7436 MiB, peak RSS 10123 MiB; outputs identical across reps 50/50; wall-clock CV median nan%
+- DOM: draft 0.475 ms/step (steps 6247), init 12.2 ms/request, draft share 0.88%; peak GPU 7436 MiB, peak RSS 10123 MiB; outputs identical across reps 50/50; wall-clock CV median nan%
+- RANKER: draft 0.677 ms/step (steps 6161), init 5.9 ms/request, draft share 1.11%; peak GPU 7436 MiB, peak RSS 10123 MiB; outputs identical across reps 50/50; wall-clock CV median nan%
+- outputs identical PLD vs DOM (rep 0): 20/50
+- outputs identical PLD vs RANKER (rep 0): 19/50
+- outputs identical DOM vs RANKER (rep 0): 16/50
+
+**Gate 2 PASSED** (PLD - DOM wall-clock +1.283 s [+0.673, +1.979])
+**Gate 2b NOT passed** (DOM - RANKER wall-clock +0.105 s [-0.399, +0.549])

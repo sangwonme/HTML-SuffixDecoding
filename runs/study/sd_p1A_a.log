@@ -1,0 +1,7 @@
+trained fold 0 192s
+trained fold 1 330s
+trained fold 2 1177s
+trained fold 3 1671s
+trained fold 4 2042s
+orig {"n": 50, "prompt_len_match": 50, "global_pool_outputs": 78, "std_sim_equals_measured": 50, "std": 96.86, "dom_rule": 90.38, "mlp": 86.26, "sd_f1": 92.52, "sd_f16": 78.7, "sdl_f1": 91.64, "sdl_f16": 76.5, "oracle": 54.8, "sd_f16_gain_vs_pld_rel": 0.187, "sd_f1_gain_vs_pld_rel": 0.045} {'std_minus_sd_f1': (4.34, [0.2, 8.58]), 'std_minus_sd_f16': (18.16, [14.56, 21.9]), 'sd_f1_minus_sdl_f1': (0.88, [0.36, 1.4]), 'sd_f16_minus_sdl_f16': (2.2, [1.46, 3.02]), 'dom_rule_minus_mlp': (4.12, [3.4, 4.9]), 'std_minus_mlp': (10.6, [9.08, 12.26]), 'sd_f16_minus_mlp': (-7.56, [-11.76, -3.48])} 2509s
+fmt {"n": 50, "prompt_len_match": 50, "global_pool_outputs": 110, "std_sim_equals_measured": 50, "std": 274.68, "dom_rule": 256.34, "mlp": 252.52, "sd_f1": 151.6, "sd_f16": 133.58, "sdl_f1": 150.86, "sdl_f16": 131.7, "oracle": 129.08, "sd_f16_gain_vs_pld_rel": 0.514, "sd_f1_gain_vs_pld_rel": 0.448} {'std_minus_sd_f1': (123.08, [105.48, 144.32]), 'std_minus_sd_f16': (141.1, [123.24, 162.06]), 'sd_f1_minus_sdl_f1': (0.74, [0.08, 1.38]), 'sd_f16_minus_sdl_f16': (1.88, [0.44, 3.68]), 'dom_rule_minus_mlp': (3.82, [-5.32, 20.18]), 'std_minus_mlp': (22.16, [12.7, 38.8]), 'sd_f16_minus_mlp': (-118.94, [-129.72, -107.0])} 3139s

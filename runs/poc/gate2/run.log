@@ -1,0 +1,65 @@
+W1107 23:19:20.093000 25312 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+W1107 23:19:20.556000 25312 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+Loading weights:   0%|          | 0/1951 [00:00<?, ?it/s]Loading weights:   6%|5         | 116/1951 [00:00<00:01, 1149.60it/s]Loading weights:  16%|#6        | 315/1951 [00:00<00:01, 1634.10it/s]Loading weights:  26%|##6       | 516/1951 [00:00<00:00, 1786.29it/s]Loading weights:  37%|###7      | 726/1951 [00:00<00:00, 1907.64it/s]Loading weights:  47%|####7     | 917/1951 [00:07<00:13, 75.52it/s]  Loading weights:  53%|#####3    | 1040/1951 [00:07<00:09, 91.78it/s]Loading weights:  58%|#####7    | 1131/1951 [00:08<00:08, 99.72it/s]Loading weights:  61%|######1   | 1197/1951 [00:08<00:07, 105.86it/s]Loading weights:  64%|######3   | 1247/1951 [00:09<00:06, 113.40it/s]Loading weights:  66%|######5   | 1287/1951 [00:09<00:05, 118.42it/s]Loading weights:  75%|#######4  | 1455/1951 [00:09<00:02, 214.61it/s]Loading weights:  87%|########7 | 1707/1951 [00:09<00:00, 400.48it/s]Loading weights: 100%|##########| 1951/1951 [00:09<00:00, 604.34it/s]Loading weights: 100%|##########| 1951/1951 [00:09<00:00, 202.24it/s]
+warm-up done
+[r0 1/10] dom    s2w_8482 in=2466 out=472 fwd=80 tok/fwd=5.90 ttft=0.31s total=4.9s draft=0.04s verify=4.5s
+[r0 1/10] pld    s2w_8482 in=2466 out=536 fwd=99 tok/fwd=5.41 ttft=0.31s total=5.9s draft=0.01s verify=5.5s
+[r0 2/10] pld    s2w_42624 in=1212 out=298 fwd=41 tok/fwd=7.27 ttft=0.14s total=2.4s draft=0.01s verify=2.2s
+[r0 2/10] dom    s2w_42624 in=1212 out=298 fwd=40 tok/fwd=7.45 ttft=0.14s total=2.3s draft=0.01s verify=2.2s
+[r0 3/10] pld    s2w_70325 in=1522 out=553 fwd=171 tok/fwd=3.23 ttft=0.18s total=9.8s draft=0.03s verify=9.6s
+[r0 3/10] dom    s2w_70325 in=1522 out=553 fwd=167 tok/fwd=3.31 ttft=0.18s total=9.7s draft=0.05s verify=9.4s
+[r0 4/10] pld    s2w_49685 in=1704 out=426 fwd=85 tok/fwd=5.01 ttft=0.20s total=4.9s draft=0.01s verify=4.7s
+[r0 4/10] dom    s2w_49685 in=1704 out=426 fwd=77 tok/fwd=5.53 ttft=0.20s total=4.5s draft=0.03s verify=4.2s
+[r0 5/10] pld    s2w_59299 in=1449 out=339 fwd=119 tok/fwd=2.85 ttft=0.18s total=6.8s draft=0.02s verify=6.6s
+[r0 5/10] dom    s2w_59299 in=1449 out=339 fwd=114 tok/fwd=2.97 ttft=0.17s total=6.5s draft=0.03s verify=6.3s
+[r0 6/10] dom    s2w_71611 in=2232 out=670 fwd=89 tok/fwd=7.53 ttft=0.27s total=5.4s draft=0.04s verify=5.1s
+[r0 6/10] pld    s2w_71611 in=2232 out=667 fwd=102 tok/fwd=6.54 ttft=0.27s total=6.4s draft=0.02s verify=6.1s
+[r0 7/10] dom    s2w_15124 in=1865 out=475 fwd=95 tok/fwd=5.00 ttft=0.23s total=6.0s draft=0.05s verify=5.7s
+[r0 7/10] pld    s2w_15124 in=1865 out=475 fwd=108 tok/fwd=4.40 ttft=0.22s total=6.7s draft=0.02s verify=6.4s
+[r0 8/10] dom    s2w_64206 in=2123 out=639 fwd=98 tok/fwd=6.52 ttft=0.27s total=6.4s draft=0.04s verify=6.0s
+[r0 8/10] pld    s2w_64206 in=2123 out=545 fwd=101 tok/fwd=5.40 ttft=0.27s total=6.3s draft=0.01s verify=6.0s
+[r0 9/10] pld    s2w_47915 in=1289 out=354 fwd=136 tok/fwd=2.60 ttft=0.16s total=8.3s draft=0.02s verify=8.1s
+[r0 9/10] dom    s2w_47915 in=1289 out=352 fwd=133 tok/fwd=2.65 ttft=0.16s total=8.1s draft=0.03s verify=7.9s
+[r0 10/10] pld    s2w_68423 in=2601 out=234 fwd=75 tok/fwd=3.12 ttft=0.34s total=4.8s draft=0.01s verify=4.4s
+[r0 10/10] dom    s2w_68423 in=2601 out=234 fwd=71 tok/fwd=3.30 ttft=0.35s total=5.0s draft=0.05s verify=4.6s
+[r1 1/10] dom    s2w_8482 in=2466 out=472 fwd=80 tok/fwd=5.90 ttft=0.31s total=5.2s draft=0.05s verify=4.8s
+[r1 1/10] pld    s2w_8482 in=2466 out=536 fwd=99 tok/fwd=5.41 ttft=0.31s total=6.8s draft=0.02s verify=6.5s
+[r1 2/10] pld    s2w_42624 in=1212 out=298 fwd=41 tok/fwd=7.27 ttft=0.16s total=2.9s draft=0.01s verify=2.8s
+[r1 2/10] dom    s2w_42624 in=1212 out=298 fwd=40 tok/fwd=7.45 ttft=0.15s total=2.8s draft=0.01s verify=2.7s
+[r1 3/10] pld    s2w_70325 in=1522 out=553 fwd=171 tok/fwd=3.23 ttft=0.20s total=12.5s draft=0.03s verify=12.2s
+[r1 3/10] dom    s2w_70325 in=1522 out=553 fwd=167 tok/fwd=3.31 ttft=0.19s total=12.0s draft=0.06s verify=11.7s
+[r1 4/10] dom    s2w_49685 in=1704 out=426 fwd=77 tok/fwd=5.53 ttft=0.21s total=5.7s draft=0.04s verify=5.4s
+[r1 4/10] pld    s2w_49685 in=1704 out=426 fwd=85 tok/fwd=5.01 ttft=0.22s total=6.3s draft=0.01s verify=6.1s
+[r1 5/10] pld    s2w_59299 in=1449 out=339 fwd=119 tok/fwd=2.85 ttft=0.20s total=9.0s draft=0.02s verify=8.7s
+[r1 5/10] dom    s2w_59299 in=1449 out=339 fwd=114 tok/fwd=2.97 ttft=0.19s total=8.1s draft=0.04s verify=7.9s
+[r1 6/10] pld    s2w_71611 in=2232 out=667 fwd=102 tok/fwd=6.54 ttft=0.30s total=7.6s draft=0.02s verify=7.3s
+[r1 6/10] dom    s2w_71611 in=2232 out=670 fwd=89 tok/fwd=7.53 ttft=0.29s total=6.5s draft=0.04s verify=6.1s
+[r1 7/10] pld    s2w_15124 in=1865 out=475 fwd=108 tok/fwd=4.40 ttft=0.23s total=7.9s draft=0.02s verify=7.7s
+[r1 7/10] dom    s2w_15124 in=1865 out=475 fwd=95 tok/fwd=5.00 ttft=0.23s total=7.0s draft=0.05s verify=6.7s
+[r1 8/10] dom    s2w_64206 in=2123 out=639 fwd=98 tok/fwd=6.52 ttft=0.27s total=7.0s draft=0.04s verify=6.7s
+[r1 8/10] pld    s2w_64206 in=2123 out=545 fwd=101 tok/fwd=5.40 ttft=0.28s total=7.4s draft=0.02s verify=7.1s
+[r1 9/10] dom    s2w_47915 in=1289 out=352 fwd=133 tok/fwd=2.65 ttft=0.18s total=9.5s draft=0.04s verify=9.3s
+[r1 9/10] pld    s2w_47915 in=1289 out=354 fwd=136 tok/fwd=2.60 ttft=0.16s total=9.4s draft=0.02s verify=9.2s
+[r1 10/10] pld    s2w_68423 in=2601 out=234 fwd=75 tok/fwd=3.12 ttft=0.34s total=5.2s draft=0.01s verify=4.9s
+[r1 10/10] dom    s2w_68423 in=2601 out=234 fwd=71 tok/fwd=3.30 ttft=0.35s total=5.0s draft=0.05s verify=4.5s
+[r2 1/10] pld    s2w_8482 in=2466 out=536 fwd=99 tok/fwd=5.41 ttft=0.31s total=6.0s draft=0.01s verify=5.6s
+[r2 1/10] dom    s2w_8482 in=2466 out=472 fwd=80 tok/fwd=5.90 ttft=0.31s total=4.9s draft=0.04s verify=4.5s
+[r2 2/10] pld    s2w_42624 in=1212 out=298 fwd=41 tok/fwd=7.27 ttft=0.14s total=2.5s draft=0.00s verify=2.3s
+[r2 2/10] dom    s2w_42624 in=1212 out=298 fwd=40 tok/fwd=7.45 ttft=0.14s total=2.4s draft=0.01s verify=2.2s
+[r2 3/10] pld    s2w_70325 in=1522 out=553 fwd=171 tok/fwd=3.23 ttft=0.18s total=10.0s draft=0.02s verify=9.8s
+[r2 3/10] dom    s2w_70325 in=1522 out=553 fwd=167 tok/fwd=3.31 ttft=0.18s total=9.9s draft=0.05s verify=9.7s
+[r2 4/10] dom    s2w_49685 in=1704 out=426 fwd=77 tok/fwd=5.53 ttft=0.20s total=4.7s draft=0.03s verify=4.5s
+[r2 4/10] pld    s2w_49685 in=1704 out=426 fwd=85 tok/fwd=5.01 ttft=0.20s total=5.2s draft=0.01s verify=4.9s
+[r2 5/10] dom    s2w_59299 in=1449 out=339 fwd=114 tok/fwd=2.97 ttft=0.18s total=6.9s draft=0.03s verify=6.6s
+[r2 5/10] pld    s2w_59299 in=1449 out=339 fwd=119 tok/fwd=2.85 ttft=0.17s total=7.2s draft=0.02s verify=7.0s
+[r2 6/10] pld    s2w_71611 in=2232 out=667 fwd=102 tok/fwd=6.54 ttft=0.27s total=6.1s draft=0.01s verify=5.8s
+[r2 6/10] dom    s2w_71611 in=2232 out=670 fwd=89 tok/fwd=7.53 ttft=0.27s total=5.4s draft=0.04s verify=5.1s
+[r2 7/10] pld    s2w_15124 in=1865 out=475 fwd=108 tok/fwd=4.40 ttft=0.22s total=6.3s draft=0.01s verify=6.1s
+[r2 7/10] dom    s2w_15124 in=1865 out=475 fwd=95 tok/fwd=5.00 ttft=0.22s total=5.7s draft=0.04s verify=5.4s
+[r2 8/10] pld    s2w_64206 in=2123 out=545 fwd=101 tok/fwd=5.40 ttft=0.26s total=6.0s draft=0.01s verify=5.7s
+[r2 8/10] dom    s2w_64206 in=2123 out=639 fwd=98 tok/fwd=6.52 ttft=0.26s total=5.9s draft=0.04s verify=5.6s
+[r2 9/10] dom    s2w_47915 in=1289 out=352 fwd=133 tok/fwd=2.65 ttft=0.16s total=7.9s draft=0.03s verify=7.7s
+[r2 9/10] pld    s2w_47915 in=1289 out=354 fwd=136 tok/fwd=2.60 ttft=0.16s total=7.9s draft=0.01s verify=7.7s
+[r2 10/10] dom    s2w_68423 in=2601 out=234 fwd=71 tok/fwd=3.30 ttft=0.33s total=4.4s draft=0.04s verify=4.0s
+[r2 10/10] pld    s2w_68423 in=2601 out=234 fwd=75 tok/fwd=3.12 ttft=0.33s total=4.5s draft=0.01s verify=4.2s
+done

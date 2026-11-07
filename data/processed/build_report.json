@@ -1,0 +1,78 @@
+{
+  "seed": 20261107,
+  "filters": {
+    "train": {
+      "input": 15743,
+      "_invisible_nodes_removed": 40,
+      "kept": 14522,
+      "F5_low_content(webview/map/video/ad>=50%)": 293,
+      "F4_no_visible_text": 337,
+      "F6_low_quality_summary(<4 words or <2 content words)": 221,
+      "F2_too_few_elements(<3)": 241,
+      "F7_duplicate_in_app": 128,
+      "F3_too_many_elements(>150)": 1
+    },
+    "val": {
+      "input": 2364,
+      "_invisible_nodes_removed": 5,
+      "kept": 2178,
+      "F5_low_content(webview/map/video/ad>=50%)": 47,
+      "F7_duplicate_in_app": 19,
+      "F6_low_quality_summary(<4 words or <2 content words)": 35,
+      "F2_too_few_elements(<3)": 28,
+      "F4_no_visible_text": 56,
+      "F3_too_many_elements(>150)": 1
+    },
+    "test": {
+      "input": 4310,
+      "_invisible_nodes_removed": 23,
+      "kept": 3965,
+      "F6_low_quality_summary(<4 words or <2 content words)": 79,
+      "F2_too_few_elements(<3)": 61,
+      "F4_no_visible_text": 83,
+      "F5_low_content(webview/map/video/ad>=50%)": 91,
+      "F7_duplicate_in_app": 29,
+      "F3_too_many_elements(>150)": 2
+    }
+  },
+  "splits": {
+    "pilot": 50,
+    "dev": 100,
+    "test": 500,
+    "train_pool": 14522
+  },
+  "app_overlap": {
+    "train&val": 0,
+    "train&test": 0,
+    "val&test": 0
+  },
+  "test_category_counts": {
+    "Books & Reference": 20,
+    "Social": 39,
+    "Music & Audio": 14,
+    "Maps & Navigation": 19,
+    "News & Magazines": 19,
+    "Travel & Local": 38,
+    "Business": 20,
+    "Lifestyle": 31,
+    "Education": 27,
+    "Sports": 29,
+    "Comics": 6,
+    "Shopping": 27,
+    "Communication": 35,
+    "Entertainment": 36,
+    "Medical": 12,
+    "Dating": 17,
+    "Food & Drink": 11,
+    "Auto & Vehicles": 8,
+    "Health & Fitness": 28,
+    "Art & Design": 2,
+    "House & Home": 4,
+    "Video Players & Editors": 10,
+    "Parenting": 9,
+    "Finance": 23,
+    "Beauty": 4,
+    "Weather": 11,
+    "Events": 1
+  }
+}

@@ -1,0 +1,4213 @@
+{
+ "setting": "app-level GroupKFold(5), n=444, DOM-rule states, MLP 64-32 pairwise logistic, 6 epochs",
+ "groups": {
+  "all": {
+   "n": 444,
+   "fwd_dom_rule": 152.4144144144144,
+   "fwd_mlp_full": 145.75900900900902,
+   "fwd_mlp_full_median": 109.5,
+   "fwd_mlp_noStruct": 149.10135135135135,
+   "fwd_mlp_noStruct_median": 113.0,
+   "fwd_mlp_noHist": 145.82657657657657,
+   "fwd_mlp_noHist_median": 110.0,
+   "rule_minus_full": {
+    "mean": 6.655405405405405,
+    "median": 3.0,
+    "ci95": [
+     4.227421171171171,
+     10.045833333333329
+    ]
+   },
+   "noStruct_minus_full": {
+    "mean": 3.3423423423423424,
+    "median": 3.0,
+    "ci95": [
+     2.9572072072072073,
+     3.7454954954954953
+    ]
+   },
+   "noHist_minus_full": {
+    "mean": 0.06756756756756757,
+    "median": 0.0,
+    "ci95": [
+     -0.2702702702702703,
+     0.5587837837837825
+    ]
+   },
+   "rule_minus_noStruct": {
+    "mean": 3.313063063063063,
+    "median": 0.0,
+    "ci95": [
+     0.8962274774774774,
+     6.606587837837834
+    ]
+   }
+  },
+  "poc_greedy": {
+   "n": 40,
+   "fwd_dom_rule": 176.525,
+   "fwd_mlp_full": 172.7,
+   "fwd_mlp_full_median": 86.5,
+   "fwd_mlp_noStruct": 176.925,
+   "fwd_mlp_noStruct_median": 89.0,
+   "fwd_mlp_noHist": 171.9,
+   "fwd_mlp_noHist_median": 86.0,
+   "rule_minus_full": {
+    "mean": 3.825,
+    "median": 3.5,
+    "ci95": [
+     2.375,
+     5.525624999999997
+    ]
+   },
+   "noStruct_minus_full": {
+    "mean": 4.225,
+    "median": 3.0,
+    "ci95": [
+     2.875,
+     5.7
+    ]
+   },
+   "noHist_minus_full": {
+    "mean": -0.8,
+    "median": 0.0,
+    "ci95": [
+     -1.75,
+     0.075
+    ]
+   },
+   "rule_minus_noStruct": {
+    "mean": -0.4,
+    "median": 0.0,
+    "ci95": [
+     -2.375,
+     1.725
+    ]
+   }
+  },
+  "gemma_approx": {
+   "n": 30,
+   "fwd_dom_rule": 204.83333333333334,
+   "fwd_mlp_full": 186.9,
+   "fwd_mlp_full_median": 116.0,
+   "fwd_mlp_noStruct": 191.73333333333332,
+   "fwd_mlp_noStruct_median": 122.0,
+   "fwd_mlp_noHist": 186.43333333333334,
+   "fwd_mlp_noHist_median": 119.5,
+   "rule_minus_full": {
+    "mean": 17.933333333333334,
+    "median": 3.5,
+    "ci95": [
+     1.7666666666666666,
+     49.2
+    ]
+   },
+   "noStruct_minus_full": {
+    "mean": 4.833333333333333,
+    "median": 3.5,
+    "ci95": [
+     3.066666666666667,
+     6.866666666666666
+    ]
+   },
+   "noHist_minus_full": {
+    "mean": -0.4666666666666667,
+    "median": 0.0,
+    "ci95": [
+     -1.9333333333333333,
+     0.8333333333333334
+    ]
+   },
+   "rule_minus_noStruct": {
+    "mean": 13.1,
+    "median": 0.5,
+    "ci95": [
+     -3.566666666666667,
+     44.53333333333333
+    ]
+   }
+  },
+  "gate2_measured": {
+   "n": 74,
+   "fwd_dom_rule": 98.6891891891892,
+   "fwd_mlp_full": 94.24324324324324,
+   "fwd_mlp_full_median": 87.5,
+   "fwd_mlp_noStruct": 96.44594594594595,
+   "fwd_mlp_noStruct_median": 89.0,
+   "fwd_mlp_noHist": 94.24324324324324,
+   "fwd_mlp_noHist_median": 88.5,
+   "rule_minus_full": {
+    "mean": 4.445945945945946,
+    "median": 4.0,
+    "ci95": [
+     3.7969594594594596,
+     5.1084459459459435
+    ]
+   },
+   "noStruct_minus_full": {
+    "mean": 2.2027027027027026,
+    "median": 2.0,
+    "ci95": [
+     1.6216216216216217,
+     2.77027027027027
+    ]
+   },
+   "noHist_minus_full": {
+    "mean": 0.0,
+    "median": 0.0,
+    "ci95": [
+     -0.5405405405405406,
+     0.44594594594594594
+    ]
+   },
+   "rule_minus_noStruct": {
+    "mean": 2.2432432432432434,
+    "median": 2.5,
+    "ci95": [
+     1.5266891891891892,
+     2.9594594594594597
+    ]
+   }
+  },
+  "cands6": {
+   "n": 300,
+   "fwd_dom_rule": 157.21,
+   "fwd_mlp_full": 150.76,
+   "fwd_mlp_full_median": 120.0,
+   "fwd_mlp_noStruct": 154.11666666666667,
+   "fwd_mlp_noStruct_median": 123.0,
+   "fwd_mlp_noHist": 151.01333333333332,
+   "fwd_mlp_noHist_median": 120.0,
+   "rule_minus_full": {
+    "mean": 6.45,
+    "median": 3.0,
+    "ci95": [
+     3.93975,
+     10.133499999999998
+    ]
+   },
+   "noStruct_minus_full": {
+    "mean": 3.3566666666666665,
+    "median": 3.0,
+    "ci95": [
+     2.90325,
+     3.84
+    ]
+   },
+   "noHist_minus_full": {
+    "mean": 0.25333333333333335,
+    "median": 0.0,
+    "ci95": [
+     -0.2,
+     0.9433333333333334
+    ]
+   },
+   "rule_minus_noStruct": {
+    "mean": 3.0933333333333333,
+    "median": 0.0,
+    "ci95": [
+     0.5899166666666666,
+     6.573499999999999
+    ]
+   }
+  }
+ },
+ "per_target": [
+  {
+   "set": "C1",
+   "id": "s2w_8482",
+   "app": "com.nprpodcastplayer.app",
+   "dom_rule": 85,
+   "mlp_full": 80,
+   "mlp_noStruct": 86,
+   "mlp_noHist": 80
+  },
+  {
+   "set": "C1",
+   "id": "s2w_42624",
+   "app": "com.breakapps.breakdotcom",
+   "dom_rule": 40,
+   "mlp_full": 34,
+   "mlp_noStruct": 36,
+   "mlp_noHist": 36
+  },
+  {
+   "set": "C1",
+   "id": "s2w_70325",
+   "app": "com.internationalrecipes.italianrecipes",
+   "dom_rule": 162,
+   "mlp_full": 154,
+   "mlp_noStruct": 159,
+   "mlp_noHist": 156
+  },
+  {
+   "set": "C1",
+   "id": "s2w_49685",
+   "app": "com.westjet",
+   "dom_rule": 82,
+   "mlp_full": 76,
+   "mlp_noStruct": 85,
+   "mlp_noHist": 75
+  },
+  {
+   "set": "C1",
+   "id": "s2w_59299",
+   "app": "com.androbaby.voicechanger",
+   "dom_rule": 90,
+   "mlp_full": 86,
+   "mlp_noStruct": 91,
+   "mlp_noHist": 86
+  },
+  {
+   "set": "C1",
+   "id": "s2w_71611",
+   "app": "com.yinzcam.nfl.eagles",
+   "dom_rule": 89,
+   "mlp_full": 84,
+   "mlp_noStruct": 87,
+   "mlp_noHist": 82
+  },
+  {
+   "set": "C1",
+   "id": "s2w_15124",
+   "app": "com.rarewire.forever21",
+   "dom_rule": 94,
+   "mlp_full": 95,
+   "mlp_noStruct": 96,
+   "mlp_noHist": 95
+  },
+  {
+   "set": "C1",
+   "id": "s2w_64206",
+   "app": "chat.anti",
+   "dom_rule": 88,
+   "mlp_full": 78,
+   "mlp_noStruct": 80,
+   "mlp_noHist": 76
+  },
+  {
+   "set": "C1",
+   "id": "s2w_47915",
+   "app": "com.nearbyconnections.tsnearby",
+   "dom_rule": 94,
+   "mlp_full": 92,
+   "mlp_noStruct": 92,
+   "mlp_noHist": 89
+  },
+  {
+   "set": "C1",
+   "id": "s2w_68423",
+   "app": "ptv.apps.foxsoccer2go",
+   "dom_rule": 71,
+   "mlp_full": 68,
+   "mlp_noStruct": 69,
+   "mlp_noHist": 67
+  },
+  {
+   "set": "C0",
+   "id": "s2w_8482",
+   "app": "com.nprpodcastplayer.app",
+   "dom_rule": 505,
+   "mlp_full": 495,
+   "mlp_noStruct": 516,
+   "mlp_noHist": 495
+  },
+  {
+   "set": "C0",
+   "id": "s2w_42624",
+   "app": "com.breakapps.breakdotcom",
+   "dom_rule": 491,
+   "mlp_full": 494,
+   "mlp_noStruct": 507,
+   "mlp_noHist": 485
+  },
+  {
+   "set": "C0",
+   "id": "s2w_70325",
+   "app": "com.internationalrecipes.italianrecipes",
+   "dom_rule": 445,
+   "mlp_full": 442,
+   "mlp_noStruct": 451,
+   "mlp_noHist": 441
+  },
+  {
+   "set": "C0",
+   "id": "s2w_49685",
+   "app": "com.westjet",
+   "dom_rule": 338,
+   "mlp_full": 340,
+   "mlp_noStruct": 346,
+   "mlp_noHist": 336
+  },
+  {
+   "set": "C0",
+   "id": "s2w_59299",
+   "app": "com.androbaby.voicechanger",
+   "dom_rule": 355,
+   "mlp_full": 350,
+   "mlp_noStruct": 355,
+   "mlp_noHist": 350
+  },
+  {
+   "set": "C0",
+   "id": "s2w_71611",
+   "app": "com.yinzcam.nfl.eagles",
+   "dom_rule": 595,
+   "mlp_full": 591,
+   "mlp_noStruct": 600,
+   "mlp_noHist": 587
+  },
+  {
+   "set": "C0",
+   "id": "s2w_15124",
+   "app": "com.rarewire.forever21",
+   "dom_rule": 421,
+   "mlp_full": 419,
+   "mlp_noStruct": 422,
+   "mlp_noHist": 410
+  },
+  {
+   "set": "C0",
+   "id": "s2w_64206",
+   "app": "chat.anti",
+   "dom_rule": 426,
+   "mlp_full": 428,
+   "mlp_noStruct": 427,
+   "mlp_noHist": 421
+  },
+  {
+   "set": "C0",
+   "id": "s2w_47915",
+   "app": "com.nearbyconnections.tsnearby",
+   "dom_rule": 452,
+   "mlp_full": 456,
+   "mlp_noStruct": 466,
+   "mlp_noHist": 454
+  },
+  {
+   "set": "C0",
+   "id": "s2w_68423",
+   "app": "ptv.apps.foxsoccer2go",
+   "dom_rule": 439,
+   "mlp_full": 436,
+   "mlp_noStruct": 449,
+   "mlp_noHist": 439
+  },
+  {
+   "set": "C4g",
+   "id": "s2w_8482",
+   "app": "com.nprpodcastplayer.app",
+   "dom_rule": 72,
+   "mlp_full": 67,
+   "mlp_noStruct": 68,
+   "mlp_noHist": 67
+  },
+  {
+   "set": "C4g",
+   "id": "s2w_42624",
+   "app": "com.breakapps.breakdotcom",
+   "dom_rule": 36,
+   "mlp_full": 32,
+   "mlp_noStruct": 32,
+   "mlp_noHist": 32
+  },
+  {
+   "set": "C4g",
+   "id": "s2w_70325",
+   "app": "com.internationalrecipes.italianrecipes",
+   "dom_rule": 110,
+   "mlp_full": 104,
+   "mlp_noStruct": 106,
+   "mlp_noHist": 104
+  },
+  {
+   "set": "C4g",
+   "id": "s2w_49685",
+   "app": "com.westjet",
+   "dom_rule": 50,
+   "mlp_full": 42,
+   "mlp_noStruct": 46,
+   "mlp_noHist": 44
+  },
+  {
+   "set": "C4g",
+   "id": "s2w_59299",
+   "app": "com.androbaby.voicechanger",
+   "dom_rule": 97,
+   "mlp_full": 98,
+   "mlp_noStruct": 97,
+   "mlp_noHist": 96
+  },
+  {
+   "set": "C4g",
+   "id": "s2w_71611",
+   "app": "com.yinzcam.nfl.eagles",
+   "dom_rule": 59,
+   "mlp_full": 57,
+   "mlp_noStruct": 58,
+   "mlp_noHist": 55
+  },
+  {
+   "set": "C4g",
+   "id": "s2w_15124",
+   "app": "com.rarewire.forever21",
+   "dom_rule": 86,
+   "mlp_full": 87,
+   "mlp_noStruct": 87,
+   "mlp_noHist": 86
+  },
+  {
+   "set": "C4g",
+   "id": "s2w_64206",
+   "app": "chat.anti",
+   "dom_rule": 70,
+   "mlp_full": 61,
+   "mlp_noStruct": 61,
+   "mlp_noHist": 63
+  },
+  {
+   "set": "C4g",
+   "id": "s2w_47915",
+   "app": "com.nearbyconnections.tsnearby",
+   "dom_rule": 53,
+   "mlp_full": 48,
+   "mlp_noStruct": 49,
+   "mlp_noHist": 49
+  },
+  {
+   "set": "C4g",
+   "id": "s2w_68423",
+   "app": "ptv.apps.foxsoccer2go",
+   "dom_rule": 72,
+   "mlp_full": 63,
+   "mlp_noStruct": 67,
+   "mlp_noHist": 65
+  },
+  {
+   "set": "C7g",
+   "id": "s2w_8482",
+   "app": "com.nprpodcastplayer.app",
+   "dom_rule": 98,
+   "mlp_full": 101,
+   "mlp_noStruct": 104,
+   "mlp_noHist": 98
+  },
+  {
+   "set": "C7g",
+   "id": "s2w_42624",
+   "app": "com.breakapps.breakdotcom",
+   "dom_rule": 42,
+   "mlp_full": 39,
+   "mlp_noStruct": 41,
+   "mlp_noHist": 38
+  },
+  {
+   "set": "C7g",
+   "id": "s2w_70325",
+   "app": "com.internationalrecipes.italianrecipes",
+   "dom_rule": 70,
+   "mlp_full": 68,
+   "mlp_noStruct": 76,
+   "mlp_noHist": 69
+  },
+  {
+   "set": "C7g",
+   "id": "s2w_49685",
+   "app": "com.westjet",
+   "dom_rule": 82,
+   "mlp_full": 82,
+   "mlp_noStruct": 83,
+   "mlp_noHist": 82
+  },
+  {
+   "set": "C7g",
+   "id": "s2w_59299",
+   "app": "com.androbaby.voicechanger",
+   "dom_rule": 57,
+   "mlp_full": 56,
+   "mlp_noStruct": 61,
+   "mlp_noHist": 56
+  },
+  {
+   "set": "C7g",
+   "id": "s2w_71611",
+   "app": "com.yinzcam.nfl.eagles",
+   "dom_rule": 155,
+   "mlp_full": 146,
+   "mlp_noStruct": 155,
+   "mlp_noHist": 153
+  },
+  {
+   "set": "C7g",
+   "id": "s2w_15124",
+   "app": "com.rarewire.forever21",
+   "dom_rule": 251,
+   "mlp_full": 227,
+   "mlp_noStruct": 227,
+   "mlp_noHist": 226
+  },
+  {
+   "set": "C7g",
+   "id": "s2w_64206",
+   "app": "chat.anti",
+   "dom_rule": 105,
+   "mlp_full": 99,
+   "mlp_noStruct": 103,
+   "mlp_noHist": 99
+  },
+  {
+   "set": "C7g",
+   "id": "s2w_47915",
+   "app": "com.nearbyconnections.tsnearby",
+   "dom_rule": 74,
+   "mlp_full": 72,
+   "mlp_noStruct": 76,
+   "mlp_noHist": 73
+  },
+  {
+   "set": "C7g",
+   "id": "s2w_68423",
+   "app": "ptv.apps.foxsoccer2go",
+   "dom_rule": 60,
+   "mlp_full": 61,
+   "mlp_noStruct": 60,
+   "mlp_noHist": 61
+  },
+  {
+   "set": "gemma_E2B_fs",
+   "id": "s2w_8482",
+   "app": "com.nprpodcastplayer.app",
+   "dom_rule": 53,
+   "mlp_full": 46,
+   "mlp_noStruct": 43,
+   "mlp_noHist": 43
+  },
+  {
+   "set": "gemma_E2B_fs",
+   "id": "s2w_42624",
+   "app": "com.breakapps.breakdotcom",
+   "dom_rule": 108,
+   "mlp_full": 103,
+   "mlp_noStruct": 110,
+   "mlp_noHist": 105
+  },
+  {
+   "set": "gemma_E2B_fs",
+   "id": "s2w_70325",
+   "app": "com.internationalrecipes.italianrecipes",
+   "dom_rule": 44,
+   "mlp_full": 41,
+   "mlp_noStruct": 43,
+   "mlp_noHist": 38
+  },
+  {
+   "set": "gemma_E2B_fs",
+   "id": "s2w_49685",
+   "app": "com.westjet",
+   "dom_rule": 47,
+   "mlp_full": 42,
+   "mlp_noStruct": 44,
+   "mlp_noHist": 42
+  },
+  {
+   "set": "gemma_E2B_fs",
+   "id": "s2w_59299",
+   "app": "com.androbaby.voicechanger",
+   "dom_rule": 94,
+   "mlp_full": 93,
+   "mlp_noStruct": 98,
+   "mlp_noHist": 92
+  },
+  {
+   "set": "gemma_E2B_fs",
+   "id": "s2w_71611",
+   "app": "com.yinzcam.nfl.eagles",
+   "dom_rule": 137,
+   "mlp_full": 129,
+   "mlp_noStruct": 134,
+   "mlp_noHist": 134
+  },
+  {
+   "set": "gemma_E2B_fs",
+   "id": "s2w_15124",
+   "app": "com.rarewire.forever21",
+   "dom_rule": 59,
+   "mlp_full": 57,
+   "mlp_noStruct": 59,
+   "mlp_noHist": 57
+  },
+  {
+   "set": "gemma_E2B_fs",
+   "id": "s2w_64206",
+   "app": "chat.anti",
+   "dom_rule": 169,
+   "mlp_full": 155,
+   "mlp_noStruct": 155,
+   "mlp_noHist": 154
+  },
+  {
+   "set": "gemma_E2B_fs",
+   "id": "s2w_47915",
+   "app": "com.nearbyconnections.tsnearby",
+   "dom_rule": 58,
+   "mlp_full": 55,
+   "mlp_noStruct": 57,
+   "mlp_noHist": 57
+  },
+  {
+   "set": "gemma_E2B_fs",
+   "id": "s2w_68423",
+   "app": "ptv.apps.foxsoccer2go",
+   "dom_rule": 232,
+   "mlp_full": 224,
+   "mlp_noStruct": 230,
+   "mlp_noHist": 225
+  },
+  {
+   "set": "gemma_E4B_fs",
+   "id": "s2w_8482",
+   "app": "com.nprpodcastplayer.app",
+   "dom_rule": 64,
+   "mlp_full": 58,
+   "mlp_noStruct": 59,
+   "mlp_noHist": 57
+  },
+  {
+   "set": "gemma_E4B_fs",
+   "id": "s2w_42624",
+   "app": "com.breakapps.breakdotcom",
+   "dom_rule": 51,
+   "mlp_full": 48,
+   "mlp_noStruct": 53,
+   "mlp_noHist": 47
+  },
+  {
+   "set": "gemma_E4B_fs",
+   "id": "s2w_70325",
+   "app": "com.internationalrecipes.italianrecipes",
+   "dom_rule": 33,
+   "mlp_full": 29,
+   "mlp_noStruct": 29,
+   "mlp_noHist": 31
+  },
+  {
+   "set": "gemma_E4B_fs",
+   "id": "s2w_49685",
+   "app": "com.westjet",
+   "dom_rule": 48,
+   "mlp_full": 43,
+   "mlp_noStruct": 46,
+   "mlp_noHist": 43
+  },
+  {
+   "set": "gemma_E4B_fs",
+   "id": "s2w_59299",
+   "app": "com.androbaby.voicechanger",
+   "dom_rule": 40,
+   "mlp_full": 37,
+   "mlp_noStruct": 39,
+   "mlp_noHist": 38
+  },
+  {
+   "set": "gemma_E4B_fs",
+   "id": "s2w_71611",
+   "app": "com.yinzcam.nfl.eagles",
+   "dom_rule": 91,
+   "mlp_full": 86,
+   "mlp_noStruct": 91,
+   "mlp_noHist": 92
+  },
+  {
+   "set": "gemma_E4B_fs",
+   "id": "s2w_15124",
+   "app": "com.rarewire.forever21",
+   "dom_rule": 53,
+   "mlp_full": 49,
+   "mlp_noStruct": 57,
+   "mlp_noHist": 50
+  },
+  {
+   "set": "gemma_E4B_fs",
+   "id": "s2w_64206",
+   "app": "chat.anti",
+   "dom_rule": 166,
+   "mlp_full": 157,
+   "mlp_noStruct": 159,
+   "mlp_noHist": 157
+  },
+  {
+   "set": "gemma_E4B_fs",
+   "id": "s2w_47915",
+   "app": "com.nearbyconnections.tsnearby",
+   "dom_rule": 34,
+   "mlp_full": 32,
+   "mlp_noStruct": 33,
+   "mlp_noHist": 32
+  },
+  {
+   "set": "gemma_E4B_fs",
+   "id": "s2w_68423",
+   "app": "ptv.apps.foxsoccer2go",
+   "dom_rule": 150,
+   "mlp_full": 144,
+   "mlp_noStruct": 165,
+   "mlp_noHist": 142
+  },
+  {
+   "set": "gemma_12B_fs",
+   "id": "s2w_8482",
+   "app": "com.nprpodcastplayer.app",
+   "dom_rule": 160,
+   "mlp_full": 153,
+   "mlp_noStruct": 153,
+   "mlp_noHist": 156
+  },
+  {
+   "set": "gemma_12B_fs",
+   "id": "s2w_42624",
+   "app": "com.breakapps.breakdotcom",
+   "dom_rule": 403,
+   "mlp_full": 409,
+   "mlp_noStruct": 417,
+   "mlp_noHist": 412
+  },
+  {
+   "set": "gemma_12B_fs",
+   "id": "s2w_70325",
+   "app": "com.internationalrecipes.italianrecipes",
+   "dom_rule": 433,
+   "mlp_full": 435,
+   "mlp_noStruct": 450,
+   "mlp_noHist": 429
+  },
+  {
+   "set": "gemma_12B_fs",
+   "id": "s2w_49685",
+   "app": "com.westjet",
+   "dom_rule": 362,
+   "mlp_full": 375,
+   "mlp_noStruct": 381,
+   "mlp_noHist": 366
+  },
+  {
+   "set": "gemma_12B_fs",
+   "id": "s2w_59299",
+   "app": "com.androbaby.voicechanger",
+   "dom_rule": 1034,
+   "mlp_full": 581,
+   "mlp_noStruct": 594,
+   "mlp_noHist": 571
+  },
+  {
+   "set": "gemma_12B_fs",
+   "id": "s2w_71611",
+   "app": "com.yinzcam.nfl.eagles",
+   "dom_rule": 232,
+   "mlp_full": 231,
+   "mlp_noStruct": 235,
+   "mlp_noHist": 234
+  },
+  {
+   "set": "gemma_12B_fs",
+   "id": "s2w_15124",
+   "app": "com.rarewire.forever21",
+   "dom_rule": 447,
+   "mlp_full": 451,
+   "mlp_noStruct": 451,
+   "mlp_noHist": 444
+  },
+  {
+   "set": "gemma_12B_fs",
+   "id": "s2w_64206",
+   "app": "chat.anti",
+   "dom_rule": 538,
+   "mlp_full": 535,
+   "mlp_noStruct": 549,
+   "mlp_noHist": 540
+  },
+  {
+   "set": "gemma_12B_fs",
+   "id": "s2w_47915",
+   "app": "com.nearbyconnections.tsnearby",
+   "dom_rule": 597,
+   "mlp_full": 604,
+   "mlp_noStruct": 606,
+   "mlp_noHist": 603
+  },
+  {
+   "set": "gemma_12B_fs",
+   "id": "s2w_68423",
+   "app": "ptv.apps.foxsoccer2go",
+   "dom_rule": 208,
+   "mlp_full": 205,
+   "mlp_noStruct": 212,
+   "mlp_noHist": 202
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_70325",
+   "app": "com.internationalrecipes.italianrecipes",
+   "dom_rule": 163,
+   "mlp_full": 155,
+   "mlp_noStruct": 160,
+   "mlp_noHist": 157
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_49685",
+   "app": "com.westjet",
+   "dom_rule": 77,
+   "mlp_full": 71,
+   "mlp_noStruct": 79,
+   "mlp_noHist": 70
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_59299",
+   "app": "com.androbaby.voicechanger",
+   "dom_rule": 114,
+   "mlp_full": 111,
+   "mlp_noStruct": 119,
+   "mlp_noHist": 111
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_71611",
+   "app": "com.yinzcam.nfl.eagles",
+   "dom_rule": 87,
+   "mlp_full": 82,
+   "mlp_noStruct": 85,
+   "mlp_noHist": 80
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_15124",
+   "app": "com.rarewire.forever21",
+   "dom_rule": 95,
+   "mlp_full": 96,
+   "mlp_noStruct": 97,
+   "mlp_noHist": 96
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_64206",
+   "app": "chat.anti",
+   "dom_rule": 86,
+   "mlp_full": 78,
+   "mlp_noStruct": 80,
+   "mlp_noHist": 75
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_47915",
+   "app": "com.nearbyconnections.tsnearby",
+   "dom_rule": 131,
+   "mlp_full": 131,
+   "mlp_noStruct": 130,
+   "mlp_noHist": 128
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_69646",
+   "app": "com.paypal.android.p2pmobile",
+   "dom_rule": 104,
+   "mlp_full": 101,
+   "mlp_noStruct": 101,
+   "mlp_noHist": 103
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_67147",
+   "app": "com.airfrance.android.dinamoprd",
+   "dom_rule": 183,
+   "mlp_full": 181,
+   "mlp_noStruct": 181,
+   "mlp_noHist": 177
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_38961",
+   "app": "com.paypal.merchant.client",
+   "dom_rule": 66,
+   "mlp_full": 63,
+   "mlp_noStruct": 61,
+   "mlp_noHist": 66
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_64592",
+   "app": "com.Hypnosis",
+   "dom_rule": 116,
+   "mlp_full": 110,
+   "mlp_noStruct": 112,
+   "mlp_noHist": 111
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_23677",
+   "app": "com.bestweatherfor.bibleoffline_pt_ra",
+   "dom_rule": 95,
+   "mlp_full": 92,
+   "mlp_noStruct": 98,
+   "mlp_noHist": 95
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_22440",
+   "app": "com.hss.msb",
+   "dom_rule": 35,
+   "mlp_full": 33,
+   "mlp_noStruct": 35,
+   "mlp_noHist": 32
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_62205",
+   "app": "dto.ee.theory.test.genius",
+   "dom_rule": 153,
+   "mlp_full": 146,
+   "mlp_noStruct": 154,
+   "mlp_noHist": 146
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_48704",
+   "app": "com.duanstar.cta",
+   "dom_rule": 209,
+   "mlp_full": 206,
+   "mlp_noStruct": 209,
+   "mlp_noHist": 206
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_39855",
+   "app": "com.ics.creditcardreader",
+   "dom_rule": 49,
+   "mlp_full": 43,
+   "mlp_noStruct": 46,
+   "mlp_noHist": 45
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_51784",
+   "app": "com.sharecare.askmd",
+   "dom_rule": 33,
+   "mlp_full": 30,
+   "mlp_noStruct": 32,
+   "mlp_noHist": 30
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_5336",
+   "app": "com.pinterest",
+   "dom_rule": 55,
+   "mlp_full": 52,
+   "mlp_noStruct": 53,
+   "mlp_noHist": 51
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_6769",
+   "app": "com.tayu.tau.pedometer",
+   "dom_rule": 50,
+   "mlp_full": 47,
+   "mlp_noStruct": 50,
+   "mlp_noHist": 48
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_62668",
+   "app": "com.appsbymickey.topshayari",
+   "dom_rule": 102,
+   "mlp_full": 89,
+   "mlp_noStruct": 93,
+   "mlp_noHist": 90
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_1122",
+   "app": "com.scholly.scholarshipsearch",
+   "dom_rule": 40,
+   "mlp_full": 36,
+   "mlp_noStruct": 38,
+   "mlp_noHist": 37
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_3518",
+   "app": "com.voxofon",
+   "dom_rule": 37,
+   "mlp_full": 31,
+   "mlp_noStruct": 33,
+   "mlp_noHist": 32
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_8780",
+   "app": "com.bestringtonesapps.smsringtones",
+   "dom_rule": 77,
+   "mlp_full": 75,
+   "mlp_noStruct": 75,
+   "mlp_noHist": 75
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_19922",
+   "app": "chat.anti",
+   "dom_rule": 54,
+   "mlp_full": 52,
+   "mlp_noStruct": 53,
+   "mlp_noHist": 50
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_15204",
+   "app": "com.ayce.playcast",
+   "dom_rule": 117,
+   "mlp_full": 113,
+   "mlp_noStruct": 114,
+   "mlp_noHist": 113
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_41242",
+   "app": "com.access_company.android.comicwalker",
+   "dom_rule": 61,
+   "mlp_full": 59,
+   "mlp_noStruct": 62,
+   "mlp_noHist": 59
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_32523",
+   "app": "com.icemediacreative.timetable",
+   "dom_rule": 57,
+   "mlp_full": 52,
+   "mlp_noStruct": 54,
+   "mlp_noHist": 51
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_20005",
+   "app": "com.yelp.android",
+   "dom_rule": 55,
+   "mlp_full": 50,
+   "mlp_noStruct": 55,
+   "mlp_noHist": 51
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_49368",
+   "app": "yourapp24.android.tools.alice_lite",
+   "dom_rule": 101,
+   "mlp_full": 92,
+   "mlp_noStruct": 96,
+   "mlp_noHist": 89
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_43660",
+   "app": "com.thirtymatches.vineflow",
+   "dom_rule": 70,
+   "mlp_full": 65,
+   "mlp_noStruct": 67,
+   "mlp_noHist": 63
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_52721",
+   "app": "com.passportparking.mobile.parkdetroit",
+   "dom_rule": 67,
+   "mlp_full": 62,
+   "mlp_noStruct": 64,
+   "mlp_noHist": 62
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_46795",
+   "app": "com.fifthfinger.clients.joann",
+   "dom_rule": 100,
+   "mlp_full": 98,
+   "mlp_noStruct": 98,
+   "mlp_noHist": 100
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_14815",
+   "app": "com.harman.jblmusicflow",
+   "dom_rule": 176,
+   "mlp_full": 168,
+   "mlp_noStruct": 173,
+   "mlp_noHist": 172
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_47830",
+   "app": "uk.co.appsunlimited.wikiapp",
+   "dom_rule": 140,
+   "mlp_full": 133,
+   "mlp_noStruct": 133,
+   "mlp_noHist": 135
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_49981",
+   "app": "ru.mail.love",
+   "dom_rule": 89,
+   "mlp_full": 83,
+   "mlp_noStruct": 83,
+   "mlp_noHist": 83
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_1213",
+   "app": "com.opera.android.browser",
+   "dom_rule": 114,
+   "mlp_full": 109,
+   "mlp_noStruct": 112,
+   "mlp_noHist": 111
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_29922",
+   "app": "com.sparkpeople.androidtracker",
+   "dom_rule": 64,
+   "mlp_full": 62,
+   "mlp_noStruct": 64,
+   "mlp_noHist": 61
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_43072",
+   "app": "mobi.beyondpod",
+   "dom_rule": 98,
+   "mlp_full": 94,
+   "mlp_noStruct": 95,
+   "mlp_noHist": 93
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_37095",
+   "app": "com.commonfloor",
+   "dom_rule": 187,
+   "mlp_full": 184,
+   "mlp_noStruct": 182,
+   "mlp_noHist": 186
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_37325",
+   "app": "com.bloomberg.android.plus",
+   "dom_rule": 89,
+   "mlp_full": 80,
+   "mlp_noStruct": 80,
+   "mlp_noHist": 77
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_49809",
+   "app": "com.rail.time",
+   "dom_rule": 76,
+   "mlp_full": 76,
+   "mlp_noStruct": 79,
+   "mlp_noHist": 76
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_60641",
+   "app": "au.com.penguinapps.android.babyfeeding.client.android",
+   "dom_rule": 27,
+   "mlp_full": 24,
+   "mlp_noStruct": 26,
+   "mlp_noHist": 24
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_43630",
+   "app": "com.freeosk.freeosk",
+   "dom_rule": 130,
+   "mlp_full": 132,
+   "mlp_noStruct": 133,
+   "mlp_noHist": 129
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_68631",
+   "app": "com.coupons.ciapp",
+   "dom_rule": 30,
+   "mlp_full": 26,
+   "mlp_noStruct": 28,
+   "mlp_noHist": 24
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_17423",
+   "app": "net.hubalek.android.apps.barometer",
+   "dom_rule": 90,
+   "mlp_full": 89,
+   "mlp_noStruct": 86,
+   "mlp_noHist": 89
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_29951",
+   "app": "com.ak.app.firehouse.activity",
+   "dom_rule": 79,
+   "mlp_full": 76,
+   "mlp_noStruct": 75,
+   "mlp_noHist": 76
+  },
+  {
+   "set": "g2pld",
+   "id": "s2w_53519",
+   "app": "com.mobile.android.chargers",
+   "dom_rule": 95,
+   "mlp_full": 93,
+   "mlp_noStruct": 99,
+   "mlp_noHist": 92
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_8482",
+   "app": "com.nprpodcastplayer.app",
+   "dom_rule": 80,
+   "mlp_full": 72,
+   "mlp_noStruct": 76,
+   "mlp_noHist": 74
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_70325",
+   "app": "com.internationalrecipes.italianrecipes",
+   "dom_rule": 167,
+   "mlp_full": 159,
+   "mlp_noStruct": 165,
+   "mlp_noHist": 161
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_64206",
+   "app": "chat.anti",
+   "dom_rule": 98,
+   "mlp_full": 87,
+   "mlp_noStruct": 91,
+   "mlp_noHist": 89
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_47915",
+   "app": "com.nearbyconnections.tsnearby",
+   "dom_rule": 133,
+   "mlp_full": 130,
+   "mlp_noStruct": 133,
+   "mlp_noHist": 130
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_69646",
+   "app": "com.paypal.android.p2pmobile",
+   "dom_rule": 70,
+   "mlp_full": 64,
+   "mlp_noStruct": 64,
+   "mlp_noHist": 68
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_67147",
+   "app": "com.airfrance.android.dinamoprd",
+   "dom_rule": 194,
+   "mlp_full": 190,
+   "mlp_noStruct": 194,
+   "mlp_noHist": 194
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_38961",
+   "app": "com.paypal.merchant.client",
+   "dom_rule": 55,
+   "mlp_full": 51,
+   "mlp_noStruct": 52,
+   "mlp_noHist": 53
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_64592",
+   "app": "com.Hypnosis",
+   "dom_rule": 125,
+   "mlp_full": 119,
+   "mlp_noStruct": 119,
+   "mlp_noHist": 120
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_23677",
+   "app": "com.bestweatherfor.bibleoffline_pt_ra",
+   "dom_rule": 88,
+   "mlp_full": 88,
+   "mlp_noStruct": 93,
+   "mlp_noHist": 88
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_62205",
+   "app": "dto.ee.theory.test.genius",
+   "dom_rule": 182,
+   "mlp_full": 174,
+   "mlp_noStruct": 181,
+   "mlp_noHist": 174
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_48704",
+   "app": "com.duanstar.cta",
+   "dom_rule": 184,
+   "mlp_full": 183,
+   "mlp_noStruct": 179,
+   "mlp_noHist": 173
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_8780",
+   "app": "com.bestringtonesapps.smsringtones",
+   "dom_rule": 38,
+   "mlp_full": 35,
+   "mlp_noStruct": 35,
+   "mlp_noHist": 35
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_19922",
+   "app": "chat.anti",
+   "dom_rule": 56,
+   "mlp_full": 54,
+   "mlp_noStruct": 54,
+   "mlp_noHist": 52
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_32523",
+   "app": "com.icemediacreative.timetable",
+   "dom_rule": 55,
+   "mlp_full": 49,
+   "mlp_noStruct": 50,
+   "mlp_noHist": 47
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_49368",
+   "app": "yourapp24.android.tools.alice_lite",
+   "dom_rule": 101,
+   "mlp_full": 92,
+   "mlp_noStruct": 96,
+   "mlp_noHist": 89
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_43660",
+   "app": "com.thirtymatches.vineflow",
+   "dom_rule": 73,
+   "mlp_full": 67,
+   "mlp_noStruct": 69,
+   "mlp_noHist": 66
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_52721",
+   "app": "com.passportparking.mobile.parkdetroit",
+   "dom_rule": 64,
+   "mlp_full": 59,
+   "mlp_noStruct": 63,
+   "mlp_noHist": 59
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_14815",
+   "app": "com.harman.jblmusicflow",
+   "dom_rule": 170,
+   "mlp_full": 162,
+   "mlp_noStruct": 171,
+   "mlp_noHist": 166
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_47830",
+   "app": "uk.co.appsunlimited.wikiapp",
+   "dom_rule": 138,
+   "mlp_full": 130,
+   "mlp_noStruct": 130,
+   "mlp_noHist": 132
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_49981",
+   "app": "ru.mail.love",
+   "dom_rule": 92,
+   "mlp_full": 86,
+   "mlp_noStruct": 87,
+   "mlp_noHist": 86
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_1213",
+   "app": "com.opera.android.browser",
+   "dom_rule": 100,
+   "mlp_full": 96,
+   "mlp_noStruct": 97,
+   "mlp_noHist": 96
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_43072",
+   "app": "mobi.beyondpod",
+   "dom_rule": 106,
+   "mlp_full": 99,
+   "mlp_noStruct": 100,
+   "mlp_noHist": 99
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_37095",
+   "app": "com.commonfloor",
+   "dom_rule": 185,
+   "mlp_full": 181,
+   "mlp_noStruct": 180,
+   "mlp_noHist": 182
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_49809",
+   "app": "com.rail.time",
+   "dom_rule": 76,
+   "mlp_full": 75,
+   "mlp_noStruct": 79,
+   "mlp_noHist": 75
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_43630",
+   "app": "com.freeosk.freeosk",
+   "dom_rule": 121,
+   "mlp_full": 122,
+   "mlp_noStruct": 123,
+   "mlp_noHist": 120
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_29951",
+   "app": "com.ak.app.firehouse.activity",
+   "dom_rule": 87,
+   "mlp_full": 84,
+   "mlp_noStruct": 83,
+   "mlp_noHist": 84
+  },
+  {
+   "set": "g2dom",
+   "id": "s2w_53519",
+   "app": "com.mobile.android.chargers",
+   "dom_rule": 142,
+   "mlp_full": 135,
+   "mlp_noStruct": 141,
+   "mlp_noHist": 135
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_8482",
+   "app": "com.nprpodcastplayer.app",
+   "dom_rule": 41,
+   "mlp_full": 37,
+   "mlp_noStruct": 42,
+   "mlp_noHist": 38
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_8482",
+   "app": "com.nprpodcastplayer.app",
+   "dom_rule": 118,
+   "mlp_full": 114,
+   "mlp_noStruct": 113,
+   "mlp_noHist": 113
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_8482",
+   "app": "com.nprpodcastplayer.app",
+   "dom_rule": 50,
+   "mlp_full": 49,
+   "mlp_noStruct": 58,
+   "mlp_noHist": 50
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_8482",
+   "app": "com.nprpodcastplayer.app",
+   "dom_rule": 32,
+   "mlp_full": 30,
+   "mlp_noStruct": 32,
+   "mlp_noHist": 30
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_8482",
+   "app": "com.nprpodcastplayer.app",
+   "dom_rule": 130,
+   "mlp_full": 125,
+   "mlp_noStruct": 129,
+   "mlp_noHist": 126
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_8482",
+   "app": "com.nprpodcastplayer.app",
+   "dom_rule": 125,
+   "mlp_full": 118,
+   "mlp_noStruct": 125,
+   "mlp_noHist": 120
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_42624",
+   "app": "com.breakapps.breakdotcom",
+   "dom_rule": 244,
+   "mlp_full": 242,
+   "mlp_noStruct": 244,
+   "mlp_noHist": 247
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_42624",
+   "app": "com.breakapps.breakdotcom",
+   "dom_rule": 109,
+   "mlp_full": 110,
+   "mlp_noStruct": 116,
+   "mlp_noHist": 110
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_42624",
+   "app": "com.breakapps.breakdotcom",
+   "dom_rule": 62,
+   "mlp_full": 58,
+   "mlp_noStruct": 62,
+   "mlp_noHist": 60
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_42624",
+   "app": "com.breakapps.breakdotcom",
+   "dom_rule": 119,
+   "mlp_full": 117,
+   "mlp_noStruct": 121,
+   "mlp_noHist": 116
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_42624",
+   "app": "com.breakapps.breakdotcom",
+   "dom_rule": 148,
+   "mlp_full": 144,
+   "mlp_noStruct": 150,
+   "mlp_noHist": 144
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_42624",
+   "app": "com.breakapps.breakdotcom",
+   "dom_rule": 133,
+   "mlp_full": 130,
+   "mlp_noStruct": 133,
+   "mlp_noHist": 131
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_70325",
+   "app": "com.internationalrecipes.italianrecipes",
+   "dom_rule": 96,
+   "mlp_full": 93,
+   "mlp_noStruct": 97,
+   "mlp_noHist": 95
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_70325",
+   "app": "com.internationalrecipes.italianrecipes",
+   "dom_rule": 78,
+   "mlp_full": 73,
+   "mlp_noStruct": 74,
+   "mlp_noHist": 73
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_70325",
+   "app": "com.internationalrecipes.italianrecipes",
+   "dom_rule": 60,
+   "mlp_full": 58,
+   "mlp_noStruct": 62,
+   "mlp_noHist": 57
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_70325",
+   "app": "com.internationalrecipes.italianrecipes",
+   "dom_rule": 40,
+   "mlp_full": 40,
+   "mlp_noStruct": 42,
+   "mlp_noHist": 41
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_70325",
+   "app": "com.internationalrecipes.italianrecipes",
+   "dom_rule": 69,
+   "mlp_full": 66,
+   "mlp_noStruct": 70,
+   "mlp_noHist": 66
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_70325",
+   "app": "com.internationalrecipes.italianrecipes",
+   "dom_rule": 124,
+   "mlp_full": 125,
+   "mlp_noStruct": 126,
+   "mlp_noHist": 121
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49685",
+   "app": "com.westjet",
+   "dom_rule": 70,
+   "mlp_full": 67,
+   "mlp_noStruct": 74,
+   "mlp_noHist": 68
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49685",
+   "app": "com.westjet",
+   "dom_rule": 105,
+   "mlp_full": 103,
+   "mlp_noStruct": 106,
+   "mlp_noHist": 104
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49685",
+   "app": "com.westjet",
+   "dom_rule": 277,
+   "mlp_full": 276,
+   "mlp_noStruct": 277,
+   "mlp_noHist": 273
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49685",
+   "app": "com.westjet",
+   "dom_rule": 546,
+   "mlp_full": 406,
+   "mlp_noStruct": 423,
+   "mlp_noHist": 407
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49685",
+   "app": "com.westjet",
+   "dom_rule": 106,
+   "mlp_full": 101,
+   "mlp_noStruct": 103,
+   "mlp_noHist": 101
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49685",
+   "app": "com.westjet",
+   "dom_rule": 66,
+   "mlp_full": 63,
+   "mlp_noStruct": 63,
+   "mlp_noHist": 63
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_59299",
+   "app": "com.androbaby.voicechanger",
+   "dom_rule": 111,
+   "mlp_full": 103,
+   "mlp_noStruct": 97,
+   "mlp_noHist": 101
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_59299",
+   "app": "com.androbaby.voicechanger",
+   "dom_rule": 147,
+   "mlp_full": 149,
+   "mlp_noStruct": 150,
+   "mlp_noHist": 149
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_59299",
+   "app": "com.androbaby.voicechanger",
+   "dom_rule": 155,
+   "mlp_full": 158,
+   "mlp_noStruct": 157,
+   "mlp_noHist": 158
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_59299",
+   "app": "com.androbaby.voicechanger",
+   "dom_rule": 163,
+   "mlp_full": 158,
+   "mlp_noStruct": 164,
+   "mlp_noHist": 155
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_59299",
+   "app": "com.androbaby.voicechanger",
+   "dom_rule": 143,
+   "mlp_full": 138,
+   "mlp_noStruct": 140,
+   "mlp_noHist": 139
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_59299",
+   "app": "com.androbaby.voicechanger",
+   "dom_rule": 155,
+   "mlp_full": 154,
+   "mlp_noStruct": 155,
+   "mlp_noHist": 152
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_71611",
+   "app": "com.yinzcam.nfl.eagles",
+   "dom_rule": 179,
+   "mlp_full": 171,
+   "mlp_noStruct": 178,
+   "mlp_noHist": 171
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_71611",
+   "app": "com.yinzcam.nfl.eagles",
+   "dom_rule": 66,
+   "mlp_full": 54,
+   "mlp_noStruct": 58,
+   "mlp_noHist": 54
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_71611",
+   "app": "com.yinzcam.nfl.eagles",
+   "dom_rule": 379,
+   "mlp_full": 355,
+   "mlp_noStruct": 347,
+   "mlp_noHist": 358
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_71611",
+   "app": "com.yinzcam.nfl.eagles",
+   "dom_rule": 71,
+   "mlp_full": 64,
+   "mlp_noStruct": 67,
+   "mlp_noHist": 62
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_71611",
+   "app": "com.yinzcam.nfl.eagles",
+   "dom_rule": 67,
+   "mlp_full": 63,
+   "mlp_noStruct": 65,
+   "mlp_noHist": 64
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_71611",
+   "app": "com.yinzcam.nfl.eagles",
+   "dom_rule": 61,
+   "mlp_full": 51,
+   "mlp_noStruct": 60,
+   "mlp_noHist": 53
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_15124",
+   "app": "com.rarewire.forever21",
+   "dom_rule": 111,
+   "mlp_full": 110,
+   "mlp_noStruct": 114,
+   "mlp_noHist": 111
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_15124",
+   "app": "com.rarewire.forever21",
+   "dom_rule": 105,
+   "mlp_full": 102,
+   "mlp_noStruct": 111,
+   "mlp_noHist": 104
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_15124",
+   "app": "com.rarewire.forever21",
+   "dom_rule": 150,
+   "mlp_full": 148,
+   "mlp_noStruct": 149,
+   "mlp_noHist": 152
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_15124",
+   "app": "com.rarewire.forever21",
+   "dom_rule": 129,
+   "mlp_full": 127,
+   "mlp_noStruct": 133,
+   "mlp_noHist": 127
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_15124",
+   "app": "com.rarewire.forever21",
+   "dom_rule": 46,
+   "mlp_full": 42,
+   "mlp_noStruct": 46,
+   "mlp_noHist": 42
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_15124",
+   "app": "com.rarewire.forever21",
+   "dom_rule": 183,
+   "mlp_full": 185,
+   "mlp_noStruct": 187,
+   "mlp_noHist": 185
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_64206",
+   "app": "chat.anti",
+   "dom_rule": 177,
+   "mlp_full": 159,
+   "mlp_noStruct": 160,
+   "mlp_noHist": 160
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_64206",
+   "app": "chat.anti",
+   "dom_rule": 113,
+   "mlp_full": 108,
+   "mlp_noStruct": 118,
+   "mlp_noHist": 110
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_64206",
+   "app": "chat.anti",
+   "dom_rule": 493,
+   "mlp_full": 423,
+   "mlp_noStruct": 420,
+   "mlp_noHist": 419
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_64206",
+   "app": "chat.anti",
+   "dom_rule": 94,
+   "mlp_full": 89,
+   "mlp_noStruct": 95,
+   "mlp_noHist": 89
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_64206",
+   "app": "chat.anti",
+   "dom_rule": 352,
+   "mlp_full": 360,
+   "mlp_noStruct": 355,
+   "mlp_noHist": 368
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_64206",
+   "app": "chat.anti",
+   "dom_rule": 59,
+   "mlp_full": 56,
+   "mlp_noStruct": 62,
+   "mlp_noHist": 56
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_47915",
+   "app": "com.nearbyconnections.tsnearby",
+   "dom_rule": 115,
+   "mlp_full": 111,
+   "mlp_noStruct": 109,
+   "mlp_noHist": 110
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_47915",
+   "app": "com.nearbyconnections.tsnearby",
+   "dom_rule": 160,
+   "mlp_full": 159,
+   "mlp_noStruct": 157,
+   "mlp_noHist": 157
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_47915",
+   "app": "com.nearbyconnections.tsnearby",
+   "dom_rule": 232,
+   "mlp_full": 229,
+   "mlp_noStruct": 226,
+   "mlp_noHist": 227
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_47915",
+   "app": "com.nearbyconnections.tsnearby",
+   "dom_rule": 368,
+   "mlp_full": 293,
+   "mlp_noStruct": 300,
+   "mlp_noHist": 293
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_47915",
+   "app": "com.nearbyconnections.tsnearby",
+   "dom_rule": 180,
+   "mlp_full": 176,
+   "mlp_noStruct": 181,
+   "mlp_noHist": 174
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_47915",
+   "app": "com.nearbyconnections.tsnearby",
+   "dom_rule": 428,
+   "mlp_full": 365,
+   "mlp_noStruct": 373,
+   "mlp_noHist": 373
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_68423",
+   "app": "ptv.apps.foxsoccer2go",
+   "dom_rule": 160,
+   "mlp_full": 161,
+   "mlp_noStruct": 165,
+   "mlp_noHist": 157
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_68423",
+   "app": "ptv.apps.foxsoccer2go",
+   "dom_rule": 202,
+   "mlp_full": 204,
+   "mlp_noStruct": 210,
+   "mlp_noHist": 206
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_68423",
+   "app": "ptv.apps.foxsoccer2go",
+   "dom_rule": 166,
+   "mlp_full": 161,
+   "mlp_noStruct": 163,
+   "mlp_noHist": 159
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_68423",
+   "app": "ptv.apps.foxsoccer2go",
+   "dom_rule": 281,
+   "mlp_full": 285,
+   "mlp_noStruct": 289,
+   "mlp_noHist": 289
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_68423",
+   "app": "ptv.apps.foxsoccer2go",
+   "dom_rule": 333,
+   "mlp_full": 243,
+   "mlp_noStruct": 221,
+   "mlp_noHist": 326
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_68423",
+   "app": "ptv.apps.foxsoccer2go",
+   "dom_rule": 199,
+   "mlp_full": 200,
+   "mlp_noStruct": 200,
+   "mlp_noHist": 198
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_69646",
+   "app": "com.paypal.android.p2pmobile",
+   "dom_rule": 112,
+   "mlp_full": 109,
+   "mlp_noStruct": 115,
+   "mlp_noHist": 107
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_69646",
+   "app": "com.paypal.android.p2pmobile",
+   "dom_rule": 94,
+   "mlp_full": 91,
+   "mlp_noStruct": 96,
+   "mlp_noHist": 91
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_69646",
+   "app": "com.paypal.android.p2pmobile",
+   "dom_rule": 416,
+   "mlp_full": 358,
+   "mlp_noStruct": 357,
+   "mlp_noHist": 359
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_69646",
+   "app": "com.paypal.android.p2pmobile",
+   "dom_rule": 290,
+   "mlp_full": 291,
+   "mlp_noStruct": 298,
+   "mlp_noHist": 294
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_69646",
+   "app": "com.paypal.android.p2pmobile",
+   "dom_rule": 90,
+   "mlp_full": 90,
+   "mlp_noStruct": 94,
+   "mlp_noHist": 88
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_69646",
+   "app": "com.paypal.android.p2pmobile",
+   "dom_rule": 217,
+   "mlp_full": 212,
+   "mlp_noStruct": 216,
+   "mlp_noHist": 212
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_67147",
+   "app": "com.airfrance.android.dinamoprd",
+   "dom_rule": 102,
+   "mlp_full": 106,
+   "mlp_noStruct": 110,
+   "mlp_noHist": 104
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_67147",
+   "app": "com.airfrance.android.dinamoprd",
+   "dom_rule": 120,
+   "mlp_full": 122,
+   "mlp_noStruct": 125,
+   "mlp_noHist": 124
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_67147",
+   "app": "com.airfrance.android.dinamoprd",
+   "dom_rule": 237,
+   "mlp_full": 231,
+   "mlp_noStruct": 239,
+   "mlp_noHist": 234
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_67147",
+   "app": "com.airfrance.android.dinamoprd",
+   "dom_rule": 132,
+   "mlp_full": 133,
+   "mlp_noStruct": 134,
+   "mlp_noHist": 134
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_67147",
+   "app": "com.airfrance.android.dinamoprd",
+   "dom_rule": 104,
+   "mlp_full": 103,
+   "mlp_noStruct": 105,
+   "mlp_noHist": 104
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_67147",
+   "app": "com.airfrance.android.dinamoprd",
+   "dom_rule": 348,
+   "mlp_full": 358,
+   "mlp_noStruct": 353,
+   "mlp_noHist": 352
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_38961",
+   "app": "com.paypal.merchant.client",
+   "dom_rule": 355,
+   "mlp_full": 322,
+   "mlp_noStruct": 328,
+   "mlp_noHist": 323
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_38961",
+   "app": "com.paypal.merchant.client",
+   "dom_rule": 30,
+   "mlp_full": 28,
+   "mlp_noStruct": 33,
+   "mlp_noHist": 29
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_38961",
+   "app": "com.paypal.merchant.client",
+   "dom_rule": 124,
+   "mlp_full": 124,
+   "mlp_noStruct": 128,
+   "mlp_noHist": 122
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_38961",
+   "app": "com.paypal.merchant.client",
+   "dom_rule": 164,
+   "mlp_full": 163,
+   "mlp_noStruct": 166,
+   "mlp_noHist": 165
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_38961",
+   "app": "com.paypal.merchant.client",
+   "dom_rule": 218,
+   "mlp_full": 218,
+   "mlp_noStruct": 223,
+   "mlp_noHist": 214
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_38961",
+   "app": "com.paypal.merchant.client",
+   "dom_rule": 359,
+   "mlp_full": 358,
+   "mlp_noStruct": 363,
+   "mlp_noHist": 358
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_64592",
+   "app": "com.Hypnosis",
+   "dom_rule": 99,
+   "mlp_full": 97,
+   "mlp_noStruct": 99,
+   "mlp_noHist": 96
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_64592",
+   "app": "com.Hypnosis",
+   "dom_rule": 143,
+   "mlp_full": 134,
+   "mlp_noStruct": 140,
+   "mlp_noHist": 132
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_64592",
+   "app": "com.Hypnosis",
+   "dom_rule": 131,
+   "mlp_full": 121,
+   "mlp_noStruct": 124,
+   "mlp_noHist": 120
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_64592",
+   "app": "com.Hypnosis",
+   "dom_rule": 285,
+   "mlp_full": 281,
+   "mlp_noStruct": 282,
+   "mlp_noHist": 282
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_64592",
+   "app": "com.Hypnosis",
+   "dom_rule": 182,
+   "mlp_full": 176,
+   "mlp_noStruct": 191,
+   "mlp_noHist": 178
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_64592",
+   "app": "com.Hypnosis",
+   "dom_rule": 78,
+   "mlp_full": 72,
+   "mlp_noStruct": 78,
+   "mlp_noHist": 73
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_23677",
+   "app": "com.bestweatherfor.bibleoffline_pt_ra",
+   "dom_rule": 191,
+   "mlp_full": 193,
+   "mlp_noStruct": 193,
+   "mlp_noHist": 195
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_23677",
+   "app": "com.bestweatherfor.bibleoffline_pt_ra",
+   "dom_rule": 118,
+   "mlp_full": 116,
+   "mlp_noStruct": 123,
+   "mlp_noHist": 114
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_23677",
+   "app": "com.bestweatherfor.bibleoffline_pt_ra",
+   "dom_rule": 187,
+   "mlp_full": 188,
+   "mlp_noStruct": 187,
+   "mlp_noHist": 189
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_23677",
+   "app": "com.bestweatherfor.bibleoffline_pt_ra",
+   "dom_rule": 187,
+   "mlp_full": 188,
+   "mlp_noStruct": 190,
+   "mlp_noHist": 188
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_23677",
+   "app": "com.bestweatherfor.bibleoffline_pt_ra",
+   "dom_rule": 306,
+   "mlp_full": 297,
+   "mlp_noStruct": 307,
+   "mlp_noHist": 300
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_23677",
+   "app": "com.bestweatherfor.bibleoffline_pt_ra",
+   "dom_rule": 262,
+   "mlp_full": 261,
+   "mlp_noStruct": 267,
+   "mlp_noHist": 257
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_22440",
+   "app": "com.hss.msb",
+   "dom_rule": 39,
+   "mlp_full": 35,
+   "mlp_noStruct": 35,
+   "mlp_noHist": 35
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_22440",
+   "app": "com.hss.msb",
+   "dom_rule": 113,
+   "mlp_full": 109,
+   "mlp_noStruct": 114,
+   "mlp_noHist": 110
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_22440",
+   "app": "com.hss.msb",
+   "dom_rule": 42,
+   "mlp_full": 41,
+   "mlp_noStruct": 41,
+   "mlp_noHist": 40
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_22440",
+   "app": "com.hss.msb",
+   "dom_rule": 96,
+   "mlp_full": 93,
+   "mlp_noStruct": 100,
+   "mlp_noHist": 95
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_22440",
+   "app": "com.hss.msb",
+   "dom_rule": 102,
+   "mlp_full": 100,
+   "mlp_noStruct": 102,
+   "mlp_noHist": 100
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_22440",
+   "app": "com.hss.msb",
+   "dom_rule": 36,
+   "mlp_full": 31,
+   "mlp_noStruct": 33,
+   "mlp_noHist": 31
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_62205",
+   "app": "dto.ee.theory.test.genius",
+   "dom_rule": 33,
+   "mlp_full": 29,
+   "mlp_noStruct": 30,
+   "mlp_noHist": 29
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_62205",
+   "app": "dto.ee.theory.test.genius",
+   "dom_rule": 87,
+   "mlp_full": 82,
+   "mlp_noStruct": 85,
+   "mlp_noHist": 83
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_62205",
+   "app": "dto.ee.theory.test.genius",
+   "dom_rule": 193,
+   "mlp_full": 184,
+   "mlp_noStruct": 188,
+   "mlp_noHist": 187
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_62205",
+   "app": "dto.ee.theory.test.genius",
+   "dom_rule": 314,
+   "mlp_full": 313,
+   "mlp_noStruct": 317,
+   "mlp_noHist": 313
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_62205",
+   "app": "dto.ee.theory.test.genius",
+   "dom_rule": 172,
+   "mlp_full": 164,
+   "mlp_noStruct": 169,
+   "mlp_noHist": 165
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_62205",
+   "app": "dto.ee.theory.test.genius",
+   "dom_rule": 215,
+   "mlp_full": 211,
+   "mlp_noStruct": 225,
+   "mlp_noHist": 212
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_48704",
+   "app": "com.duanstar.cta",
+   "dom_rule": 159,
+   "mlp_full": 160,
+   "mlp_noStruct": 162,
+   "mlp_noHist": 159
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_48704",
+   "app": "com.duanstar.cta",
+   "dom_rule": 2329,
+   "mlp_full": 1907,
+   "mlp_noStruct": 1933,
+   "mlp_noHist": 1908
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_48704",
+   "app": "com.duanstar.cta",
+   "dom_rule": 135,
+   "mlp_full": 135,
+   "mlp_noStruct": 138,
+   "mlp_noHist": 131
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_48704",
+   "app": "com.duanstar.cta",
+   "dom_rule": 192,
+   "mlp_full": 194,
+   "mlp_noStruct": 197,
+   "mlp_noHist": 195
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_48704",
+   "app": "com.duanstar.cta",
+   "dom_rule": 229,
+   "mlp_full": 227,
+   "mlp_noStruct": 232,
+   "mlp_noHist": 225
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_48704",
+   "app": "com.duanstar.cta",
+   "dom_rule": 250,
+   "mlp_full": 239,
+   "mlp_noStruct": 250,
+   "mlp_noHist": 237
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_39855",
+   "app": "com.ics.creditcardreader",
+   "dom_rule": 145,
+   "mlp_full": 142,
+   "mlp_noStruct": 146,
+   "mlp_noHist": 142
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_39855",
+   "app": "com.ics.creditcardreader",
+   "dom_rule": 179,
+   "mlp_full": 179,
+   "mlp_noStruct": 182,
+   "mlp_noHist": 177
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_39855",
+   "app": "com.ics.creditcardreader",
+   "dom_rule": 60,
+   "mlp_full": 54,
+   "mlp_noStruct": 55,
+   "mlp_noHist": 56
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_39855",
+   "app": "com.ics.creditcardreader",
+   "dom_rule": 49,
+   "mlp_full": 44,
+   "mlp_noStruct": 49,
+   "mlp_noHist": 45
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_39855",
+   "app": "com.ics.creditcardreader",
+   "dom_rule": 138,
+   "mlp_full": 137,
+   "mlp_noStruct": 140,
+   "mlp_noHist": 137
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_39855",
+   "app": "com.ics.creditcardreader",
+   "dom_rule": 116,
+   "mlp_full": 113,
+   "mlp_noStruct": 117,
+   "mlp_noHist": 113
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_51784",
+   "app": "com.sharecare.askmd",
+   "dom_rule": 38,
+   "mlp_full": 37,
+   "mlp_noStruct": 40,
+   "mlp_noHist": 38
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_51784",
+   "app": "com.sharecare.askmd",
+   "dom_rule": 150,
+   "mlp_full": 146,
+   "mlp_noStruct": 151,
+   "mlp_noHist": 146
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_51784",
+   "app": "com.sharecare.askmd",
+   "dom_rule": 208,
+   "mlp_full": 206,
+   "mlp_noStruct": 214,
+   "mlp_noHist": 205
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_51784",
+   "app": "com.sharecare.askmd",
+   "dom_rule": 74,
+   "mlp_full": 72,
+   "mlp_noStruct": 75,
+   "mlp_noHist": 70
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_51784",
+   "app": "com.sharecare.askmd",
+   "dom_rule": 130,
+   "mlp_full": 124,
+   "mlp_noStruct": 127,
+   "mlp_noHist": 123
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_51784",
+   "app": "com.sharecare.askmd",
+   "dom_rule": 34,
+   "mlp_full": 31,
+   "mlp_noStruct": 36,
+   "mlp_noHist": 32
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_5336",
+   "app": "com.pinterest",
+   "dom_rule": 134,
+   "mlp_full": 129,
+   "mlp_noStruct": 134,
+   "mlp_noHist": 130
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_5336",
+   "app": "com.pinterest",
+   "dom_rule": 155,
+   "mlp_full": 151,
+   "mlp_noStruct": 158,
+   "mlp_noHist": 153
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_5336",
+   "app": "com.pinterest",
+   "dom_rule": 45,
+   "mlp_full": 42,
+   "mlp_noStruct": 43,
+   "mlp_noHist": 42
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_5336",
+   "app": "com.pinterest",
+   "dom_rule": 46,
+   "mlp_full": 42,
+   "mlp_noStruct": 42,
+   "mlp_noHist": 42
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_5336",
+   "app": "com.pinterest",
+   "dom_rule": 90,
+   "mlp_full": 91,
+   "mlp_noStruct": 93,
+   "mlp_noHist": 91
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_5336",
+   "app": "com.pinterest",
+   "dom_rule": 130,
+   "mlp_full": 123,
+   "mlp_noStruct": 125,
+   "mlp_noHist": 124
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_6769",
+   "app": "com.tayu.tau.pedometer",
+   "dom_rule": 80,
+   "mlp_full": 77,
+   "mlp_noStruct": 81,
+   "mlp_noHist": 79
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_6769",
+   "app": "com.tayu.tau.pedometer",
+   "dom_rule": 55,
+   "mlp_full": 53,
+   "mlp_noStruct": 55,
+   "mlp_noHist": 52
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_6769",
+   "app": "com.tayu.tau.pedometer",
+   "dom_rule": 87,
+   "mlp_full": 82,
+   "mlp_noStruct": 84,
+   "mlp_noHist": 83
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_6769",
+   "app": "com.tayu.tau.pedometer",
+   "dom_rule": 84,
+   "mlp_full": 81,
+   "mlp_noStruct": 84,
+   "mlp_noHist": 81
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_6769",
+   "app": "com.tayu.tau.pedometer",
+   "dom_rule": 112,
+   "mlp_full": 106,
+   "mlp_noStruct": 110,
+   "mlp_noHist": 103
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_6769",
+   "app": "com.tayu.tau.pedometer",
+   "dom_rule": 84,
+   "mlp_full": 81,
+   "mlp_noStruct": 84,
+   "mlp_noHist": 80
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_62668",
+   "app": "com.appsbymickey.topshayari",
+   "dom_rule": 110,
+   "mlp_full": 103,
+   "mlp_noStruct": 109,
+   "mlp_noHist": 103
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_62668",
+   "app": "com.appsbymickey.topshayari",
+   "dom_rule": 95,
+   "mlp_full": 90,
+   "mlp_noStruct": 96,
+   "mlp_noHist": 90
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_62668",
+   "app": "com.appsbymickey.topshayari",
+   "dom_rule": 72,
+   "mlp_full": 68,
+   "mlp_noStruct": 68,
+   "mlp_noHist": 69
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_62668",
+   "app": "com.appsbymickey.topshayari",
+   "dom_rule": 219,
+   "mlp_full": 213,
+   "mlp_noStruct": 218,
+   "mlp_noHist": 215
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_62668",
+   "app": "com.appsbymickey.topshayari",
+   "dom_rule": 93,
+   "mlp_full": 90,
+   "mlp_noStruct": 91,
+   "mlp_noHist": 90
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_62668",
+   "app": "com.appsbymickey.topshayari",
+   "dom_rule": 249,
+   "mlp_full": 254,
+   "mlp_noStruct": 249,
+   "mlp_noHist": 251
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_1122",
+   "app": "com.scholly.scholarshipsearch",
+   "dom_rule": 212,
+   "mlp_full": 210,
+   "mlp_noStruct": 215,
+   "mlp_noHist": 209
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_1122",
+   "app": "com.scholly.scholarshipsearch",
+   "dom_rule": 237,
+   "mlp_full": 233,
+   "mlp_noStruct": 232,
+   "mlp_noHist": 233
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_1122",
+   "app": "com.scholly.scholarshipsearch",
+   "dom_rule": 126,
+   "mlp_full": 126,
+   "mlp_noStruct": 135,
+   "mlp_noHist": 126
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_1122",
+   "app": "com.scholly.scholarshipsearch",
+   "dom_rule": 66,
+   "mlp_full": 63,
+   "mlp_noStruct": 70,
+   "mlp_noHist": 63
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_1122",
+   "app": "com.scholly.scholarshipsearch",
+   "dom_rule": 111,
+   "mlp_full": 107,
+   "mlp_noStruct": 112,
+   "mlp_noHist": 109
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_1122",
+   "app": "com.scholly.scholarshipsearch",
+   "dom_rule": 34,
+   "mlp_full": 31,
+   "mlp_noStruct": 32,
+   "mlp_noHist": 30
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_3518",
+   "app": "com.voxofon",
+   "dom_rule": 119,
+   "mlp_full": 115,
+   "mlp_noStruct": 118,
+   "mlp_noHist": 116
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_3518",
+   "app": "com.voxofon",
+   "dom_rule": 143,
+   "mlp_full": 136,
+   "mlp_noStruct": 140,
+   "mlp_noHist": 135
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_3518",
+   "app": "com.voxofon",
+   "dom_rule": 80,
+   "mlp_full": 77,
+   "mlp_noStruct": 78,
+   "mlp_noHist": 76
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_3518",
+   "app": "com.voxofon",
+   "dom_rule": 40,
+   "mlp_full": 37,
+   "mlp_noStruct": 36,
+   "mlp_noHist": 37
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_3518",
+   "app": "com.voxofon",
+   "dom_rule": 335,
+   "mlp_full": 329,
+   "mlp_noStruct": 332,
+   "mlp_noHist": 330
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_3518",
+   "app": "com.voxofon",
+   "dom_rule": 78,
+   "mlp_full": 75,
+   "mlp_noStruct": 76,
+   "mlp_noHist": 74
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_8780",
+   "app": "com.bestringtonesapps.smsringtones",
+   "dom_rule": 114,
+   "mlp_full": 111,
+   "mlp_noStruct": 120,
+   "mlp_noHist": 108
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_8780",
+   "app": "com.bestringtonesapps.smsringtones",
+   "dom_rule": 69,
+   "mlp_full": 70,
+   "mlp_noStruct": 71,
+   "mlp_noHist": 67
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_8780",
+   "app": "com.bestringtonesapps.smsringtones",
+   "dom_rule": 131,
+   "mlp_full": 129,
+   "mlp_noStruct": 135,
+   "mlp_noHist": 128
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_8780",
+   "app": "com.bestringtonesapps.smsringtones",
+   "dom_rule": 46,
+   "mlp_full": 41,
+   "mlp_noStruct": 44,
+   "mlp_noHist": 43
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_8780",
+   "app": "com.bestringtonesapps.smsringtones",
+   "dom_rule": 123,
+   "mlp_full": 120,
+   "mlp_noStruct": 122,
+   "mlp_noHist": 121
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_8780",
+   "app": "com.bestringtonesapps.smsringtones",
+   "dom_rule": 54,
+   "mlp_full": 51,
+   "mlp_noStruct": 54,
+   "mlp_noHist": 51
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_19922",
+   "app": "chat.anti",
+   "dom_rule": 117,
+   "mlp_full": 114,
+   "mlp_noStruct": 118,
+   "mlp_noHist": 114
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_19922",
+   "app": "chat.anti",
+   "dom_rule": 241,
+   "mlp_full": 239,
+   "mlp_noStruct": 245,
+   "mlp_noHist": 237
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_19922",
+   "app": "chat.anti",
+   "dom_rule": 366,
+   "mlp_full": 342,
+   "mlp_noStruct": 347,
+   "mlp_noHist": 338
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_19922",
+   "app": "chat.anti",
+   "dom_rule": 282,
+   "mlp_full": 273,
+   "mlp_noStruct": 282,
+   "mlp_noHist": 272
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_19922",
+   "app": "chat.anti",
+   "dom_rule": 157,
+   "mlp_full": 153,
+   "mlp_noStruct": 155,
+   "mlp_noHist": 152
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_19922",
+   "app": "chat.anti",
+   "dom_rule": 104,
+   "mlp_full": 101,
+   "mlp_noStruct": 104,
+   "mlp_noHist": 102
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_15204",
+   "app": "com.ayce.playcast",
+   "dom_rule": 135,
+   "mlp_full": 133,
+   "mlp_noStruct": 132,
+   "mlp_noHist": 129
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_15204",
+   "app": "com.ayce.playcast",
+   "dom_rule": 167,
+   "mlp_full": 169,
+   "mlp_noStruct": 167,
+   "mlp_noHist": 168
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_15204",
+   "app": "com.ayce.playcast",
+   "dom_rule": 409,
+   "mlp_full": 411,
+   "mlp_noStruct": 415,
+   "mlp_noHist": 411
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_15204",
+   "app": "com.ayce.playcast",
+   "dom_rule": 28,
+   "mlp_full": 25,
+   "mlp_noStruct": 25,
+   "mlp_noHist": 25
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_15204",
+   "app": "com.ayce.playcast",
+   "dom_rule": 165,
+   "mlp_full": 169,
+   "mlp_noStruct": 168,
+   "mlp_noHist": 168
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_15204",
+   "app": "com.ayce.playcast",
+   "dom_rule": 42,
+   "mlp_full": 41,
+   "mlp_noStruct": 43,
+   "mlp_noHist": 41
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_41242",
+   "app": "com.access_company.android.comicwalker",
+   "dom_rule": 49,
+   "mlp_full": 46,
+   "mlp_noStruct": 47,
+   "mlp_noHist": 46
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_41242",
+   "app": "com.access_company.android.comicwalker",
+   "dom_rule": 70,
+   "mlp_full": 68,
+   "mlp_noStruct": 71,
+   "mlp_noHist": 68
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_41242",
+   "app": "com.access_company.android.comicwalker",
+   "dom_rule": 69,
+   "mlp_full": 67,
+   "mlp_noStruct": 67,
+   "mlp_noHist": 66
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_41242",
+   "app": "com.access_company.android.comicwalker",
+   "dom_rule": 49,
+   "mlp_full": 48,
+   "mlp_noStruct": 50,
+   "mlp_noHist": 48
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_41242",
+   "app": "com.access_company.android.comicwalker",
+   "dom_rule": 238,
+   "mlp_full": 238,
+   "mlp_noStruct": 240,
+   "mlp_noHist": 238
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_41242",
+   "app": "com.access_company.android.comicwalker",
+   "dom_rule": 265,
+   "mlp_full": 266,
+   "mlp_noStruct": 267,
+   "mlp_noHist": 268
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_32523",
+   "app": "com.icemediacreative.timetable",
+   "dom_rule": 35,
+   "mlp_full": 33,
+   "mlp_noStruct": 34,
+   "mlp_noHist": 32
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_32523",
+   "app": "com.icemediacreative.timetable",
+   "dom_rule": 27,
+   "mlp_full": 25,
+   "mlp_noStruct": 25,
+   "mlp_noHist": 25
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_32523",
+   "app": "com.icemediacreative.timetable",
+   "dom_rule": 39,
+   "mlp_full": 35,
+   "mlp_noStruct": 36,
+   "mlp_noHist": 35
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_32523",
+   "app": "com.icemediacreative.timetable",
+   "dom_rule": 54,
+   "mlp_full": 48,
+   "mlp_noStruct": 51,
+   "mlp_noHist": 47
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_32523",
+   "app": "com.icemediacreative.timetable",
+   "dom_rule": 32,
+   "mlp_full": 28,
+   "mlp_noStruct": 32,
+   "mlp_noHist": 29
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_32523",
+   "app": "com.icemediacreative.timetable",
+   "dom_rule": 36,
+   "mlp_full": 34,
+   "mlp_noStruct": 37,
+   "mlp_noHist": 34
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_20005",
+   "app": "com.yelp.android",
+   "dom_rule": 126,
+   "mlp_full": 120,
+   "mlp_noStruct": 122,
+   "mlp_noHist": 124
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_20005",
+   "app": "com.yelp.android",
+   "dom_rule": 131,
+   "mlp_full": 129,
+   "mlp_noStruct": 131,
+   "mlp_noHist": 130
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_20005",
+   "app": "com.yelp.android",
+   "dom_rule": 129,
+   "mlp_full": 128,
+   "mlp_noStruct": 128,
+   "mlp_noHist": 128
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_20005",
+   "app": "com.yelp.android",
+   "dom_rule": 110,
+   "mlp_full": 111,
+   "mlp_noStruct": 113,
+   "mlp_noHist": 110
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_20005",
+   "app": "com.yelp.android",
+   "dom_rule": 56,
+   "mlp_full": 54,
+   "mlp_noStruct": 53,
+   "mlp_noHist": 54
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_20005",
+   "app": "com.yelp.android",
+   "dom_rule": 142,
+   "mlp_full": 138,
+   "mlp_noStruct": 144,
+   "mlp_noHist": 138
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49368",
+   "app": "yourapp24.android.tools.alice_lite",
+   "dom_rule": 64,
+   "mlp_full": 59,
+   "mlp_noStruct": 62,
+   "mlp_noHist": 61
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49368",
+   "app": "yourapp24.android.tools.alice_lite",
+   "dom_rule": 152,
+   "mlp_full": 147,
+   "mlp_noStruct": 156,
+   "mlp_noHist": 148
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49368",
+   "app": "yourapp24.android.tools.alice_lite",
+   "dom_rule": 89,
+   "mlp_full": 82,
+   "mlp_noStruct": 78,
+   "mlp_noHist": 81
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49368",
+   "app": "yourapp24.android.tools.alice_lite",
+   "dom_rule": 57,
+   "mlp_full": 54,
+   "mlp_noStruct": 54,
+   "mlp_noHist": 53
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49368",
+   "app": "yourapp24.android.tools.alice_lite",
+   "dom_rule": 143,
+   "mlp_full": 137,
+   "mlp_noStruct": 144,
+   "mlp_noHist": 139
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49368",
+   "app": "yourapp24.android.tools.alice_lite",
+   "dom_rule": 121,
+   "mlp_full": 121,
+   "mlp_noStruct": 128,
+   "mlp_noHist": 121
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_43660",
+   "app": "com.thirtymatches.vineflow",
+   "dom_rule": 420,
+   "mlp_full": 418,
+   "mlp_noStruct": 425,
+   "mlp_noHist": 423
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_43660",
+   "app": "com.thirtymatches.vineflow",
+   "dom_rule": 88,
+   "mlp_full": 84,
+   "mlp_noStruct": 86,
+   "mlp_noHist": 84
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_43660",
+   "app": "com.thirtymatches.vineflow",
+   "dom_rule": 158,
+   "mlp_full": 156,
+   "mlp_noStruct": 160,
+   "mlp_noHist": 160
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_43660",
+   "app": "com.thirtymatches.vineflow",
+   "dom_rule": 220,
+   "mlp_full": 217,
+   "mlp_noStruct": 223,
+   "mlp_noHist": 214
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_43660",
+   "app": "com.thirtymatches.vineflow",
+   "dom_rule": 144,
+   "mlp_full": 143,
+   "mlp_noStruct": 147,
+   "mlp_noHist": 142
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_43660",
+   "app": "com.thirtymatches.vineflow",
+   "dom_rule": 370,
+   "mlp_full": 376,
+   "mlp_noStruct": 388,
+   "mlp_noHist": 378
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_52721",
+   "app": "com.passportparking.mobile.parkdetroit",
+   "dom_rule": 47,
+   "mlp_full": 44,
+   "mlp_noStruct": 47,
+   "mlp_noHist": 45
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_52721",
+   "app": "com.passportparking.mobile.parkdetroit",
+   "dom_rule": 90,
+   "mlp_full": 84,
+   "mlp_noStruct": 86,
+   "mlp_noHist": 85
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_52721",
+   "app": "com.passportparking.mobile.parkdetroit",
+   "dom_rule": 115,
+   "mlp_full": 111,
+   "mlp_noStruct": 115,
+   "mlp_noHist": 114
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_52721",
+   "app": "com.passportparking.mobile.parkdetroit",
+   "dom_rule": 106,
+   "mlp_full": 101,
+   "mlp_noStruct": 105,
+   "mlp_noHist": 102
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_52721",
+   "app": "com.passportparking.mobile.parkdetroit",
+   "dom_rule": 241,
+   "mlp_full": 238,
+   "mlp_noStruct": 238,
+   "mlp_noHist": 236
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_52721",
+   "app": "com.passportparking.mobile.parkdetroit",
+   "dom_rule": 105,
+   "mlp_full": 104,
+   "mlp_noStruct": 106,
+   "mlp_noHist": 104
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_46795",
+   "app": "com.fifthfinger.clients.joann",
+   "dom_rule": 111,
+   "mlp_full": 98,
+   "mlp_noStruct": 104,
+   "mlp_noHist": 102
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_46795",
+   "app": "com.fifthfinger.clients.joann",
+   "dom_rule": 129,
+   "mlp_full": 124,
+   "mlp_noStruct": 134,
+   "mlp_noHist": 124
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_46795",
+   "app": "com.fifthfinger.clients.joann",
+   "dom_rule": 178,
+   "mlp_full": 165,
+   "mlp_noStruct": 172,
+   "mlp_noHist": 165
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_46795",
+   "app": "com.fifthfinger.clients.joann",
+   "dom_rule": 162,
+   "mlp_full": 152,
+   "mlp_noStruct": 165,
+   "mlp_noHist": 148
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_46795",
+   "app": "com.fifthfinger.clients.joann",
+   "dom_rule": 187,
+   "mlp_full": 185,
+   "mlp_noStruct": 194,
+   "mlp_noHist": 187
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_46795",
+   "app": "com.fifthfinger.clients.joann",
+   "dom_rule": 298,
+   "mlp_full": 297,
+   "mlp_noStruct": 309,
+   "mlp_noHist": 298
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_14815",
+   "app": "com.harman.jblmusicflow",
+   "dom_rule": 256,
+   "mlp_full": 258,
+   "mlp_noStruct": 253,
+   "mlp_noHist": 257
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_14815",
+   "app": "com.harman.jblmusicflow",
+   "dom_rule": 305,
+   "mlp_full": 303,
+   "mlp_noStruct": 320,
+   "mlp_noHist": 301
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_14815",
+   "app": "com.harman.jblmusicflow",
+   "dom_rule": 190,
+   "mlp_full": 188,
+   "mlp_noStruct": 187,
+   "mlp_noHist": 190
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_14815",
+   "app": "com.harman.jblmusicflow",
+   "dom_rule": 399,
+   "mlp_full": 376,
+   "mlp_noStruct": 380,
+   "mlp_noHist": 373
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_14815",
+   "app": "com.harman.jblmusicflow",
+   "dom_rule": 228,
+   "mlp_full": 221,
+   "mlp_noStruct": 233,
+   "mlp_noHist": 222
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_14815",
+   "app": "com.harman.jblmusicflow",
+   "dom_rule": 268,
+   "mlp_full": 269,
+   "mlp_noStruct": 280,
+   "mlp_noHist": 270
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_47830",
+   "app": "uk.co.appsunlimited.wikiapp",
+   "dom_rule": 272,
+   "mlp_full": 267,
+   "mlp_noStruct": 279,
+   "mlp_noHist": 268
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_47830",
+   "app": "uk.co.appsunlimited.wikiapp",
+   "dom_rule": 284,
+   "mlp_full": 278,
+   "mlp_noStruct": 281,
+   "mlp_noHist": 279
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_47830",
+   "app": "uk.co.appsunlimited.wikiapp",
+   "dom_rule": 77,
+   "mlp_full": 76,
+   "mlp_noStruct": 75,
+   "mlp_noHist": 75
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_47830",
+   "app": "uk.co.appsunlimited.wikiapp",
+   "dom_rule": 100,
+   "mlp_full": 98,
+   "mlp_noStruct": 105,
+   "mlp_noHist": 98
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_47830",
+   "app": "uk.co.appsunlimited.wikiapp",
+   "dom_rule": 409,
+   "mlp_full": 421,
+   "mlp_noStruct": 416,
+   "mlp_noHist": 428
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_47830",
+   "app": "uk.co.appsunlimited.wikiapp",
+   "dom_rule": 119,
+   "mlp_full": 120,
+   "mlp_noStruct": 121,
+   "mlp_noHist": 118
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49981",
+   "app": "ru.mail.love",
+   "dom_rule": 69,
+   "mlp_full": 64,
+   "mlp_noStruct": 68,
+   "mlp_noHist": 67
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49981",
+   "app": "ru.mail.love",
+   "dom_rule": 45,
+   "mlp_full": 44,
+   "mlp_noStruct": 44,
+   "mlp_noHist": 44
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49981",
+   "app": "ru.mail.love",
+   "dom_rule": 78,
+   "mlp_full": 71,
+   "mlp_noStruct": 72,
+   "mlp_noHist": 70
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49981",
+   "app": "ru.mail.love",
+   "dom_rule": 99,
+   "mlp_full": 100,
+   "mlp_noStruct": 104,
+   "mlp_noHist": 99
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49981",
+   "app": "ru.mail.love",
+   "dom_rule": 83,
+   "mlp_full": 71,
+   "mlp_noStruct": 78,
+   "mlp_noHist": 72
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49981",
+   "app": "ru.mail.love",
+   "dom_rule": 77,
+   "mlp_full": 75,
+   "mlp_noStruct": 77,
+   "mlp_noHist": 74
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_1213",
+   "app": "com.opera.android.browser",
+   "dom_rule": 68,
+   "mlp_full": 66,
+   "mlp_noStruct": 70,
+   "mlp_noHist": 65
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_1213",
+   "app": "com.opera.android.browser",
+   "dom_rule": 392,
+   "mlp_full": 381,
+   "mlp_noStruct": 384,
+   "mlp_noHist": 377
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_1213",
+   "app": "com.opera.android.browser",
+   "dom_rule": 186,
+   "mlp_full": 175,
+   "mlp_noStruct": 178,
+   "mlp_noHist": 174
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_1213",
+   "app": "com.opera.android.browser",
+   "dom_rule": 144,
+   "mlp_full": 137,
+   "mlp_noStruct": 138,
+   "mlp_noHist": 135
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_1213",
+   "app": "com.opera.android.browser",
+   "dom_rule": 87,
+   "mlp_full": 84,
+   "mlp_noStruct": 86,
+   "mlp_noHist": 83
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_1213",
+   "app": "com.opera.android.browser",
+   "dom_rule": 102,
+   "mlp_full": 100,
+   "mlp_noStruct": 103,
+   "mlp_noHist": 103
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_29922",
+   "app": "com.sparkpeople.androidtracker",
+   "dom_rule": 237,
+   "mlp_full": 230,
+   "mlp_noStruct": 239,
+   "mlp_noHist": 228
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_29922",
+   "app": "com.sparkpeople.androidtracker",
+   "dom_rule": 294,
+   "mlp_full": 287,
+   "mlp_noStruct": 281,
+   "mlp_noHist": 290
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_29922",
+   "app": "com.sparkpeople.androidtracker",
+   "dom_rule": 177,
+   "mlp_full": 173,
+   "mlp_noStruct": 179,
+   "mlp_noHist": 173
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_29922",
+   "app": "com.sparkpeople.androidtracker",
+   "dom_rule": 117,
+   "mlp_full": 113,
+   "mlp_noStruct": 117,
+   "mlp_noHist": 113
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_29922",
+   "app": "com.sparkpeople.androidtracker",
+   "dom_rule": 173,
+   "mlp_full": 165,
+   "mlp_noStruct": 175,
+   "mlp_noHist": 167
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_29922",
+   "app": "com.sparkpeople.androidtracker",
+   "dom_rule": 90,
+   "mlp_full": 87,
+   "mlp_noStruct": 90,
+   "mlp_noHist": 86
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_43072",
+   "app": "mobi.beyondpod",
+   "dom_rule": 91,
+   "mlp_full": 88,
+   "mlp_noStruct": 95,
+   "mlp_noHist": 89
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_43072",
+   "app": "mobi.beyondpod",
+   "dom_rule": 140,
+   "mlp_full": 132,
+   "mlp_noStruct": 133,
+   "mlp_noHist": 132
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_43072",
+   "app": "mobi.beyondpod",
+   "dom_rule": 128,
+   "mlp_full": 115,
+   "mlp_noStruct": 118,
+   "mlp_noHist": 116
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_43072",
+   "app": "mobi.beyondpod",
+   "dom_rule": 108,
+   "mlp_full": 108,
+   "mlp_noStruct": 106,
+   "mlp_noHist": 107
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_43072",
+   "app": "mobi.beyondpod",
+   "dom_rule": 148,
+   "mlp_full": 145,
+   "mlp_noStruct": 153,
+   "mlp_noHist": 147
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_43072",
+   "app": "mobi.beyondpod",
+   "dom_rule": 118,
+   "mlp_full": 115,
+   "mlp_noStruct": 120,
+   "mlp_noHist": 115
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_37095",
+   "app": "com.commonfloor",
+   "dom_rule": 82,
+   "mlp_full": 78,
+   "mlp_noStruct": 81,
+   "mlp_noHist": 79
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_37095",
+   "app": "com.commonfloor",
+   "dom_rule": 115,
+   "mlp_full": 110,
+   "mlp_noStruct": 113,
+   "mlp_noHist": 111
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_37095",
+   "app": "com.commonfloor",
+   "dom_rule": 157,
+   "mlp_full": 161,
+   "mlp_noStruct": 156,
+   "mlp_noHist": 155
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_37095",
+   "app": "com.commonfloor",
+   "dom_rule": 161,
+   "mlp_full": 165,
+   "mlp_noStruct": 161,
+   "mlp_noHist": 162
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_37095",
+   "app": "com.commonfloor",
+   "dom_rule": 111,
+   "mlp_full": 105,
+   "mlp_noStruct": 108,
+   "mlp_noHist": 106
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_37095",
+   "app": "com.commonfloor",
+   "dom_rule": 111,
+   "mlp_full": 107,
+   "mlp_noStruct": 109,
+   "mlp_noHist": 106
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_37325",
+   "app": "com.bloomberg.android.plus",
+   "dom_rule": 303,
+   "mlp_full": 303,
+   "mlp_noStruct": 306,
+   "mlp_noHist": 303
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_37325",
+   "app": "com.bloomberg.android.plus",
+   "dom_rule": 389,
+   "mlp_full": 372,
+   "mlp_noStruct": 373,
+   "mlp_noHist": 375
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_37325",
+   "app": "com.bloomberg.android.plus",
+   "dom_rule": 98,
+   "mlp_full": 96,
+   "mlp_noStruct": 104,
+   "mlp_noHist": 94
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_37325",
+   "app": "com.bloomberg.android.plus",
+   "dom_rule": 242,
+   "mlp_full": 246,
+   "mlp_noStruct": 247,
+   "mlp_noHist": 244
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_37325",
+   "app": "com.bloomberg.android.plus",
+   "dom_rule": 200,
+   "mlp_full": 198,
+   "mlp_noStruct": 205,
+   "mlp_noHist": 196
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_37325",
+   "app": "com.bloomberg.android.plus",
+   "dom_rule": 162,
+   "mlp_full": 160,
+   "mlp_noStruct": 159,
+   "mlp_noHist": 161
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49809",
+   "app": "com.rail.time",
+   "dom_rule": 266,
+   "mlp_full": 269,
+   "mlp_noStruct": 273,
+   "mlp_noHist": 268
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49809",
+   "app": "com.rail.time",
+   "dom_rule": 126,
+   "mlp_full": 120,
+   "mlp_noStruct": 123,
+   "mlp_noHist": 122
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49809",
+   "app": "com.rail.time",
+   "dom_rule": 201,
+   "mlp_full": 201,
+   "mlp_noStruct": 205,
+   "mlp_noHist": 202
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49809",
+   "app": "com.rail.time",
+   "dom_rule": 112,
+   "mlp_full": 113,
+   "mlp_noStruct": 113,
+   "mlp_noHist": 113
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49809",
+   "app": "com.rail.time",
+   "dom_rule": 94,
+   "mlp_full": 94,
+   "mlp_noStruct": 97,
+   "mlp_noHist": 91
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_49809",
+   "app": "com.rail.time",
+   "dom_rule": 236,
+   "mlp_full": 233,
+   "mlp_noStruct": 239,
+   "mlp_noHist": 233
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_60641",
+   "app": "au.com.penguinapps.android.babyfeeding.client.android",
+   "dom_rule": 89,
+   "mlp_full": 84,
+   "mlp_noStruct": 84,
+   "mlp_noHist": 82
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_60641",
+   "app": "au.com.penguinapps.android.babyfeeding.client.android",
+   "dom_rule": 65,
+   "mlp_full": 63,
+   "mlp_noStruct": 64,
+   "mlp_noHist": 65
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_60641",
+   "app": "au.com.penguinapps.android.babyfeeding.client.android",
+   "dom_rule": 97,
+   "mlp_full": 93,
+   "mlp_noStruct": 98,
+   "mlp_noHist": 93
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_60641",
+   "app": "au.com.penguinapps.android.babyfeeding.client.android",
+   "dom_rule": 80,
+   "mlp_full": 75,
+   "mlp_noStruct": 79,
+   "mlp_noHist": 75
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_60641",
+   "app": "au.com.penguinapps.android.babyfeeding.client.android",
+   "dom_rule": 39,
+   "mlp_full": 36,
+   "mlp_noStruct": 39,
+   "mlp_noHist": 35
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_60641",
+   "app": "au.com.penguinapps.android.babyfeeding.client.android",
+   "dom_rule": 108,
+   "mlp_full": 109,
+   "mlp_noStruct": 107,
+   "mlp_noHist": 108
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_43630",
+   "app": "com.freeosk.freeosk",
+   "dom_rule": 360,
+   "mlp_full": 295,
+   "mlp_noStruct": 298,
+   "mlp_noHist": 292
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_43630",
+   "app": "com.freeosk.freeosk",
+   "dom_rule": 337,
+   "mlp_full": 332,
+   "mlp_noStruct": 336,
+   "mlp_noHist": 332
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_43630",
+   "app": "com.freeosk.freeosk",
+   "dom_rule": 291,
+   "mlp_full": 297,
+   "mlp_noStruct": 297,
+   "mlp_noHist": 292
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_43630",
+   "app": "com.freeosk.freeosk",
+   "dom_rule": 240,
+   "mlp_full": 244,
+   "mlp_noStruct": 240,
+   "mlp_noHist": 244
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_43630",
+   "app": "com.freeosk.freeosk",
+   "dom_rule": 272,
+   "mlp_full": 276,
+   "mlp_noStruct": 280,
+   "mlp_noHist": 272
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_43630",
+   "app": "com.freeosk.freeosk",
+   "dom_rule": 163,
+   "mlp_full": 165,
+   "mlp_noStruct": 167,
+   "mlp_noHist": 166
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_68631",
+   "app": "com.coupons.ciapp",
+   "dom_rule": 144,
+   "mlp_full": 137,
+   "mlp_noStruct": 142,
+   "mlp_noHist": 139
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_68631",
+   "app": "com.coupons.ciapp",
+   "dom_rule": 126,
+   "mlp_full": 125,
+   "mlp_noStruct": 130,
+   "mlp_noHist": 126
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_68631",
+   "app": "com.coupons.ciapp",
+   "dom_rule": 111,
+   "mlp_full": 113,
+   "mlp_noStruct": 114,
+   "mlp_noHist": 112
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_68631",
+   "app": "com.coupons.ciapp",
+   "dom_rule": 112,
+   "mlp_full": 109,
+   "mlp_noStruct": 110,
+   "mlp_noHist": 106
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_68631",
+   "app": "com.coupons.ciapp",
+   "dom_rule": 106,
+   "mlp_full": 106,
+   "mlp_noStruct": 108,
+   "mlp_noHist": 106
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_68631",
+   "app": "com.coupons.ciapp",
+   "dom_rule": 60,
+   "mlp_full": 54,
+   "mlp_noStruct": 59,
+   "mlp_noHist": 57
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_17423",
+   "app": "net.hubalek.android.apps.barometer",
+   "dom_rule": 101,
+   "mlp_full": 99,
+   "mlp_noStruct": 101,
+   "mlp_noHist": 98
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_17423",
+   "app": "net.hubalek.android.apps.barometer",
+   "dom_rule": 114,
+   "mlp_full": 122,
+   "mlp_noStruct": 124,
+   "mlp_noHist": 119
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_17423",
+   "app": "net.hubalek.android.apps.barometer",
+   "dom_rule": 149,
+   "mlp_full": 146,
+   "mlp_noStruct": 149,
+   "mlp_noHist": 143
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_17423",
+   "app": "net.hubalek.android.apps.barometer",
+   "dom_rule": 105,
+   "mlp_full": 98,
+   "mlp_noStruct": 103,
+   "mlp_noHist": 98
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_17423",
+   "app": "net.hubalek.android.apps.barometer",
+   "dom_rule": 329,
+   "mlp_full": 327,
+   "mlp_noStruct": 325,
+   "mlp_noHist": 322
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_17423",
+   "app": "net.hubalek.android.apps.barometer",
+   "dom_rule": 105,
+   "mlp_full": 100,
+   "mlp_noStruct": 104,
+   "mlp_noHist": 102
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_29951",
+   "app": "com.ak.app.firehouse.activity",
+   "dom_rule": 94,
+   "mlp_full": 89,
+   "mlp_noStruct": 89,
+   "mlp_noHist": 88
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_29951",
+   "app": "com.ak.app.firehouse.activity",
+   "dom_rule": 91,
+   "mlp_full": 82,
+   "mlp_noStruct": 86,
+   "mlp_noHist": 85
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_29951",
+   "app": "com.ak.app.firehouse.activity",
+   "dom_rule": 74,
+   "mlp_full": 69,
+   "mlp_noStruct": 71,
+   "mlp_noHist": 69
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_29951",
+   "app": "com.ak.app.firehouse.activity",
+   "dom_rule": 45,
+   "mlp_full": 39,
+   "mlp_noStruct": 38,
+   "mlp_noHist": 39
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_29951",
+   "app": "com.ak.app.firehouse.activity",
+   "dom_rule": 67,
+   "mlp_full": 64,
+   "mlp_noStruct": 67,
+   "mlp_noHist": 64
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_29951",
+   "app": "com.ak.app.firehouse.activity",
+   "dom_rule": 48,
+   "mlp_full": 46,
+   "mlp_noStruct": 47,
+   "mlp_noHist": 46
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_53519",
+   "app": "com.mobile.android.chargers",
+   "dom_rule": 238,
+   "mlp_full": 230,
+   "mlp_noStruct": 239,
+   "mlp_noHist": 229
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_53519",
+   "app": "com.mobile.android.chargers",
+   "dom_rule": 167,
+   "mlp_full": 157,
+   "mlp_noStruct": 163,
+   "mlp_noHist": 157
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_53519",
+   "app": "com.mobile.android.chargers",
+   "dom_rule": 90,
+   "mlp_full": 85,
+   "mlp_noStruct": 93,
+   "mlp_noHist": 84
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_53519",
+   "app": "com.mobile.android.chargers",
+   "dom_rule": 63,
+   "mlp_full": 59,
+   "mlp_noStruct": 61,
+   "mlp_noHist": 56
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_53519",
+   "app": "com.mobile.android.chargers",
+   "dom_rule": 94,
+   "mlp_full": 90,
+   "mlp_noStruct": 97,
+   "mlp_noHist": 91
+  },
+  {
+   "set": "cands6",
+   "id": "s2w_53519",
+   "app": "com.mobile.android.chargers",
+   "dom_rule": 123,
+   "mlp_full": 122,
+   "mlp_noStruct": 124,
+   "mlp_noHist": 122
+  }
+ ]
+}

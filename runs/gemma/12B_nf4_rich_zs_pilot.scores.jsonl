@@ -1,0 +1,10 @@
+{"extracted": true, "render_ok": true, "elem_p": 0.5555555555555556, "elem_r": 1.0, "elem_f1": 0.7142857142857143, "type_f1": 1.0, "text_recall": 1.0, "n_pred_elems": 9, "js_errors": 0, "id": "s2w_8482"}
+{"extracted": true, "render_ok": true, "elem_p": 0.8181818181818182, "elem_r": 1.0, "elem_f1": 0.9, "type_f1": 0.8571428571428571, "text_recall": 1.0, "n_pred_elems": 11, "js_errors": 0, "id": "s2w_42624"}
+{"extracted": true, "render_ok": true, "elem_p": 0.6, "elem_r": 1.0, "elem_f1": 0.7499999999999999, "type_f1": 0.888888888888889, "text_recall": 1.0, "n_pred_elems": 15, "js_errors": 0, "id": "s2w_70325"}
+{"extracted": true, "render_ok": true, "elem_p": 0.4666666666666667, "elem_r": 0.7777777777777778, "elem_f1": 0.5833333333333334, "type_f1": 0.8571428571428571, "text_recall": 1.0, "n_pred_elems": 30, "js_errors": 0, "id": "s2w_49685"}
+{"extracted": true, "render_ok": true, "elem_p": 0.8, "elem_r": 0.5, "elem_f1": 0.6153846153846154, "type_f1": 0.4, "text_recall": 0.8, "n_pred_elems": 5, "js_errors": 0, "id": "s2w_59299"}
+{"extracted": true, "render_ok": true, "elem_p": 0.38461538461538464, "elem_r": 0.7894736842105263, "elem_f1": 0.5172413793103449, "type_f1": 0.7692307692307692, "text_recall": 1.0, "n_pred_elems": 39, "js_errors": 0, "id": "s2w_71611"}
+{"extracted": true, "render_ok": true, "elem_p": 0.7222222222222222, "elem_r": 0.8666666666666667, "elem_f1": 0.7878787878787877, "type_f1": 0.6666666666666665, "text_recall": 1.0, "n_pred_elems": 18, "js_errors": 0, "id": "s2w_15124"}
+{"extracted": true, "render_ok": true, "elem_p": 0.7647058823529411, "elem_r": 0.6666666666666666, "elem_f1": 0.7123287671232877, "type_f1": 0.8, "text_recall": 0.9333333333333333, "n_pred_elems": 34, "js_errors": 0, "id": "s2w_64206"}
+{"extracted": true, "render_ok": true, "elem_p": 0.625, "elem_r": 1.0, "elem_f1": 0.7692307692307693, "type_f1": 0.7499999999999999, "text_recall": 1.0, "n_pred_elems": 8, "js_errors": 0, "id": "s2w_47915"}
+{"extracted": true, "render_ok": true, "elem_p": 0.5, "elem_r": 0.022727272727272728, "elem_f1": 0.04347826086956522, "type_f1": 0.4, "text_recall": 0.1, "n_pred_elems": 2, "js_errors": 0, "id": "s2w_68423"}

@@ -1,0 +1,12 @@
+[01:14:00] waiting for gate2b
+[01:21:32] start fmt
+[02:02:36] fmt rc=0
+[02:02:37] start css
+[02:03:39] css rc=127
+[02:03:39] start dom
+[02:20:52] dom rc=0
+[02:20:52] start cls
+[02:37:53] cls rc=0
+[02:37:55] analyze done
+[02:38:03] eval rc=0
+[02:38:03] p1A done

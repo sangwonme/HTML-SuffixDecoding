@@ -1,0 +1,24 @@
+[02:09:11] queue waiting for p1A chain (dom, cls)
+[02:38:04] GPU start P1-A css
+[02:59:59] P1-A css rc=0
+[03:00:00] P1-A complete (4 transforms)
+[03:00:00] GPU YIELD to Parkinson (waiting for ../.gpu_parkinson_done, max 45 min)
+[03:00:51] CPU analyses (eval, cause dom/cls/css) done
+[03:04:41] Parkinson done signal
+[03:04:41] GPU RESUME
+[03:04:41] GPU start P1-B fmt
+[03:25:37] P1-B fmt rc=0
+[03:25:37] GPU start P1-B css
+[03:55:09] P1-B css rc=0
+[03:55:10] GPU start P1-B dom
+[04:10:20] P1-B dom rc=0
+[04:10:21] GPU start P1-B cls
+[04:26:06] P1-B cls rc=0
+[04:26:07] P1-B complete
+[04:26:07] GPU start E(i) train150 PLD
+[04:41:17] E(i) rc=0 -> runs/poc/E/train150/E2B_pld.jsonl (for study retraining)
+[04:41:17] GPU idle: waiting for runs/study/ranker_mlp_trainsplit.npz
+[04:43:27] GPU start E(ii) test100
+[05:09:25] E(ii) rc=0
+[05:09:25] GPU released (queue finished)
+[05:09:26] queue done

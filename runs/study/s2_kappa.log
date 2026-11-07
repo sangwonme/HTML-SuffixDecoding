@@ -1,0 +1,7 @@
+E2B_nf4_short_zs {'eta_L1': 0.109, 'eta_L2': 0.324, 'k1_L1_rate': 1.0, 'k1_L2_rate': 1.0, 'k2_L2_rate': 1.0, 'k2_L3d2_rate': 0.9, 'k2_D4_max': 0.011}
+E2B_nf4_rich_zs {'eta_L1': 0.134, 'eta_L2': 0.346, 'k1_L1_rate': 1.0, 'k1_L2_rate': 1.0, 'k2_L2_rate': 1.0, 'k2_L3d2_rate': 1.0, 'k2_D4_max': 0.0}
+E4B_nf4_rich_zs {'eta_L1': 0.124, 'eta_L2': 0.347, 'k1_L1_rate': 1.0, 'k1_L2_rate': 1.0, 'k2_L2_rate': 1.0, 'k2_L3d2_rate': 0.8, 'k2_D4_max': 0.004}
+12B_nf4_rich_zs {'eta_L1': 0.08, 'eta_L2': 0.281, 'k1_L1_rate': 0.8, 'k1_L2_rate': 0.8, 'k2_L2_rate': 0.8, 'k2_L3d2_rate': 0.8, 'k2_D4_max': 0.006}
+E2B_nf4_rich_fs {'eta_L1': 0.001, 'eta_L2': 0.144, 'k1_L1_rate': 1.0, 'k1_L2_rate': 1.0, 'k2_L2_rate': 1.0, 'k2_L3d2_rate': 1.0, 'k2_D4_max': 0.0}
+E4B_nf4_rich_fs {'eta_L1': 0.001, 'eta_L2': 0.132, 'k1_L1_rate': 0.9, 'k1_L2_rate': 0.9, 'k2_L2_rate': 0.9, 'k2_L3d2_rate': 0.9, 'k2_D4_max': 0.066}
+12B_nf4_rich_fs {'eta_L1': 0.068, 'eta_L2': 0.252, 'k1_L1_rate': 0.9, 'k1_L2_rate': 0.9, 'k2_L2_rate': 0.9, 'k2_L3d2_rate': 0.9, 'k2_D4_max': 0.02}

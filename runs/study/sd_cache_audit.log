@@ -1,0 +1,19 @@
+audit {'test_requests': 174, 'same_id_in_cache': 0, 'same_app_in_cache': 0, 'identical_output_in_cache': 0}
+crossfit fold 0 27s
+crossfit fold 1 52s
+crossfit fold 2 80s
+crossfit fold 3 101s
+crossfit fold 4 128s
+serving seed 0 457s
+serving seed 1 840s
+serving seed 2 1194s
+{"n": 114, "std": 134.21, "sd_local_f1": 153.01, "sd_f1": 109.3, "sd_f16": 94.88, "sdl_f16": 92.45, "sd_f1_masked": 115.77, "sd_f16_masked": 101.95, "serve_excl_same_id_f1": 120.06, "serve_excl_same_id_f16": 103.01, "serve_excl_same_app_f1": 120.08, "serve_excl_same_app_f16": 103.06, "oracle_sd_cands_f16": 80.47, "oracle_local": 74.46, "oracle_local_plus_global": 46.91, "sd_gain_retained_after_mask_f16": 0.82, "serve_first_third_f16_minus_crossfit": 15.78, "serve_last_third_f16_minus_crossfit": 2.37}
+   sd_f16_masked_minus_sd_f16 7.07 6.0 [6.08, 8.11]
+   sd_f1_masked_minus_sd_f1 6.47 6.0 [5.46, 7.52]
+   serve_excl_same_id_f16_minus_sd_f16 8.14 3.6666666666666714 [5.51, 11.34]
+   serve_excl_same_app_f16_minus_sd_f16 8.19 3.6666666666666714 [5.55, 11.38]
+   std_minus_sd_f16 39.33 21.0 [29.24, 50.41]
+   std_minus_sd_f16_masked 32.26 12.0 [22.31, 43.1]
+   std_minus_serve_excl_same_app_f16 31.15 16.166666666666664 [22.82, 40.76]
+   sd_f16_minus_oracle_sd_cands_f16 14.4 11.0 [12.43, 16.54]
+   oracle_local_minus_oracle_local_plus_global 27.55 15.0 [21.24, 34.7]

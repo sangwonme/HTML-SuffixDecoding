@@ -1,0 +1,10 @@
+\usepackage[margin=2.2cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs,graphicx,xcolor,enumitem,caption}
+\usepackage[hidelinks]{hyperref}
+\usepackage{float}
+\captionsetup{font=small}
+\setlength{\parskip}{3pt}
+\newcommand{\pend}[1]{\textcolor{red}{\textbf{[#1]}}}
+\newsavebox{\claimsave}
+\newenvironment{claimbox}[1]{\begin{lrbox}{\claimsave}\begin{minipage}{0.94\linewidth}\textbf{#1}\par\vspace{2pt}}{\end{minipage}\end{lrbox}\begin{center}\setlength{\fboxsep}{6pt}\fcolorbox{blue!50!black}{blue!4}{\usebox{\claimsave}}\end{center}}

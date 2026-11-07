@@ -1,0 +1,25 @@
+fold 0 326s
+fold 1 702s
+fold 2 1136s
+fold 3 1544s
+fold 4 1935s
+main(poc+gate2) {"n": 114, "sd_f1": 102.97, "sd_f1_verify_tok_per_fwd": 6.92, "sdl_f1": 102.78, "sdl_f1_verify_tok_per_fwd": 6.79, "sd_f16": 81.91, "sd_f16_verify_tok_per_fwd": 31.52, "sdl_f16": 80.95, "sdl_f16_verify_tok_per_fwd": 29.58, "std": 134.21, "old_rule_sd_f1": 109.3, "old_rule_sd_f16": 94.88}
+    sd_f1_minus_sdl_f1 0.19 0.0 [-0.09, 0.47]
+    sd_f16_minus_sdl_f16 0.96 1.0 [0.4, 1.54]
+    oldrule_minus_official_sd_f1 6.32 6.0 [5.31, 7.49]
+    oldrule_minus_official_sd_f16 12.96 11.0 [11.29, 14.83]
+poc_greedy {"n": 40, "sd_f1": 130.97, "sd_f1_verify_tok_per_fwd": 6.29, "sdl_f1": 130.68, "sdl_f1_verify_tok_per_fwd": 6.18, "sd_f16": 106.85, "sd_f16_verify_tok_per_fwd": 31.6, "sdl_f16": 105.45, "sdl_f16_verify_tok_per_fwd": 29.77, "std": 187.15, "old_rule_sd_f1": 138.2, "old_rule_sd_f16": 120.5}
+    sd_f1_minus_sdl_f1 0.3 0.0 [-0.15, 0.75]
+    sd_f16_minus_sdl_f16 1.4 1.0 [0.17, 2.62]
+    oldrule_minus_official_sd_f1 7.22 5.5 [5.05, 9.95]
+    oldrule_minus_official_sd_f16 13.65 10.0 [9.9, 18.55]
+gate2 {"n": 74, "sd_f1": 87.84, "sd_f1_verify_tok_per_fwd": 7.42, "sdl_f1": 87.7, "sdl_f1_verify_tok_per_fwd": 7.29, "sd_f16": 68.43, "sd_f16_verify_tok_per_fwd": 31.45, "sdl_f16": 67.7, "sdl_f16_verify_tok_per_fwd": 29.42, "std": 105.59, "old_rule_sd_f1": 93.68, "old_rule_sd_f16": 81.03}
+    sd_f1_minus_sdl_f1 0.14 0.0 [-0.2, 0.49]
+    sd_f16_minus_sdl_f16 0.73 1.0 [0.2, 1.31]
+    oldrule_minus_official_sd_f1 5.84 6.0 [5.0, 6.78]
+    oldrule_minus_official_sd_f16 12.59 12.0 [11.22, 14.09]
+cands6(aux) {"n": 60, "sd_f1": 106.92, "sd_f1_verify_tok_per_fwd": 7.01, "sdl_f1": 106.68, "sdl_f1_verify_tok_per_fwd": 6.91, "sd_f16": 89.0, "sd_f16_verify_tok_per_fwd": 33.0, "sdl_f16": 87.52, "sdl_f16_verify_tok_per_fwd": 30.92, "std": 146.33, "old_rule_sd_f1": 112.95, "old_rule_sd_f16": 103.22}
+    sd_f1_minus_sdl_f1 0.23 0.0 [-0.25, 0.68]
+    sd_f16_minus_sdl_f16 1.48 1.0 [0.55, 2.43]
+    oldrule_minus_official_sd_f1 6.03 3.0 [0.38, 12.02]
+    oldrule_minus_official_sd_f16 14.22 7.5 [8.11, 21.47]

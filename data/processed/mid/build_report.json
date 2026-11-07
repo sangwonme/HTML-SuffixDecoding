@@ -1,0 +1,195 @@
+{
+  "seed": 20261107,
+  "note": "checklist items are pre-validated on GT under metrics.NORMALIZE_JS",
+  "dev": {
+    "rows": 100,
+    "sec": 0.7,
+    "leak_ok_rate": 1.0,
+    "leak_fail_counts": {
+      "digits": 0,
+      "count_words": 0,
+      "verbatim": 0,
+      "unmentioned": 0
+    },
+    "usable": 100,
+    "empty_checklist": 0,
+    "gt_self_mean": 1.0,
+    "gt_self_lt1": 0,
+    "mode_counts": {
+      "keyword": 52,
+      "mixed": 47,
+      "type_only": 1
+    },
+    "n_items_counts": {
+      "1": 1,
+      "2": 42,
+      "3": 47,
+      "4": 10
+    },
+    "few_salient": 22,
+    "item_type_counts": {
+      "Text Button+kw": 99,
+      "Text+kw": 59,
+      "Toolbar+kw": 40,
+      "Image": 22,
+      "List Item": 7,
+      "Toolbar": 6,
+      "Drawer": 6,
+      "Modal": 6,
+      "Checkbox+kw": 5,
+      "Input": 4,
+      "Card": 4,
+      "Multi-Tab+kw": 2,
+      "Icon": 2,
+      "Radio Button+kw": 2,
+      "Text Button": 1,
+      "Slider": 1
+    },
+    "candidates_total": 912,
+    "candidates_gt_valid": 888,
+    "rejected_by_normalizer": {
+      "Image": 15,
+      "Text Button": 6,
+      "Checkbox+kw": 2,
+      "On/Off Switch+kw": 1
+    },
+    "query_words_mean": 26.1
+  },
+  "test": {
+    "rows": 500,
+    "sec": 3.1,
+    "leak_ok_rate": 1.0,
+    "leak_fail_counts": {
+      "digits": 0,
+      "count_words": 0,
+      "verbatim": 0,
+      "unmentioned": 0
+    },
+    "usable": 500,
+    "empty_checklist": 0,
+    "gt_self_mean": 1.0,
+    "gt_self_lt1": 0,
+    "mode_counts": {
+      "keyword": 243,
+      "mixed": 253,
+      "type_only": 4
+    },
+    "n_items_counts": {
+      "1": 5,
+      "2": 215,
+      "3": 215,
+      "4": 65
+    },
+    "few_salient": 131,
+    "item_type_counts": {
+      "Text Button+kw": 471,
+      "Text+kw": 333,
+      "Toolbar+kw": 163,
+      "Image": 89,
+      "List Item": 61,
+      "Input": 36,
+      "Toolbar": 30,
+      "Drawer": 28,
+      "Modal": 22,
+      "Input+kw": 20,
+      "Checkbox+kw": 18,
+      "Radio Button+kw": 12,
+      "Multi-Tab+kw": 10,
+      "Card": 10,
+      "On/Off Switch": 9,
+      "Icon": 7,
+      "Multi-Tab": 5,
+      "On/Off Switch+kw": 4,
+      "Bottom Navigation": 3,
+      "Checkbox": 3,
+      "Radio Button": 2,
+      "Text Button": 1,
+      "Slider": 1,
+      "Date Picker": 1,
+      "Number Stepper": 1
+    },
+    "candidates_total": 4850,
+    "candidates_gt_valid": 4692,
+    "rejected_by_normalizer": {
+      "Image": 97,
+      "Text Button": 37,
+      "Checkbox+kw": 13,
+      "On/Off Switch+kw": 8,
+      "Radio Button+kw": 2,
+      "Bottom Navigation": 1
+    },
+    "query_words_mean": 26.3
+  },
+  "pilot": {
+    "rows": 50,
+    "source": "subset of test",
+    "leak_ok_rate": 1.0
+  },
+  "train_pool": {
+    "rows": 14522,
+    "sec": 78.1,
+    "leak_ok_rate": 0.9999,
+    "leak_fail_counts": {
+      "digits": 0,
+      "count_words": 0,
+      "verbatim": 1,
+      "unmentioned": 0
+    },
+    "usable": 14516,
+    "empty_checklist": 5,
+    "gt_self_mean": 1.0,
+    "gt_self_lt1": 0,
+    "mode_counts": {
+      "keyword": 7196,
+      "mixed": 7113,
+      "type_only": 213
+    },
+    "n_items_counts": {
+      "0": 5,
+      "1": 131,
+      "2": 5832,
+      "3": 6676,
+      "4": 1878
+    },
+    "few_salient": 3545,
+    "item_type_counts": {
+      "Text Button+kw": 13725,
+      "Text+kw": 9254,
+      "Toolbar+kw": 5250,
+      "Image": 2561,
+      "List Item": 1990,
+      "Input": 1071,
+      "Toolbar": 865,
+      "Modal": 763,
+      "Input+kw": 721,
+      "Drawer": 612,
+      "Checkbox+kw": 470,
+      "Multi-Tab+kw": 396,
+      "Radio Button+kw": 358,
+      "Icon": 336,
+      "Card": 312,
+      "Slider": 119,
+      "On/Off Switch": 106,
+      "On/Off Switch+kw": 100,
+      "Multi-Tab": 95,
+      "Checkbox": 86,
+      "Text Button": 76,
+      "Date Picker": 31,
+      "Radio Button": 26,
+      "Bottom Navigation+kw": 10,
+      "Number Stepper": 2
+    },
+    "candidates_total": 144022,
+    "candidates_gt_valid": 139799,
+    "rejected_by_normalizer": {
+      "Image": 2595,
+      "Text Button": 776,
+      "Checkbox+kw": 475,
+      "On/Off Switch+kw": 227,
+      "Radio Button+kw": 90,
+      "Bottom Navigation": 33,
+      "Bottom Navigation+kw": 27
+    },
+    "query_words_mean": 26.6
+  }
+}

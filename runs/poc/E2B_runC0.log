@@ -1,0 +1,15 @@
+W1107 21:02:40.320000 23340 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+W1107 21:02:40.853000 23340 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+Loading weights:   0%|          | 0/1951 [00:00<?, ?it/s]Loading weights:   5%|4         | 96/1951 [00:00<00:01, 949.00it/s]Loading weights:  15%|#5        | 296/1951 [00:00<00:01, 1563.74it/s]Loading weights:  24%|##4       | 477/1951 [00:00<00:00, 1671.79it/s]Loading weights:  34%|###3      | 663/1951 [00:00<00:00, 1741.32it/s]Loading weights:  43%|####2     | 838/1951 [00:04<00:09, 112.61it/s] Loading weights:  49%|####8     | 951/1951 [00:04<00:07, 131.82it/s]Loading weights:  53%|#####3    | 1035/1951 [00:05<00:06, 144.78it/s]Loading weights:  56%|#####6    | 1099/1951 [00:05<00:05, 143.23it/s]Loading weights:  59%|#####8    | 1147/1951 [00:06<00:05, 148.16it/s]Loading weights:  61%|######    | 1186/1951 [00:06<00:05, 149.47it/s]Loading weights:  62%|######2   | 1218/1951 [00:06<00:04, 155.83it/s]Loading weights:  64%|######3   | 1246/1951 [00:06<00:04, 161.08it/s]Loading weights:  65%|######5   | 1272/1951 [00:06<00:04, 167.61it/s]Loading weights:  66%|######6   | 1296/1951 [00:06<00:03, 177.02it/s]Loading weights:  77%|#######6  | 1502/1951 [00:06<00:00, 493.88it/s]Loading weights:  88%|########7 | 1712/1951 [00:07<00:00, 800.65it/s]Loading weights:  98%|#########8| 1917/1951 [00:07<00:00, 1064.23it/s]Loading weights: 100%|##########| 1951/1951 [00:07<00:00, 271.93it/s] 
+warm-up done
+[1/10] greedy s2w_8482 in=162 out=955 fwd=955 tok/fwd=1.00 ttft=0.09s total=63.2s a=0 b=0
+[2/10] greedy s2w_42624 in=153 out=966 fwd=966 tok/fwd=1.00 ttft=0.09s total=66.2s a=0 b=0
+[3/10] greedy s2w_70325 in=151 out=874 fwd=874 tok/fwd=1.00 ttft=0.09s total=58.0s a=0 b=0
+[4/10] greedy s2w_49685 in=154 out=642 fwd=642 tok/fwd=1.00 ttft=0.09s total=42.3s a=0 b=0
+[5/10] greedy s2w_59299 in=144 out=550 fwd=550 tok/fwd=1.00 ttft=0.08s total=35.9s a=0 b=0
+[6/10] greedy s2w_71611 in=153 out=1107 fwd=1107 tok/fwd=1.00 ttft=0.08s total=71.8s a=0 b=0
+[7/10] greedy s2w_15124 in=146 out=1085 fwd=1085 tok/fwd=1.00 ttft=0.08s total=71.2s a=0 b=0
+[8/10] greedy s2w_64206 in=159 out=867 fwd=867 tok/fwd=1.00 ttft=0.09s total=57.2s a=0 b=0
+[9/10] greedy s2w_47915 in=156 out=769 fwd=769 tok/fwd=1.00 ttft=0.09s total=50.3s a=0 b=0
+[10/10] greedy s2w_68423 in=154 out=954 fwd=954 tok/fwd=1.00 ttft=0.09s total=60.8s a=0 b=0
+done

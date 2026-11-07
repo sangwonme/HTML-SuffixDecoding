@@ -1,0 +1,26 @@
+{
+ "websight": {
+  "rows": 200,
+  "fits_gen": 200,
+  "fits_exemplar": 200,
+  "eval": 50,
+  "pool": 150,
+  "pool_fits_exemplar": 150,
+  "tokens_p50": 503,
+  "tokens_p90": 693,
+  "tokens_max": 971,
+  "query_example": "Fashion Brand: A visually stunning layout with a full-width, rotating image carousel showcasing their latest collections, a bold, center-aligned logo, and a bottom navigation menu. The color palette i"
+ },
+ "design2code": {
+  "rows": 484,
+  "fits_gen": 16,
+  "fits_exemplar": 15,
+  "eval": 16,
+  "pool": 468,
+  "pool_fits_exemplar": 0,
+  "tokens_p50": 25712,
+  "tokens_p90": 63100,
+  "tokens_max": 92519,
+  "query_example": "Create a web page for \"Banana Oatmeal Chocolate Chip Muffins - 2 Cookin Mamas\". Include a main heading \"Banana Oatmeal Chocolate Chip Muffins\"; a section titled \"Ingredients\"; a section titled \"Instru"
+ }
+}

@@ -1,0 +1,39 @@
+targets 174 1s
+baselines 18s
+fold 0 244s rss=1.11
+fold 1 516s rss=1.11
+fold 2 773s rss=1.11
+fold 3 1041s rss=1.12
+fold 4 1274s rss=1.13
+main(poc+gate2) {"n": 114, "std": 134.2, "dom_rule": 126.0, "ranker_mlp": 121.8, "sd_f1": 109.3, "sd_f2": 100.6, "sd_f4": 96.0, "sd_f16": 94.9, "sd_localonly_f1": 153.0, "sdtree_f1": 107.8, "sd_learned_freq": 108.4, "sd_learned_full": 108.0, "oracle": 74.5, "best_sd_factor": "sd_f16", "verify_tokens_per_fwd": {"sd_f1": 6.155457463884431, "sdtree_f1": 6.180767979173446, "sd_learned_full": 6.060815199740175}, "verdict_cond4_learned_over_formal_SD": true}
+    paired_sd_f1_minus_sd_learned_full 1.26 1.0 [0.72, 1.84]
+    paired_sd_f16_minus_sd_learned_full -13.16 -11.0 [-15.2, -11.22]
+    paired_sd_learned_freq_minus_sd_learned_full 0.34 0.0 [0.09, 0.59]
+    paired_sd_f1_minus_ranker_mlp -12.48 7.0 [-22.76, -3.06]
+    paired_sd_f16_minus_ranker_mlp -26.9 -6.0 [-37.9, -17.04]
+    paired_dom_rule_minus_ranker_mlp 4.22 4.0 [3.57, 4.91]
+    paired_sd_f1_minus_sd_learned_freq 0.92 0.0 [0.46, 1.46]
+poc_greedy {"n": 40, "std": 187.2, "dom_rule": 176.5, "ranker_mlp": 172.7, "sd_f1": 138.2, "sd_f2": 127.8, "sd_f4": 122.2, "sd_f16": 120.5, "sd_localonly_f1": 213.7, "sdtree_f1": 135.6, "sd_learned_freq": 137.3, "sd_learned_full": 136.8, "oracle": 103.4, "best_sd_factor": "sd_f16", "verify_tokens_per_fwd": {"sd_f1": 5.748371924746744, "sdtree_f1": 5.737463126843658, "sd_learned_full": 5.619561243144424}, "verdict_cond4_learned_over_formal_SD": true}
+    paired_sd_f1_minus_sd_learned_full 1.45 1.0 [0.7, 2.27]
+    paired_sd_f16_minus_sd_learned_full -16.25 -14.5 [-20.98, -11.45]
+    paired_sd_learned_freq_minus_sd_learned_full 0.53 0.0 [0.17, 0.88]
+    paired_sd_f1_minus_ranker_mlp -34.5 7.0 [-61.25, -10.6]
+    paired_sd_f16_minus_ranker_mlp -52.2 -10.5 [-80.23, -25.52]
+    paired_dom_rule_minus_ranker_mlp 3.83 3.5 [2.38, 5.53]
+    paired_sd_f1_minus_sd_learned_freq 0.93 0.5 [0.23, 1.7]
+gate2 {"n": 74, "std": 105.6, "dom_rule": 98.7, "ranker_mlp": 94.3, "sd_f1": 93.7, "sd_f2": 85.9, "sd_f4": 81.9, "sd_f16": 81.0, "sd_localonly_f1": 120.2, "sdtree_f1": 92.8, "sd_learned_freq": 92.8, "sd_learned_full": 92.5, "oracle": 58.8, "best_sd_factor": "sd_f16", "verify_tokens_per_fwd": {"sd_f1": 6.480092325447202, "sdtree_f1": 6.530867792661619, "sd_learned_full": 6.413380075956763}, "verdict_cond4_learned_over_formal_SD": true}
+    paired_sd_f1_minus_sd_learned_full 1.16 0.0 [0.51, 1.99]
+    paired_sd_f16_minus_sd_learned_full -11.49 -10.0 [-13.42, -9.69]
+    paired_sd_learned_freq_minus_sd_learned_full 0.24 0.0 [-0.08, 0.59]
+    paired_sd_f1_minus_ranker_mlp -0.58 7.0 [-6.01, 5.07]
+    paired_sd_f16_minus_ranker_mlp -13.23 -5.0 [-17.82, -8.55]
+    paired_dom_rule_minus_ranker_mlp 4.43 4.0 [3.78, 5.11]
+    paired_sd_f1_minus_sd_learned_freq 0.92 0.0 [0.31, 1.69]
+cands6(aux) {"n": 60, "std": 148.2, "dom_rule": 143.2, "ranker_mlp": 138.8, "sd_f1": 112.9, "sd_f2": 106.2, "sd_f4": 106.7, "sd_f16": 107.7, "sd_localonly_f1": 168.6, "sdtree_f1": 111.7, "sd_learned_freq": 112.8, "sd_learned_full": 111.7, "oracle": 83.5, "best_sd_factor": "sd_f2", "verify_tokens_per_fwd": {"sd_f1": 6.238706820194863, "sdtree_f1": 6.2692422434367545, "sd_learned_full": 6.185439355512457}, "verdict_cond4_learned_over_formal_SD": true}
+    paired_sd_f1_minus_sd_learned_full 1.18 1.0 [0.2, 2.05]
+    paired_sd_f2_minus_sd_learned_full -5.53 -5.0 [-7.68, -2.58]
+    paired_sd_learned_freq_minus_sd_learned_full 1.12 1.0 [0.4, 2.1]
+    paired_sd_f1_minus_ranker_mlp -25.9 -22.5 [-34.13, -18.01]
+    paired_sd_f2_minus_ranker_mlp -32.62 -30.0 [-40.55, -25.0]
+    paired_dom_rule_minus_ranker_mlp 4.37 4.0 [2.58, 6.88]
+    paired_sd_f1_minus_sd_learned_freq 0.07 0.0 [-1.7, 1.23]

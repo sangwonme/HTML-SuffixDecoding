@@ -1,0 +1,23 @@
+# Draft-policy wall-clock comparison (runs/poc/p1A/css)
+
+requests n=1, conditions ['dom', 'ranker'], reps 1; exact verification; order shuffled per sample/rep.
+
+| metric (mean over requests) | DOM | RANKER |
+|---|---|---|
+| wall-clock total (s) | 14.421 | 10.777 |
+| target forwards | 166.000 | 123.000 |
+| tokens / forward | 5.801 | 5.187 |
+| verify time (s) | 13.493 | 9.893 |
+| draft time incl. init (s) | 0.166 | 0.133 |
+| output tokens | 963.000 | 638.000 |
+| TTFT (s) | 0.723 | 0.724 |
+
+| paired difference (A - B) | wall-clock s [95% CI] | wall-clock % of A [95% CI] | forwards [95% CI] | forwards % of A [95% CI] |
+|---|---|---|---|---|
+| DOM - RANKER | +3.643 [+3.643, +3.643] | +25.26% [+25.26, +25.26] | +43.000 [+43.000, +43.000] | +25.90% [+25.90, +25.90] |
+
+- DOM: draft 0.843 ms/step (steps 165), init 27.3 ms/request, draft share 1.15%; peak GPU 7204 MiB, peak RSS 10122 MiB; outputs identical across reps 1/1; wall-clock CV median nan%
+- RANKER: draft 0.972 ms/step (steps 122), init 13.9 ms/request, draft share 1.23%; peak GPU 7204 MiB, peak RSS 10122 MiB; outputs identical across reps 1/1; wall-clock CV median nan%
+- outputs identical DOM vs RANKER (rep 0): 0/1
+
+**Gate 2b PASSED** (DOM - RANKER wall-clock +3.643 s [+3.643, +3.643])

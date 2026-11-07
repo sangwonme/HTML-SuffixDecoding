@@ -1,0 +1,388 @@
+targets 70
+[1/70] C7g s2w_59299 T=217 myo=37 (study 37) exact=37 M8H3=37 dom=57 (study 57) domla=49 domdp=49 0s rss=0.98
+[2/70] C1 s2w_68423 T=234 myo=45 (study 45) exact=45 M8H3=45 dom=71 (study 71) domla=57 domdp=57 1s rss=0.98
+[3/70] C4g s2w_71611 T=270 myo=39 (study 39) exact=39 M8H3=39 dom=59 (study 59) domla=50 domdp=50 1s rss=0.98
+[4/70] C1 s2w_59299 T=296 myo=52 (study 52) exact=52 M8H3=52 dom=90 (study 90) domla=71 domdp=71 1s rss=0.98
+[5/70] C1 s2w_42624 T=298 myo=27 (study 27) exact=27 M8H3=27 dom=40 (study 40) domla=33 domdp=32 1s rss=0.98
+[6/70] C4g s2w_42624 T=300 myo=24 (study 24) exact=24 M8H3=24 dom=36 (study 36) domla=29 domdp=28 1s rss=0.98
+[7/70] C7g s2w_42624 T=306 myo=29 (study 29) exact=29 M8H3=29 dom=42 (study 42) domla=35 domdp=35 1s rss=0.98
+[8/70] C1 s2w_47915 T=310 myo=52 (study 52) exact=52 M8H3=52 dom=94 (study 94) domla=76 domdp=76 2s rss=0.98
+[9/70] C4g s2w_47915 T=313 myo=34 (study 34) exact=34 M8H3=34 dom=53 (study 53) domla=40 domdp=40 2s rss=0.98
+[10/70] C7g s2w_68423 T=313 myo=44 (study 44) exact=44 M8H3=44 dom=60 (study 60) domla=53 domdp=53 2s rss=0.98
+[11/70] C7g s2w_47915 T=332 myo=47 (study 47) exact=47 M8H3=47 dom=74 (study 74) domla=64 domdp=63 3s rss=0.98
+[12/70] C7g s2w_8482 T=348 myo=60 (study 60) exact=60 M8H3=60 dom=98 (study 98) domla=83 domdp=83 3s rss=0.98
+[13/70] C4g s2w_8482 T=361 myo=50 (study 50) exact=50 M8H3=50 dom=72 (study 72) domla=59 domdp=59 3s rss=0.98
+[14/70] C4g s2w_59299 T=364 myo=53 (study 53) exact=53 M8H3=53 dom=97 (study 97) domla=82 domdp=82 4s rss=0.98
+[15/70] C4g s2w_49685 T=409 myo=33 (study 33) exact=33 M8H3=33 dom=50 (study 50) domla=38 domdp=37 4s rss=0.98
+[16/70] C7g s2w_49685 T=424 myo=54 (study 54) exact=54 M8H3=54 dom=82 (study 82) domla=67 domdp=67 4s rss=0.98
+[17/70] C4g s2w_15124 T=425 myo=60 (study 60) exact=60 M8H3=60 dom=86 (study 86) domla=72 domdp=72 5s rss=0.98
+[18/70] C7g s2w_70325 T=430 myo=48 (study 48) exact=48 M8H3=48 dom=70 (study 70) domla=58 domdp=58 5s rss=0.98
+[19/70] C1 s2w_49685 T=449 myo=51 (study 51) exact=51 M8H3=51 dom=82 (study 82) domla=62 domdp=61 5s rss=0.98
+[20/70] C1 s2w_15124 T=461 myo=61 (study 61) exact=61 M8H3=61 dom=94 (study 94) domla=82 domdp=82 6s rss=0.98
+[21/70] C4g s2w_70325 T=488 myo=68 (study 68) exact=68 M8H3=68 dom=110 (study 110) domla=92 domdp=92 6s rss=0.98
+[22/70] C4g s2w_64206 T=511 myo=47 (study 47) exact=47 M8H3=47 dom=70 (study 70) domla=54 domdp=53 7s rss=0.98
+[23/70] C1 s2w_8482 T=536 myo=56 (study 56) exact=56 M8H3=56 dom=85 (study 85) domla=66 domdp=66 7s rss=0.98
+[24/70] C7g s2w_71611 T=536 myo=88 (study 88) exact=88 M8H3=88 dom=155 (study 155) domla=121 domdp=121 8s rss=0.98
+[25/70] C1 s2w_64206 T=545 myo=55 (study 55) exact=55 M8H3=55 dom=88 (study 88) domla=65 domdp=64 8s rss=0.98
+[26/70] C0 s2w_59299 T=550 myo=195 (study 195) exact=195 M8H3=195 dom=355 (study 355) domla=273 domdp=273 8s rss=0.98
+[27/70] C1 s2w_70325 T=553 myo=91 (study 91) exact=91 M8H3=91 dom=162 (study 162) domla=130 domdp=129 9s rss=0.98
+[28/70] C7g s2w_64206 T=574 myo=63 (study 63) exact=63 M8H3=63 dom=105 (study 105) domla=78 domdp=77 9s rss=0.98
+[29/70] C0 s2w_49685 T=642 myo=184 (study 184) exact=184 M8H3=184 dom=338 (study 338) domla=262 domdp=262 9s rss=0.98
+[30/70] C1 s2w_71611 T=670 myo=62 (study 62) exact=62 M8H3=62 dom=89 (study 89) domla=70 domdp=70 10s rss=0.98
+[31/70] C4g s2w_68423 T=674 myo=51 (study 51) exact=51 M8H3=51 dom=72 (study 72) domla=54 domdp=54 11s rss=0.98
+[32/70] C0 s2w_47915 T=769 myo=249 (study 249) exact=249 M8H3=249 dom=452 (study 452) domla=354 domdp=354 11s rss=0.98
+[33/70] C0 s2w_64206 T=867 myo=234 (study 234) exact=234 M8H3=234 dom=426 (study 426) domla=328 domdp=328 11s rss=0.98
+[34/70] C0 s2w_70325 T=874 myo=235 (study 235) exact=235 M8H3=235 dom=445 (study 445) domla=347 domdp=347 12s rss=0.98
+[35/70] C0 s2w_68423 T=954 myo=240 (study 240) exact=240 M8H3=240 dom=439 (study 439) domla=335 domdp=335 12s rss=0.98
+[36/70] C0 s2w_8482 T=955 myo=287 (study 287) exact=287 M8H3=287 dom=505 (study 505) domla=404 domdp=404 13s rss=0.98
+[37/70] C0 s2w_42624 T=966 myo=271 (study 271) exact=271 M8H3=271 dom=491 (study 491) domla=383 domdp=382 13s rss=0.98
+[38/70] C0 s2w_15124 T=1085 myo=226 (study 226) exact=226 M8H3=226 dom=421 (study 421) domla=311 domdp=311 14s rss=0.98
+[39/70] C0 s2w_71611 T=1107 myo=351 (study 351) exact=351 M8H3=351 dom=595 (study 595) domla=485 domdp=485 15s rss=0.98
+[40/70] C7g s2w_15124 T=2048 myo=182 (study 182) exact=182 M8H3=182 dom=251 (study 251) domla=207 domdp=206 16s rss=0.98
+[41/70] gemma_E4B_fs s2w_47915 T=323 myo=26 (study 26) exact=26 M8H3=26 dom=34 (study 34) domla=28 domdp=28 16s rss=0.98
+[42/70] gemma_E4B_fs s2w_59299 T=343 myo=26 (study 26) exact=26 M8H3=26 dom=40 (study 40) domla=32 domdp=32 17s rss=0.98
+[43/70] gemma_E4B_fs s2w_42624 T=352 myo=35 (study 35) exact=35 M8H3=35 dom=51 (study 51) domla=44 domdp=44 17s rss=0.98
+[44/70] gemma_E2B_fs s2w_59299 T=374 myo=52 (study 52) exact=52 M8H3=52 dom=94 (study 94) domla=77 domdp=76 17s rss=0.98
+[45/70] gemma_E2B_fs s2w_42624 T=379 myo=60 (study 60) exact=60 M8H3=60 dom=108 (study 108) domla=88 domdp=88 17s rss=0.98
+[46/70] gemma_E2B_fs s2w_49685 T=379 myo=32 (study 32) exact=32 M8H3=32 dom=47 (study 47) domla=39 domdp=39 18s rss=0.98
+[47/70] gemma_E2B_fs s2w_47915 T=379 myo=38 (study 38) exact=38 M8H3=38 dom=58 (study 58) domla=47 domdp=47 18s rss=0.98
+[48/70] gemma_E4B_fs s2w_49685 T=381 myo=32 (study 32) exact=32 M8H3=32 dom=48 (study 48) domla=39 domdp=39 18s rss=0.98
+[49/70] gemma_E2B_fs s2w_8482 T=407 myo=30 (study 30) exact=30 M8H3=30 dom=53 (study 53) domla=37 domdp=37 18s rss=0.98
+[50/70] gemma_E4B_fs s2w_8482 T=409 myo=36 (study 36) exact=36 M8H3=36 dom=64 (study 64) domla=48 domdp=45 18s rss=0.98
+[51/70] gemma_E4B_fs s2w_70325 T=443 myo=28 (study 28) exact=28 M8H3=28 dom=33 (study 33) domla=28 domdp=28 19s rss=0.98
+[52/70] gemma_E2B_fs s2w_70325 T=447 myo=35 (study 35) exact=35 M8H3=35 dom=44 (study 44) domla=35 domdp=35 19s rss=0.98
+[53/70] gemma_E2B_fs s2w_15124 T=466 myo=40 (study 40) exact=40 M8H3=40 dom=59 (study 59) domla=49 domdp=48 19s rss=0.98
+[54/70] gemma_E4B_fs s2w_15124 T=472 myo=36 (study 36) exact=36 M8H3=36 dom=53 (study 53) domla=45 domdp=45 20s rss=0.98
+[55/70] gemma_12B_fs s2w_8482 T=497 myo=83 (study 83) exact=83 M8H3=83 dom=160 (study 160) domla=123 domdp=123 20s rss=0.98
+[56/70] gemma_E4B_fs s2w_64206 T=861 myo=96 (study 96) exact=96 M8H3=96 dom=166 (study 166) domla=126 domdp=126 21s rss=0.98
+[57/70] gemma_E4B_fs s2w_71611 T=885 myo=68 (study 68) exact=68 M8H3=68 dom=91 (study 91) domla=80 domdp=77 21s rss=0.98
+[58/70] gemma_12B_fs s2w_71611 T=897 myo=127 (study 127) exact=127 M8H3=127 dom=232 (study 232) domla=187 domdp=187 22s rss=0.98
+[59/70] gemma_12B_fs s2w_42624 T=924 myo=211 (study 211) exact=211 M8H3=211 dom=403 (study 403) domla=318 domdp=318 22s rss=0.98
+[60/70] gemma_12B_fs s2w_15124 T=951 myo=219 (study 219) exact=219 M8H3=219 dom=447 (study 447) domla=354 domdp=354 23s rss=0.98
+[61/70] gemma_12B_fs s2w_49685 T=960 myo=201 (study 201) exact=201 M8H3=201 dom=362 (study 362) domla=308 domdp=307 24s rss=0.98
+[62/70] gemma_E4B_fs s2w_68423 T=971 myo=93 (study 93) exact=93 M8H3=93 dom=150 (study 150) domla=112 domdp=112 25s rss=0.98
+[63/70] gemma_12B_fs s2w_70325 T=973 myo=223 (study 223) exact=223 M8H3=223 dom=433 (study 433) domla=349 domdp=349 25s rss=0.98
+[64/70] gemma_E2B_fs s2w_71611 T=1051 myo=91 (study 91) exact=91 M8H3=91 dom=137 (study 137) domla=114 domdp=113 26s rss=0.98
+[65/70] gemma_12B_fs s2w_47915 T=1118 myo=306 (study 306) exact=306 M8H3=306 dom=597 (study 597) domla=481 domdp=481 27s rss=0.98
+[66/70] gemma_12B_fs s2w_68423 T=1123 myo=131 (study 131) exact=131 M8H3=131 dom=208 (study 208) domla=176 domdp=175 28s rss=0.98
+[67/70] gemma_E2B_fs s2w_64206 T=1316 myo=108 (study 108) exact=108 M8H3=108 dom=169 (study 169) domla=139 domdp=135 28s rss=0.98
+[68/70] gemma_12B_fs s2w_64206 T=1325 myo=283 (study 283) exact=283 M8H3=283 dom=538 (study 538) domla=432 domdp=432 29s rss=0.98
+[69/70] gemma_E2B_fs s2w_68423 T=1993 myo=161 (study 161) exact=161 M8H3=161 dom=232 (study 232) domla=183 domdp=177 30s rss=0.98
+[70/70] gemma_12B_fs s2w_59299 T=2052 myo=303 (study 301) exact=303 M8H3=303 dom=1034 (study 1034) domla=490 domdp=490 33s rss=0.98
+{
+ "poc_greedy(C1,C0,C4g,C7g)": {
+  "n": 40,
+  "fwd_myopic": 103.375,
+  "fwd_seq_exact": 103.375,
+  "fwd_seq_M4_H1": 103.375,
+  "fwd_seq_M4_H3": 103.375,
+  "fwd_seq_M4_H6": 103.375,
+  "fwd_seq_M8_H1": 103.375,
+  "fwd_seq_M8_H3": 103.375,
+  "fwd_seq_M8_H6": 103.375,
+  "fwd_dom": 176.525,
+  "fwd_domla_M4_H0": 150.025,
+  "fwd_domla_M4_H1": 150.3,
+  "fwd_domla_M4_H3": 150.25,
+  "fwd_domla_M4_H6": 150.3,
+  "fwd_domla_M8_H0": 139.2,
+  "fwd_domla_M8_H1": 139.55,
+  "fwd_domla_M8_H3": 139.475,
+  "fwd_domla_M8_H6": 139.525,
+  "fwd_domdp_M8": 139.2,
+  "fwd_seq_exact__vs_myopic": {
+   "diff_mean": 0.0,
+   "diff_ci95": [
+    0.0,
+    0.0
+   ],
+   "diff_median": 0.0,
+   "red_mean": 0.0,
+   "red_mean_ci95": [
+    0.0,
+    0.0
+   ],
+   "red_total": 0.0,
+   "n_better": 0,
+   "n_worse": 0
+  },
+  "fwd_seq_M4_H1__vs_myopic": {
+   "diff_mean": 0.0,
+   "diff_ci95": [
+    0.0,
+    0.0
+   ],
+   "diff_median": 0.0,
+   "red_mean": 0.0,
+   "red_mean_ci95": [
+    0.0,
+    0.0
+   ],
+   "red_total": 0.0,
+   "n_better": 0,
+   "n_worse": 0
+  },
+  "fwd_seq_M4_H3__vs_myopic": {
+   "diff_mean": 0.0,
+   "diff_ci95": [
+    0.0,
+    0.0
+   ],
+   "diff_median": 0.0,
+   "red_mean": 0.0,
+   "red_mean_ci95": [
+    0.0,
+    0.0
+   ],
+   "red_total": 0.0,
+   "n_better": 0,
+   "n_worse": 0
+  },
+  "fwd_seq_M4_H6__vs_myopic": {
+   "diff_mean": 0.0,
+   "diff_ci95": [
+    0.0,
+    0.0
+   ],
+   "diff_median": 0.0,
+   "red_mean": 0.0,
+   "red_mean_ci95": [
+    0.0,
+    0.0
+   ],
+   "red_total": 0.0,
+   "n_better": 0,
+   "n_worse": 0
+  },
+  "fwd_seq_M8_H1__vs_myopic": {
+   "diff_mean": 0.0,
+   "diff_ci95": [
+    0.0,
+    0.0
+   ],
+   "diff_median": 0.0,
+   "red_mean": 0.0,
+   "red_mean_ci95": [
+    0.0,
+    0.0
+   ],
+   "red_total": 0.0,
+   "n_better": 0,
+   "n_worse": 0
+  },
+  "fwd_seq_M8_H3__vs_myopic": {
+   "diff_mean": 0.0,
+   "diff_ci95": [
+    0.0,
+    0.0
+   ],
+   "diff_median": 0.0,
+   "red_mean": 0.0,
+   "red_mean_ci95": [
+    0.0,
+    0.0
+   ],
+   "red_total": 0.0,
+   "n_better": 0,
+   "n_worse": 0
+  },
+  "fwd_seq_M8_H6__vs_myopic": {
+   "diff_mean": 0.0,
+   "diff_ci95": [
+    0.0,
+    0.0
+   ],
+   "diff_median": 0.0,
+   "red_mean": 0.0,
+   "red_mean_ci95": [
+    0.0,
+    0.0
+   ],
+   "red_total": 0.0,
+   "n_better": 0,
+   "n_worse": 0
+  },
+  "fwd_domla_M4_H0__vs_dom": {
+   "diff_mean": 26.5,
+   "diff_ci95": [
+    19.62375,
+    34.150625
+   ],
+   "diff_median": 14.5,
+   "red_mean": 0.1599981352942999,
+   "red_mean_ci95": [
+    0.14606866862986143,
+    0.17418178953556115
+   ],
+   "red_total": 0.15012037954963886,
+   "n_better": 40,
+   "n_worse": 0
+  },
+  "fwd_domla_M4_H1__vs_dom": {
+   "diff_mean": 26.225,
+   "diff_ci95": [
+    19.325,
+    33.875625
+   ],
+   "diff_median": 14.0,
+   "red_mean": 0.1568874809946174,
+   "red_mean_ci95": [
+    0.14410761422122828,
+    0.16989630763831148
+   ],
+   "red_total": 0.14856252655431246,
+   "n_better": 40,
+   "n_worse": 0
+  },
+  "fwd_domla_M4_H3__vs_dom": {
+   "diff_mean": 26.275,
+   "diff_ci95": [
+    19.39875,
+    33.925625
+   ],
+   "diff_median": 14.5,
+   "red_mean": 0.1572609637210413,
+   "red_mean_ci95": [
+    0.1443251633975853,
+    0.1703467229596231
+   ],
+   "red_total": 0.14884577255346265,
+   "n_better": 40,
+   "n_worse": 0
+  },
+  "fwd_domla_M4_H6__vs_dom": {
+   "diff_mean": 26.225,
+   "diff_ci95": [
+    19.373125,
+    33.9
+   ],
+   "diff_median": 14.0,
+   "red_mean": 0.15682445578453338,
+   "red_mean_ci95": [
+    0.14410696319652183,
+    0.1698891344156651
+   ],
+   "red_total": 0.14856252655431246,
+   "n_better": 40,
+   "n_worse": 0
+  },
+  "fwd_domla_M8_H0__vs_dom": {
+   "diff_mean": 37.325,
+   "diff_ci95": [
+    26.4,
+    49.576249999999995
+   ],
+   "diff_median": 18.0,
+   "red_mean": 0.2026135762070879,
+   "red_mean_ci95": [
+    0.18973134897019248,
+    0.21480281090224124
+   ],
+   "red_total": 0.21144313836567064,
+   "n_better": 40,
+   "n_worse": 0
+  },
+  "fwd_domla_M8_H1__vs_dom": {
+   "diff_mean": 36.975,
+   "diff_ci95": [
+    25.9725,
+    49.250625
+   ],
+   "diff_median": 17.5,
+   "red_mean": 0.19825096232330805,
+   "red_mean_ci95": [
+    0.186243029154255,
+    0.2092458286132948
+   ],
+   "red_total": 0.20946041637161872,
+   "n_better": 40,
+   "n_worse": 0
+  },
+  "fwd_domla_M8_H3__vs_dom": {
+   "diff_mean": 37.05,
+   "diff_ci95": [
+    26.098750000000003,
+    49.325
+   ],
+   "diff_median": 18.0,
+   "red_mean": 0.19896724779347127,
+   "red_mean_ci95": [
+    0.1867541845661961,
+    0.21047509016972277
+   ],
+   "red_total": 0.20988528537034412,
+   "n_better": 40,
+   "n_worse": 0
+  },
+  "fwd_domla_M8_H6__vs_dom": {
+   "diff_mean": 37.0,
+   "diff_ci95": [
+    26.046875,
+    49.275625
+   ],
+   "diff_median": 18.0,
+   "red_mean": 0.19853073985696335,
+   "red_mean_ci95": [
+    0.18662333566375142,
+    0.2098119238235178
+   ],
+   "red_total": 0.20960203937119393,
+   "n_better": 40,
+   "n_worse": 0
+  },
+  "fwd_domdp_M8__vs_dom": {
+   "diff_mean": 37.325,
+   "diff_ci95": [
+    26.4,
+    49.576249999999995
+   ],
+   "diff_median": 18.0,
+   "red_mean": 0.2026135762070879,
+   "red_mean_ci95": [
+    0.18973134897019248,
+    0.21480281090224124
+   ],
+   "red_total": 0.21144313836567064,
+   "n_better": 40,
+   "n_worse": 0
+  },
+  "verdict_seq_exact_meaningful": false
+ },
+ "gemma_fs(approx)": {
+  "n": 30,
+  "fwd_myopic": 107.0,
+  "fwd_seq_exact": 107.0,
+  "fwd_seq_M4_H1": 107.0,
+  "fwd_seq_M4_H3": 107.0,
+  "fwd_seq_M4_H6": 107.0,
+  "fwd_seq_M8_H1": 107.0,
+  "fwd_seq_M8_H3": 107.0,
+  "fwd_seq_M8_H6": 107.0,
+  "fwd_dom": 204.83333333333334,
+  "fwd_domla_M4_H0": 165.03333333333333,
+  "fwd_domla_M4_H1": 165.56666666666666,
+  "fwd_domla_M4_H3": 165.66666666666666,
+  "fwd_domla_M4_H6": 165.63333333333333,
+  "fwd_domla_M8_H0": 152.96666666666667,
+  "fwd_domla_M8_H1": 153.5,
+  "fwd_domla_M8_H3": 153.6,
+  "fwd_domla_M8_H6": 153.6,
+  "fwd_domdp_M8": 152.9,
+  "fwd_seq_exact__vs_myopic": {
+   "diff_mean": 0.0,
+   "diff_ci95": [
+    0.0,
+    0.0
+   ],
+   "diff_median": 0.0,
+   "red_mean": 0.0,
+   "red_mean_ci95": [
+    0.0,
+    0.0
+   ],
+   "red_total": 0.0,
+   "n_better": 0,
+   "n_worse": 0
+  },
+  "fwd_seq
+myopic == study oracle: 69 / 70

@@ -1,0 +1,5 @@
+[21:42:49] chain6 waiting
+[21:50:53] cands6: 50 requests 300 cands
+[22:39:16] cands GPU rc=0 requests completed: 50/50
+[22:39:21] score rc=1
+[22:39:21] chain6 done

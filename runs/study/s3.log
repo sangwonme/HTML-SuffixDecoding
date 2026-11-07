@@ -1,0 +1,7 @@
+E2B_nf4_rich_fs {'ratio_ssim': 0.73, 'ratio_pix': 0.704, 'total_s': 40.565, 'Lperc_ssim': 25.217, 'Lperc_pix': 23.663, 'median_ratio_ssim': 0.817, 't_vc90_over_T': 0.896, 't_vc50_over_T': 0.747}
+E2B_nf4_short_zs {'ratio_ssim': 0.848, 'ratio_pix': 0.876, 'total_s': 58.027, 'Lperc_ssim': 48.346, 'Lperc_pix': 50.044, 'median_ratio_ssim': 0.829, 't_vc90_over_T': 0.97, 't_vc50_over_T': 0.835}
+E2B_nf4_rich_zs {'ratio_ssim': 0.808, 'ratio_pix': 0.705, 'total_s': 93.118, 'Lperc_ssim': 73.859, 'Lperc_pix': 63.602, 'median_ratio_ssim': 0.835, 't_vc90_over_T': 0.96, 't_vc50_over_T': 0.8}
+E4B_nf4_rich_zs {'ratio_ssim': 0.849, 'ratio_pix': 0.673, 'total_s': 112.466, 'Lperc_ssim': 93.76, 'Lperc_pix': 81.601, 'median_ratio_ssim': 0.857, 't_vc90_over_T': 0.975, 't_vc50_over_T': 0.836}
+12B_nf4_rich_zs {'ratio_ssim': 0.697, 'ratio_pix': 0.675, 'total_s': 143.139, 'Lperc_ssim': 91.054, 'Lperc_pix': 90.739, 'median_ratio_ssim': 0.794, 't_vc90_over_T': 0.87, 't_vc50_over_T': 0.685}
+E4B_nf4_rich_fs {'ratio_ssim': 0.821, 'ratio_pix': 0.784, 'total_s': 54.062, 'Lperc_ssim': 42.295, 'Lperc_pix': 39.688, 'median_ratio_ssim': 0.874, 't_vc90_over_T': 0.953, 't_vc50_over_T': 0.834}
+12B_nf4_rich_fs {'ratio_ssim': 0.774, 'ratio_pix': 0.795, 'total_s': 85.818, 'Lperc_ssim': 61.823, 'Lperc_pix': 64.127, 'median_ratio_ssim': 0.817, 't_vc90_over_T': 0.862, 't_vc50_over_T': 0.778}

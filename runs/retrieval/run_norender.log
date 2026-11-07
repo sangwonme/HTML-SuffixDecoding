@@ -1,0 +1,49 @@
+pool 14522 dev 100 pilot 50
+features ready 1s rss 0.48GB mean kappa tokens pool 490
+candidates (usable & flow<=4000): 14181 / 14522
+  ridge alpha=0.3 fit 23s
+alpha=0.3: cos(phi_hat,phi)=0.717 best beta=1.0 omega=0.8267 (beta0 0.8065, beta1 0.8267) rss 0.60GB
+  ridge alpha=1.0 fit 14s
+alpha=1.0: cos(phi_hat,phi)=0.746 best beta=0.6 omega=0.8296 (beta0 0.8065, beta1 0.8261) rss 0.63GB
+  ridge alpha=3.0 fit 8s
+alpha=3.0: cos(phi_hat,phi)=0.760 best beta=0.7 omega=0.8328 (beta0 0.8065, beta1 0.8279) rss 0.63GB
+  ridge alpha=10.0 fit 5s
+alpha=10.0: cos(phi_hat,phi)=0.760 best beta=0.9 omega=0.8355 (beta0 0.8065, beta1 0.8327) rss 0.63GB
+chosen alpha=10.0 beta=0.9
+tfidf picks that are non-usable: 0; dev tfidf == tfidf restricted to candidates: 100/100
+pilot files written 63s
+== dev
+  tfidf_om1                        0.8065 0.7787 0.8337
+  tfidf_om3mean                    0.7960 0.7722 0.8194
+  tfidf_om3union                   0.8685 0.8457 0.8890
+  tfidf_cosphi1                    0.5630 0.5086 0.6193
+  struct_om1                       0.8355 0.8115 0.8573
+  struct_om3mean                   0.8300 0.8063 0.8515
+  struct_om3union                  0.8662 0.8433 0.8864
+  struct_cosphi1                   0.7407 0.7064 0.7742
+  oracle_om1                       0.8862 0.8634 0.9065
+  oracle_om3mean                   0.8783 0.8553 0.8982
+  oracle_om3union                  0.9037 0.8813 0.9234
+  oracle_cosphi1                   0.7138 0.6668 0.7622
+  diff_struct-tfidf_om1            0.0290 0.0108 0.0476
+  diff_oracle-tfidf_om1            0.0797 0.0644 0.0962
+  diff_struct-tfidf_om3mean        0.0341 0.0237 0.0445
+  diff_oracle-tfidf_om3mean        0.0823 0.0718 0.0934
+  diff_struct-tfidf_om3union       -0.0023 -0.0110 0.0057
+  diff_oracle-tfidf_om3union       0.0351 0.0288 0.0417
+  diff_struct-tfidf_cosphi1        0.1777 0.1302 0.2287
+  diff_oracle-tfidf_cosphi1        0.1508 0.0930 0.2066
+== pilot
+  tfidf_om1                        0.7506
+  tfidf_om3mean                    0.7507
+  tfidf_om3union                   0.8213
+  tfidf_cosphi1                    0.5262
+  struct_om1                       0.7954
+  struct_om3mean                   0.7924
+  struct_om3union                  0.8258
+  struct_cosphi1                   0.7412
+  oracle_om1                       0.8463
+  oracle_om3mean                   0.8398
+  oracle_om3union                  0.8657
+  oracle_cosphi1                   0.7403
+done 63s

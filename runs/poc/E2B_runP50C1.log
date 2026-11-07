@@ -1,0 +1,55 @@
+W1107 21:19:44.502000 12984 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+W1107 21:19:45.021000 12984 Lib\site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+Loading weights:   0%|          | 0/1951 [00:00<?, ?it/s]Loading weights:   4%|4         | 82/1951 [00:00<00:02, 795.35it/s]Loading weights:  13%|#3        | 256/1951 [00:00<00:01, 1319.39it/s]Loading weights:  23%|##2       | 442/1951 [00:00<00:00, 1546.50it/s]Loading weights:  31%|###       | 597/1951 [00:00<00:00, 1525.63it/s]Loading weights:  38%|###8      | 750/1951 [00:00<00:00, 1475.12it/s]Loading weights:  46%|####6     | 898/1951 [00:04<00:09, 111.03it/s] Loading weights:  51%|#####1    | 997/1951 [00:04<00:07, 129.71it/s]Loading weights:  55%|#####4    | 1073/1951 [00:05<00:06, 133.03it/s]Loading weights:  58%|#####7    | 1130/1951 [00:05<00:06, 135.98it/s]Loading weights:  60%|######    | 1174/1951 [00:05<00:05, 141.58it/s]Loading weights:  62%|######2   | 1210/1951 [00:06<00:05, 144.16it/s]Loading weights:  64%|######3   | 1240/1951 [00:06<00:04, 148.21it/s]Loading weights:  65%|######4   | 1266/1951 [00:06<00:04, 158.19it/s]Loading weights:  66%|######6   | 1292/1951 [00:06<00:03, 167.81it/s]Loading weights:  80%|########  | 1562/1951 [00:06<00:00, 550.52it/s]Loading weights:  94%|#########4| 1835/1951 [00:06<00:00, 935.99it/s]Loading weights: 100%|##########| 1951/1951 [00:06<00:00, 289.01it/s]
+warm-up done
+[1/50] L2     s2w_8482 in=2466 out=536 fwd=99 tok/fwd=5.41 ttft=0.31s total=6.7s a=0 b=0
+[2/50] L2     s2w_42624 in=1212 out=298 fwd=41 tok/fwd=7.27 ttft=0.15s total=2.9s a=0 b=0
+[3/50] L2     s2w_70325 in=1522 out=662 fwd=194 tok/fwd=3.41 ttft=0.18s total=12.0s a=0 b=0
+[4/50] L2     s2w_49685 in=1704 out=426 fwd=85 tok/fwd=5.01 ttft=0.20s total=5.4s a=0 b=0
+[5/50] L2     s2w_59299 in=1449 out=331 fwd=84 tok/fwd=3.94 ttft=0.18s total=5.5s a=0 b=0
+[6/50] L2     s2w_71611 in=2232 out=667 fwd=102 tok/fwd=6.54 ttft=0.28s total=6.5s a=0 b=0
+[7/50] L2     s2w_15124 in=1865 out=475 fwd=108 tok/fwd=4.40 ttft=0.22s total=6.9s a=0 b=0
+[8/50] L2     s2w_64206 in=2123 out=545 fwd=101 tok/fwd=5.40 ttft=0.26s total=6.2s a=0 b=0
+[9/50] L2     s2w_47915 in=1289 out=284 fwd=44 tok/fwd=6.45 ttft=0.16s total=2.7s a=0 b=0
+[10/50] L2     s2w_68423 in=2601 out=395 fwd=53 tok/fwd=7.45 ttft=0.34s total=3.5s a=0 b=0
+[11/50] L2     s2w_69646 in=1992 out=464 fwd=108 tok/fwd=4.30 ttft=0.24s total=7.0s a=0 b=0
+[12/50] L2     s2w_67147 in=1262 out=203 fwd=49 tok/fwd=4.14 ttft=0.15s total=3.2s a=0 b=0
+[13/50] L2     s2w_38961 in=2060 out=396 fwd=68 tok/fwd=5.82 ttft=0.26s total=4.5s a=0 b=0
+[14/50] L2     s2w_64592 in=1807 out=542 fwd=123 tok/fwd=4.41 ttft=0.23s total=8.0s a=0 b=0
+[15/50] L2     s2w_23677 in=1788 out=328 fwd=98 tok/fwd=3.35 ttft=0.21s total=6.2s a=0 b=0
+[16/50] L2     s2w_22440 in=1289 out=309 fwd=37 tok/fwd=8.35 ttft=0.16s total=2.4s a=0 b=0
+[17/50] L2     s2w_62205 in=2502 out=790 fwd=172 tok/fwd=4.59 ttft=0.32s total=10.9s a=0 b=0
+[18/50] L2     s2w_48704 in=2014 out=546 fwd=184 tok/fwd=2.97 ttft=0.24s total=11.6s a=0 b=0
+[19/50] L2     s2w_39855 in=1465 out=408 fwd=61 tok/fwd=6.69 ttft=0.18s total=3.9s a=0 b=0
+[20/50] L2     s2w_51784 in=1274 out=285 fwd=36 tok/fwd=7.92 ttft=0.15s total=2.4s a=0 b=0
+[21/50] L2     s2w_5336 in=1297 out=302 fwd=58 tok/fwd=5.21 ttft=0.16s total=3.6s a=0 b=0
+[22/50] L2     s2w_6769 in=2064 out=410 fwd=59 tok/fwd=6.95 ttft=0.25s total=3.6s a=0 b=0
+[23/50] L2     s2w_62668 in=1899 out=468 fwd=101 tok/fwd=4.63 ttft=0.22s total=5.9s a=0 b=0
+[24/50] L2     s2w_1122 in=1440 out=336 fwd=45 tok/fwd=7.47 ttft=0.17s total=2.7s a=0 b=0
+[25/50] L2     s2w_3518 in=1652 out=363 fwd=40 tok/fwd=9.07 ttft=0.19s total=2.4s a=0 b=0
+[26/50] L2     s2w_8780 in=1813 out=366 fwd=83 tok/fwd=4.41 ttft=0.22s total=4.9s a=0 b=0
+[27/50] L2     s2w_19922 in=2001 out=297 fwd=58 tok/fwd=5.12 ttft=0.24s total=3.6s a=0 b=0
+[28/50] L2     s2w_15204 in=1666 out=339 fwd=120 tok/fwd=2.83 ttft=0.22s total=7.1s a=0 b=0
+[29/50] L2     s2w_41242 in=1413 out=296 fwd=63 tok/fwd=4.70 ttft=0.17s total=3.8s a=0 b=0
+[30/50] L2     s2w_32523 in=1889 out=427 fwd=64 tok/fwd=6.67 ttft=0.22s total=3.8s a=0 b=0
+[31/50] L2     s2w_20005 in=1505 out=334 fwd=59 tok/fwd=5.66 ttft=0.18s total=3.5s a=0 b=0
+[32/50] L2     s2w_49368 in=2366 out=543 fwd=107 tok/fwd=5.07 ttft=0.29s total=6.3s a=0 b=0
+[33/50] L2     s2w_43660 in=1677 out=408 fwd=76 tok/fwd=5.37 ttft=0.20s total=4.6s a=0 b=0
+[34/50] L2     s2w_52721 in=1328 out=345 fwd=71 tok/fwd=4.86 ttft=0.16s total=4.2s a=0 b=0
+[35/50] L2     s2w_46795 in=2063 out=548 fwd=107 tok/fwd=5.12 ttft=0.25s total=6.4s a=0 b=0
+[36/50] L2     s2w_14815 in=2070 out=596 fwd=165 tok/fwd=3.61 ttft=0.25s total=10.2s a=0 b=0
+[37/50] L2     s2w_47830 in=1908 out=437 fwd=112 tok/fwd=3.90 ttft=0.23s total=7.4s a=0 b=0
+[38/50] L2     s2w_49981 in=2162 out=551 fwd=96 tok/fwd=5.74 ttft=0.26s total=6.4s a=0 b=0
+[39/50] L2     s2w_1213 in=2373 out=497 fwd=121 tok/fwd=4.11 ttft=0.31s total=8.0s a=0 b=0
+[40/50] L2     s2w_29922 in=2348 out=534 fwd=73 tok/fwd=7.32 ttft=0.30s total=5.0s a=0 b=0
+[41/50] L2     s2w_43072 in=2050 out=388 fwd=102 tok/fwd=3.80 ttft=0.25s total=6.4s a=0 b=0
+[42/50] L2     s2w_37095 in=1348 out=259 fwd=85 tok/fwd=3.05 ttft=0.16s total=5.1s a=0 b=0
+[43/50] L2     s2w_37325 in=3270 out=531 fwd=99 tok/fwd=5.36 ttft=0.45s total=6.5s a=0 b=0
+[44/50] L2     s2w_49809 in=1682 out=228 fwd=79 tok/fwd=2.89 ttft=0.20s total=5.1s a=0 b=0
+[45/50] L2     s2w_60641 in=1421 out=249 fwd=30 tok/fwd=8.30 ttft=0.18s total=2.0s a=0 b=0
+[46/50] L2     s2w_43630 in=1538 out=379 fwd=163 tok/fwd=2.33 ttft=0.19s total=10.1s a=0 b=0
+[47/50] L2     s2w_68631 in=1415 out=259 fwd=32 tok/fwd=8.09 ttft=0.19s total=2.1s a=0 b=0
+[48/50] L2     s2w_17423 in=1581 out=356 fwd=98 tok/fwd=3.63 ttft=0.19s total=6.2s a=0 b=0
+[49/50] L2     s2w_29951 in=2787 out=368 fwd=87 tok/fwd=4.23 ttft=0.37s total=5.8s a=0 b=0
+[50/50] L2     s2w_53519 in=2675 out=548 fwd=106 tok/fwd=5.17 ttft=0.34s total=7.0s a=0 b=0
+done

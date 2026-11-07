@@ -1,0 +1,195 @@
+fold 0 C1 s2w_42624 repro=44 (study 44) off16=41 off64=37 tree r/o=42/41 7s rss=1.05
+fold 0 C1 s2w_64206 repro=94 (study 94) off16=91 off64=86 tree r/o=93/93 16s rss=1.05
+fold 0 C0 s2w_42624 repro=305 (study 305) off16=305 off64=301 tree r/o=299/301 25s rss=1.05
+fold 0 C0 s2w_64206 repro=223 (study 223) off16=226 off64=222 tree r/o=225/223 32s rss=1.05
+fold 0 C4g s2w_42624 repro=42 (study 42) off16=40 off64=35 tree r/o=42/42 39s rss=1.05
+fold 0 C4g s2w_64206 repro=77 (study 77) off16=75 off64=65 tree r/o=76/76 48s rss=1.05
+fold 0 C7g s2w_42624 repro=46 (study 46) off16=43 off64=36 tree r/o=43/44 54s rss=1.05
+fold 0 C7g s2w_64206 repro=116 (study 116) off16=118 off64=112 tree r/o=114/115 63s rss=1.05
+fold 0 g2pld s2w_64206 repro=95 (study 95) off16=93 off64=86 tree r/o=94/94 72s rss=1.05
+fold 0 g2pld s2w_64592 repro=121 (study 121) off16=116 off64=110 tree r/o=123/120 81s rss=1.05
+fold 0 g2pld s2w_48704 repro=197 (study 197) off16=192 off64=188 tree r/o=195/194 90s rss=1.05
+fold 0 g2pld s2w_1122 repro=55 (study 55) off16=55 off64=52 tree r/o=54/53 97s rss=1.05
+fold 0 g2pld s2w_8780 repro=79 (study 79) off16=83 off64=78 tree r/o=79/80 105s rss=1.05
+fold 0 g2pld s2w_19922 repro=72 (study 72) off16=71 off64=70 tree r/o=72/72 110s rss=1.05
+fold 0 g2pld s2w_15204 repro=78 (study 78) off16=79 off64=75 tree r/o=74/74 115s rss=1.05
+fold 0 g2pld s2w_20005 repro=64 (study 64) off16=62 off64=58 tree r/o=62/63 123s rss=1.05
+fold 0 g2pld s2w_52721 repro=71 (study 71) off16=70 off64=65 tree r/o=71/71 132s rss=1.05
+fold 0 g2dom s2w_64206 repro=112 (study 112) off16=110 off64=104 tree r/o=112/111 146s rss=1.05
+fold 0 g2dom s2w_64592 repro=138 (study 138) off16=133 off64=127 tree r/o=136/135 160s rss=1.05
+fold 0 g2dom s2w_48704 repro=162 (study 162) off16=161 off64=155 tree r/o=162/160 165s rss=1.05
+fold 0 g2dom s2w_8780 repro=39 (study 39) off16=43 off64=38 tree r/o=41/40 169s rss=1.05
+fold 0 g2dom s2w_19922 repro=73 (study 73) off16=71 off64=70 tree r/o=73/73 173s rss=1.05
+fold 0 g2dom s2w_52721 repro=69 (study 69) off16=68 off64=63 tree r/o=70/69 180s rss=1.05
+fold 1 C1 s2w_49685 repro=90 (study 90) off16=89 off64=85 tree r/o=91/90 187s rss=1.05
+fold 1 C1 s2w_71611 repro=108 (study 108) off16=99 off64=87 tree r/o=103/107 199s rss=1.05
+fold 1 C0 s2w_49685 repro=300 (study 300) off16=301 off64=301 tree r/o=296/289 205s rss=1.05
+fold 1 C0 s2w_71611 repro=420 (study 420) off16=424 off64=423 tree r/o=415/415 215s rss=1.05
+fold 1 C4g s2w_49685 repro=61 (study 61) off16=60 off64=55 tree r/o=61/61 222s rss=1.05
+fold 1 C4g s2w_71611 repro=73 (study 73) off16=69 off64=69 tree r/o=71/72 226s rss=1.05
+fold 1 C7g s2w_49685 repro=101 (study 101) off16=101 off64=96 tree r/o=101/100 233s rss=1.05
+fold 1 C7g s2w_71611 repro=151 (study 151) off16=147 off64=143 tree r/o=151/149 239s rss=1.05
+fold 1 g2pld s2w_49685 repro=82 (study 82) off16=82 off64=77 tree r/o=81/82 246s rss=1.05
+fold 1 g2pld s2w_71611 repro=106 (study 106) off16=96 off64=84 tree r/o=102/105 259s rss=1.05
+fold 1 g2pld s2w_69646 repro=114 (study 114) off16=114 off64=110 tree r/o=115/113 265s rss=1.05
+fold 1 g2pld s2w_23677 repro=61 (study 61) off16=59 off64=56 tree r/o=61/61 271s rss=1.05
+fold 1 g2pld s2w_39855 repro=53 (study 53) off16=54 off64=44 tree r/o=54/52 281s rss=1.05
+fold 1 g2pld s2w_62668 repro=71 (study 71) off16=73 off64=66 tree r/o=74/71 289s rss=1.05
+fold 1 g2pld s2w_3518 repro=37 (study 37) off16=38 off64=31 tree r/o=37/37 295s rss=1.05
+fold 1 g2pld s2w_47830 repro=97 (study 97) off16=97 off64=93 tree r/o=94/95 302s rss=1.05
+fold 1 g2pld s2w_49809 repro=51 (study 51) off16=52 off64=50 tree r/o=50/50 305s rss=1.05
+fold 1 g2pld s2w_53519 repro=106 (study 106) off16=106 off64=99 tree r/o=108/106 314s rss=1.05
+fold 1 g2dom s2w_69646 repro=74 (study 74) off16=73 off64=68 tree r/o=76/74 320s rss=1.05
+fold 1 g2dom s2w_23677 repro=62 (study 62) off16=62 off64=60 tree r/o=63/62 324s rss=1.05
+fold 1 g2dom s2w_47830 repro=95 (study 95) off16=95 off64=91 tree r/o=92/93 331s rss=1.05
+fold 1 g2dom s2w_49809 repro=52 (study 52) off16=53 off64=51 tree r/o=51/51 334s rss=1.05
+fold 1 g2dom s2w_53519 repro=132 (study 132) off16=131 off64=124 tree r/o=131/131 344s rss=1.05
+fold 2 C1 s2w_8482 repro=105 (study 105) off16=104 off64=96 tree r/o=104/105 352s rss=1.05
+fold 2 C1 s2w_15124 repro=110 (study 110) off16=110 off64=107 tree r/o=109/110 357s rss=1.05
+fold 2 C0 s2w_8482 repro=323 (study 323) off16=323 off64=319 tree r/o=314/319 365s rss=1.05
+fold 2 C0 s2w_15124 repro=308 (study 308) off16=293 off64=290 tree r/o=301/304 374s rss=1.05
+fold 2 C4g s2w_8482 repro=74 (study 74) off16=74 off64=68 tree r/o=75/74 380s rss=1.05
+fold 2 C4g s2w_15124 repro=121 (study 121) off16=121 off64=117 tree r/o=109/121 386s rss=1.05
+fold 2 C7g s2w_8482 repro=92 (study 92) off16=95 off64=91 tree r/o=90/90 390s rss=1.05
+fold 2 C7g s2w_15124 repro=247 (study 247) off16=246 off64=197 tree r/o=245/246 422s rss=1.05
+fold 2 g2pld s2w_15124 repro=114 (study 114) off16=114 off64=111 tree r/o=113/114 428s rss=1.05
+fold 2 g2pld s2w_5336 repro=51 (study 51) off16=52 off64=48 tree r/o=52/51 435s rss=1.05
+fold 2 g2pld s2w_6769 repro=66 (study 66) off16=64 off64=59 tree r/o=65/65 443s rss=1.05
+fold 2 g2pld s2w_41242 repro=63 (study 63) off16=64 off64=59 tree r/o=63/64 450s rss=1.05
+fold 2 g2pld s2w_32523 repro=67 (study 67) off16=67 off64=61 tree r/o=68/67 459s rss=1.05
+fold 2 g2pld s2w_46795 repro=96 (study 96) off16=98 off64=88 tree r/o=96/93 469s rss=1.05
+fold 2 g2pld s2w_14815 repro=187 (study 187) off16=177 off64=176 tree r/o=181/181 485s rss=1.05
+fold 2 g2pld s2w_49981 repro=103 (study 103) off16=100 off64=97 tree r/o=105/102 494s rss=1.05
+fold 2 g2pld s2w_29951 repro=46 (study 46) off16=46 off64=38 tree r/o=45/46 500s rss=1.05
+fold 2 g2dom s2w_8482 repro=94 (study 94) off16=92 off64=88 tree r/o=94/93 508s rss=1.05
+fold 2 g2dom s2w_32523 repro=65 (study 65) off16=65 off64=59 tree r/o=67/65 516s rss=1.05
+fold 2 g2dom s2w_14815 repro=180 (study 180) off16=173 off64=172 tree r/o=174/174 524s rss=1.05
+fold 2 g2dom s2w_49981 repro=100 (study 100) off16=96 off64=93 tree r/o=102/99 529s rss=1.05
+fold 2 g2dom s2w_29951 repro=56 (study 56) off16=56 off64=48 tree r/o=55/55 535s rss=1.05
+fold 3 C1 s2w_59299 repro=67 (study 67) off16=69 off64=67 tree r/o=65/68 539s rss=1.05
+fold 3 C1 s2w_47915 repro=74 (study 74) off16=75 off64=72 tree r/o=70/69 545s rss=1.05
+fold 3 C0 s2w_59299 repro=164 (study 164) off16=163 off64=162 tree r/o=163/164 550s rss=1.05
+fold 3 C0 s2w_47915 repro=286 (study 286) off16=281 off64=277 tree r/o=276/283 558s rss=1.05
+fold 3 C4g s2w_59299 repro=69 (study 69) off16=68 off64=64 tree r/o=67/69 565s rss=1.05
+fold 3 C4g s2w_47915 repro=57 (study 57) off16=56 off64=52 tree r/o=55/55 571s rss=1.05
+fold 3 C7g s2w_59299 repro=47 (study 47) off16=48 off64=45 tree r/o=46/47 576s rss=1.05
+fold 3 C7g s2w_47915 repro=74 (study 74) off16=78 off64=73 tree r/o=73/74 582s rss=1.05
+fold 3 g2pld s2w_59299 repro=79 (study 79) off16=81 off64=79 tree r/o=75/78 585s rss=1.05
+fold 3 g2pld s2w_47915 repro=91 (study 91) off16=91 off64=88 tree r/o=87/87 590s rss=1.05
+fold 3 g2pld s2w_67147 repro=115 (study 115) off16=116 off64=115 tree r/o=113/113 594s rss=1.05
+fold 3 g2pld s2w_38961 repro=77 (study 77) off16=76 off64=72 tree r/o=75/74 600s rss=1.05
+fold 3 g2pld s2w_22440 repro=40 (study 40) off16=39 off64=33 tree r/o=41/41 606s rss=1.05
+fold 3 g2pld s2w_62205 repro=215 (study 215) off16=209 off64=202 tree r/o=209/212 617s rss=1.05
+fold 3 g2pld s2w_29922 repro=81 (study 81) off16=78 off64=69 tree r/o=85/81 626s rss=1.05
+fold 3 g2pld s2w_60641 repro=32 (study 32) off16=33 off64=29 tree r/o=34/32 631s rss=1.05
+fold 3 g2pld s2w_43630 repro=120 (study 120) off16=119 off64=119 tree r/o=110/118 634s rss=1.05
+fold 3 g2pld s2w_68631 repro=33 (study 33) off16=33 off64=29 tree r/o=33/33 639s rss=1.05
+fold 3 g2dom s2w_47915 repro=93 (study 93) off16=93 off64=90 tree r/o=87/88 644s rss=1.05
+fold 3 g2dom s2w_67147 repro=137 (study 137) off16=131 off64=130 tree r/o=132/132 648s rss=1.05
+fold 3 g2dom s2w_38961 repro=62 (study 62) off16=61 off64=57 tree r/o=61/60 653s rss=1.05
+fold 3 g2dom s2w_62205 repro=229 (study 229) off16=222 off64=213 tree r/o=224/227 666s rss=1.05
+fold 3 g2dom s2w_43630 repro=99 (study 99) off16=99 off64=99 tree r/o=95/97 669s rss=1.05
+fold 4 C1 s2w_70325 repro=127 (study 127) off16=127 off64=119 tree r/o=123/124 677s rss=1.05
+fold 4 C1 s2w_68423 repro=66 (study 66) off16=63 off64=62 tree r/o=66/65 680s rss=1.05
+fold 4 C0 s2w_70325 repro=257 (study 257) off16=249 off64=247 tree r/o=250/249 688s rss=1.05
+fold 4 C0 s2w_68423 repro=235 (study 235) off16=234 off64=231 tree r/o=230/229 695s rss=1.05
+fold 4 C4g s2w_70325 repro=120 (study 120) off16=121 off64=116 tree r/o=120/119 703s rss=1.05
+fold 4 C4g s2w_68423 repro=101 (study 101) off16=95 off64=84 tree r/o=99/100 714s rss=1.05
+fold 4 C7g s2w_70325 repro=84 (study 84) off16=81 off64=75 tree r/o=82/83 720s rss=1.05
+fold 4 C7g s2w_68423 repro=69 (study 69) off16=65 off64=63 tree r/o=69/68 723s rss=1.05
+fold 4 g2pld s2w_70325 repro=127 (study 127) off16=127 off64=119 tree r/o=123/124 732s rss=1.05
+fold 4 g2pld s2w_51784 repro=37 (study 37) off16=36 off64=32 tree r/o=37/37 737s rss=1.05
+fold 4 g2pld s2w_49368 repro=116 (study 116) off16=116 off64=109 tree r/o=115/116 746s rss=1.05
+fold 4 g2pld s2w_43660 repro=72 (study 72) off16=72 off64=66 tree r/o=71/71 753s rss=1.05
+fold 4 g2pld s2w_1213 repro=100 (study 100) off16=98 off64=94 tree r/o=102/99 759s rss=1.05
+fold 4 g2pld s2w_43072 repro=79 (study 79) off16=79 off64=77 tree r/o=81/79 764s rss=1.05
+fold 4 g2pld s2w_37095 repro=140 (study 140) off16=146 off64=145 tree r/o=141/141 769s rss=1.05
+fold 4 g2pld s2w_37325 repro=109 (study 109) off16=103 off64=99 tree r/o=109/108 776s rss=1.05
+fold 4 g2pld s2w_17423 repro=77 (study 77) off16=78 off64=73 tree r/o=79/77 782s rss=1.05
+fold 4 g2dom s2w_70325 repro=130 (study 130) off16=130 off64=122 tree r/o=126/127 790s rss=1.05
+fold 4 g2dom s2w_49368 repro=116 (study 116) off16=116 off64=109 tree r/o=115/116 799s rss=1.05
+fold 4 g2dom s2w_43660 repro=74 (study 74) off16=74 off64=68 tree r/o=73/73 806s rss=1.05
+fold 4 g2dom s2w_1213 repro=123 (study 123) off16=119 off64=112 tree r/o=122/125 815s rss=1.05
+fold 4 g2dom s2w_43072 repro=81 (study 81) off16=80 off64=78 tree r/o=84/81 821s rss=1.05
+fold 4 g2dom s2w_37095 repro=142 (study 142) off16=147 off64=146 tree r/o=142/143 826s rss=1.05
+{
+ "n": 114,
+ "repro_matches_study": 114,
+ "tree_repro_matches_study": 114,
+ "fwd_repro": 109.29824561403508,
+ "verify_tok_per_fwd_repro": 6.155457463884431,
+ "fwd_tie1": 109.3157894736842,
+ "verify_tok_per_fwd_tie1": 6.150537634408602,
+ "repro-tie1": {
+  "mean": -0.017543859649122806,
+  "ci95": [
+   -0.2543859649122807,
+   0.23684210526315788
+  ],
+  "median": 0.0,
+  "rel": -0.00016051364365971107,
+  "n_diff": 73
+ },
+ "fwd_m63": 109.29824561403508,
+ "verify_tok_per_fwd_m63": 6.155457463884431,
+ "repro-m63": {
+  "mean": 0.0,
+  "ci95": [
+   0.0,
+   0.0
+  ],
+  "median": 0.0,
+  "rel": 0.0,
+  "n_diff": 0
+ },
+ "fwd_ownglob": 108.06140350877193,
+ "verify_tok_per_fwd_ownglob": 6.066320318207647,
+ "repro-ownglob": {
+  "mean": 1.236842105263158,
+  "ci95": [
+   0.7717105263157894,
+   1.7280701754385965
+  ],
+  "median": 1.0,
+  "rel": 0.011316211878009632,
+  "n_diff": 87
+ },
+ "fwd_official16": 108.12280701754386,
+ "verify_tok_per_fwd_official16": 6.061820541943859,
+ "repro-official16": {
+  "mean": 1.1754385964912282,
+  "ci95": [
+   0.631578947368421,
+   1.7370614035087708
+  ],
+  "median": 0.5,
+  "rel": 0.010754414125200642,
+  "n_diff": 84
+ },
+ "fwd_official64": 103.15789473684211,
+ "verify_tok_per_fwd_official64": 6.940986394557823,
+ "repro-official64": {
+  "mean": 6.140350877192983,
+  "ci95": [
+   5.140350877192983,
+   7.359649122807017
+  ],
+  "median": 6.0,
+  "rel": 0.056179775280898875,
+  "n_diff": 110
+ },
+ "fwd_tree_repro": 107.82456140350877,
+ "verify_tok_per_fwd_tree_repro": 6.180767979173446,
+ "fwd_tree_official": 107.9298245614035,
+ "verify_tok_per_fwd_tree_official": 6.1406046814044215,
+ "tree_repro-tree_official": {
+  "mean": -0.10526315789473684,
+  "ci95": [
+   -0.5350877192982456,
+   0.2894736842105263
+  ],
+  "median": 0.0,
+  "rel": -0.0009762447120078099,
+  "n_diff": 84
+ }
+}

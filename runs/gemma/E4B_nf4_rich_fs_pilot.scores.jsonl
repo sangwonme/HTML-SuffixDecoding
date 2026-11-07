@@ -1,0 +1,10 @@
+{"extracted": true, "render_ok": true, "elem_p": 0.5, "elem_r": 0.8, "elem_f1": 0.6153846153846154, "type_f1": 0.8571428571428571, "text_recall": 1.0, "n_pred_elems": 8, "js_errors": 0, "id": "s2w_8482"}
+{"extracted": true, "render_ok": true, "elem_p": 1.0, "elem_r": 1.0, "elem_f1": 1.0, "type_f1": 1.0, "text_recall": 1.0, "n_pred_elems": 9, "js_errors": 0, "id": "s2w_42624"}
+{"extracted": true, "render_ok": true, "elem_p": 1.0, "elem_r": 1.0, "elem_f1": 1.0, "type_f1": 1.0, "text_recall": 1.0, "n_pred_elems": 9, "js_errors": 0, "id": "s2w_70325"}
+{"extracted": true, "render_ok": true, "elem_p": 1.0, "elem_r": 0.6111111111111112, "elem_f1": 0.7586206896551725, "type_f1": 1.0, "text_recall": 1.0, "n_pred_elems": 11, "js_errors": 0, "id": "s2w_49685"}
+{"extracted": true, "render_ok": true, "elem_p": 1.0, "elem_r": 0.875, "elem_f1": 0.9333333333333333, "type_f1": 0.8, "text_recall": 1.0, "n_pred_elems": 7, "js_errors": 0, "id": "s2w_59299"}
+{"extracted": true, "render_ok": true, "elem_p": 0.6551724137931034, "elem_r": 1.0, "elem_f1": 0.7916666666666666, "type_f1": 1.0, "text_recall": 1.0, "n_pred_elems": 29, "js_errors": 0, "id": "s2w_71611"}
+{"extracted": true, "render_ok": true, "elem_p": 0.9285714285714286, "elem_r": 0.8666666666666667, "elem_f1": 0.896551724137931, "type_f1": 0.75, "text_recall": 1.0, "n_pred_elems": 14, "js_errors": 0, "id": "s2w_15124"}
+{"extracted": true, "render_ok": true, "elem_p": 0.8666666666666667, "elem_r": 0.6666666666666666, "elem_f1": 0.7536231884057971, "type_f1": 1.0, "text_recall": 0.9333333333333333, "n_pred_elems": 30, "js_errors": 0, "id": "s2w_64206"}
+{"extracted": true, "render_ok": true, "elem_p": 0.8, "elem_r": 0.8, "elem_f1": 0.8000000000000002, "type_f1": 0.6666666666666666, "text_recall": 1.0, "n_pred_elems": 5, "js_errors": 0, "id": "s2w_47915"}
+{"extracted": true, "render_ok": true, "elem_p": 0.8571428571428571, "elem_r": 0.6818181818181818, "elem_f1": 0.759493670886076, "type_f1": 0.6666666666666666, "text_recall": 1.0, "n_pred_elems": 35, "js_errors": 0, "id": "s2w_68423"}

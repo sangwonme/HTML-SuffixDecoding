@@ -1,0 +1,61 @@
+E2B_nf4_rich_fs s2w_8482 {'L1': 0.062, 'L2': 0.356, 'L3_d2': 0.393, 'L4_e0.01': 0.46, 'L4_e0.05': 0.537} 14s rss=0.51GB
+E2B_nf4_rich_fs s2w_42624 {'L1': 0.051, 'L2': 0.318, 'L3_d2': 0.342, 'L4_e0.01': 0.398, 'L4_e0.05': 0.425} 11s rss=0.55GB
+E2B_nf4_rich_fs s2w_70325 {'L1': 0.07, 'L2': 0.373, 'L3_d2': 0.394, 'L4_e0.01': 0.432, 'L4_e0.05': 0.493} 15s rss=0.56GB
+E2B_nf4_rich_fs s2w_49685 {'L1': 0.091, 'L2': 0.414, 'L3_d2': 0.439, 'L4_e0.01': 0.497, 'L4_e0.05': 0.58} 9s rss=0.56GB
+E2B_nf4_rich_fs s2w_59299 {'L1': 0.065, 'L2': 0.325, 'L3_d2': 0.35, 'L4_e0.01': 0.425, 'L4_e0.05': 0.509} 11s rss=0.56GB
+E2B_nf4_rich_fs s2w_71611 {'L1': 0.07, 'L2': 0.354, 'L3_d2': 0.404, 'L4_e0.01': 0.464, 'L4_e0.05': 0.508} 55s rss=0.60GB
+E2B_nf4_rich_fs s2w_15124 {'L1': 0.072, 'L2': 0.399, 'L3_d2': 0.466, 'L4_e0.01': 0.479, 'L4_e0.05': 0.505} 14s rss=0.59GB
+E2B_nf4_rich_fs s2w_64206 {'L1': 0.066, 'L2': 0.426, 'L3_d2': 0.433, 'L4_e0.01': 0.46, 'L4_e0.05': 0.476} 66s rss=0.59GB
+E2B_nf4_rich_fs s2w_47915 {'L1': 0.059, 'L2': 0.457, 'L3_d2': 0.481, 'L4_e0.01': 0.516, 'L4_e0.05': 0.516} 8s rss=0.58GB
+E2B_nf4_rich_zs s2w_8482 {'L1': 0.099, 'L2': 0.395, 'L3_d2': 0.41, 'L4_e0.01': 0.54, 'L4_e0.05': 0.637} 23s rss=0.54GB
+node:events:505
+    throw er; // Unhandled 'error' event
+    ^
+
+Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:75:18)
+    at writeOrBuffer (node:internal/streams/writable:574:12)
+    at _write (node:internal/streams/writable:503:10)
+    at Writable.write (node:internal/streams/writable:512:10)
+    at PipeTransport.send (C:\Works\KSEF26\GenerativeUI\.venv\Lib\site-packages\playwright\driver\package\lib\coreBundle.js:36134:25)
+    at dispatcherConnection.onmessage (C:\Works\KSEF26\GenerativeUI\.venv\Lib\site-packages\playwright\driver\package\lib\coreBundle.js:72062:59)
+    at DispatcherConnection.dispatch (C:\Works\KSEF26\GenerativeUI\.venv\Lib\site-packages\playwright\driver\package\lib\coreBundle.js:20213:14)
+Emitted 'error' event on Socket instance at:
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -4047,
+  syscall: 'write',
+  code: 'EPIPE'
+}
+
+Node.js v24.22.1
+E2B_nf4_rich_zs s2w_42624 {'L1': 0.196, 'L2': 0.488, 'L3_d2': 0.499, 'L4_e0.01': 0.499, 'L4_e0.05': 0.499} 39s rss=0.55GB
+E2B_nf4_rich_zs s2w_70325 {'L1': 0.123, 'L2': 0.467, 'L3_d2': 0.482, 'L4_e0.01': 0.482, 'L4_e0.05': 0.562} 45s rss=0.58GB
+E2B_nf4_rich_zs s2w_49685 {'L1': 0.18, 'L2': 0.393, 'L3_d2': 0.42, 'L4_e0.01': 0.507, 'L4_e0.05': 0.563} 62s rss=0.61GB
+E2B_nf4_rich_zs s2w_59299 {'L1': 0.093, 'L2': 0.427, 'L3_d2': 0.484, 'L4_e0.01': 0.484, 'L4_e0.05': 0.484} 29s rss=0.62GB
+E2B_nf4_rich_zs s2w_71611 {'L1': 0.122, 'L2': 0.565, 'L3_d2': 0.597, 'L4_e0.01': 0.597, 'L4_e0.05': 0.686} 86s rss=0.72GB
+E2B_nf4_rich_zs s2w_15124 {'L1': 0.158, 'L2': 0.485, 'L3_d2': 0.495, 'L4_e0.01': 0.495, 'L4_e0.05': 0.556} 38s rss=0.73GB
+E2B_nf4_rich_zs s2w_64206 {'L1': 0.18, 'L2': 0.449, 'L3_d2': 0.459, 'L4_e0.01': 0.518, 'L4_e0.05': 0.542} 62s rss=0.74GB
+E2B_nf4_rich_zs s2w_47915 {'L1': 0.101, 'L2': 0.454, 'L3_d2': 0.471, 'L4_e0.01': 0.576, 'L4_e0.05': 0.619} 44s rss=0.74GB
+E2B_nf4_rich_zs s2w_68423 {'L1': 0.214, 'L2': 0.576, 'L3_d2': 0.584, 'L4_e0.01': 0.584, 'L4_e0.05': 0.692} 58s rss=0.74GB
+12B_nf4_rich_fs s2w_8482 {'L1': 0.039, 'L2': 0.274, 'L3_d2': 0.285, 'L4_e0.01': 0.482, 'L4_e0.05': 0.526} 18s rss=0.74GB
+12B_nf4_rich_fs s2w_42624 {'L1': 0.099, 'L2': 0.409, 'L3_d2': 0.452, 'L4_e0.01': 0.452, 'L4_e0.05': 0.533} 31s rss=0.75GB
+12B_nf4_rich_fs s2w_70325 {'L1': 0.096, 'L2': 0.415, 'L3_d2': 0.438, 'L4_e0.01': 0.438, 'L4_e0.05': 0.612} 33s rss=0.75GB
+12B_nf4_rich_fs s2w_49685 {'L1': 0.217, 'L2': 0.437, 'L3_d2': 0.462, 'L4_e0.01': 0.507, 'L4_e0.05': 0.608} 40s rss=0.74GB
+12B_nf4_rich_fs s2w_59299 {'L1': 0.028, 'L2': 0.274, 'L3_d2': 0.303, 'L4_e0.01': 0.312, 'L4_e0.05': 0.35} 8s rss=0.75GB
+12B_nf4_rich_fs s2w_71611 {'L1': 0.062, 'L2': 0.32, 'L3_d2': 0.34, 'L4_e0.01': 0.359, 'L4_e0.05': 0.453} 46s rss=0.75GB
+12B_nf4_rich_fs s2w_15124 {'L1': 0.136, 'L2': 0.446, 'L3_d2': 0.495, 'L4_e0.01': 0.495, 'L4_e0.05': 0.495} 41s rss=0.74GB
+12B_nf4_rich_fs s2w_64206 {'L1': 0.198, 'L2': 0.317, 'L3_d2': 0.329, 'L4_e0.01': 0.395, 'L4_e0.05': 0.509} 72s rss=0.76GB
+12B_nf4_rich_fs s2w_47915 {'L1': 0.073, 'L2': 0.361, 'L3_d2': 0.394, 'L4_e0.01': 0.638, 'L4_e0.05': 0.754} 29s rss=0.75GB
+12B_nf4_rich_fs s2w_68423 {'L1': 0.075, 'L2': 0.355, 'L3_d2': 0.394, 'L4_e0.01': 0.394, 'L4_e0.05': 0.394} 82s rss=0.75GB
+12B_nf4_rich_zs s2w_8482 {'L1': 0.087, 'L2': 0.363, 'L3_d2': 0.385, 'L4_e0.01': 0.385, 'L4_e0.05': 0.385} 42s rss=0.75GB
+12B_nf4_rich_zs s2w_42624 {'L1': 0.077, 'L2': 0.4, 'L3_d2': 0.4, 'L4_e0.01': 0.4, 'L4_e0.05': 0.536} 52s rss=0.74GB
+12B_nf4_rich_zs s2w_70325 {'L1': 0.103, 'L2': 0.394, 'L3_d2': 0.445, 'L4_e0.01': 0.445, 'L4_e0.05': 0.602} 40s rss=0.74GB
+12B_nf4_rich_zs s2w_49685 {'L1': 0.152, 'L2': 0.399, 'L3_d2': 0.44, 'L4_e0.01': 0.514, 'L4_e0.05': 0.599} 77s rss=0.75GB
+12B_nf4_rich_zs s2w_59299 {'L1': 0.032, 'L2': 0.266, 'L3_d2': 0.288, 'L4_e0.01': 0.293, 'L4_e0.05': 0.315} 21s rss=0.75GB
+12B_nf4_rich_zs s2w_71611 {'L1': 0.146, 'L2': 0.417, 'L3_d2': 0.424, 'L4_e0.01': 0.469, 'L4_e0.05': 0.531} 111s rss=0.77GB
+12B_nf4_rich_zs s2w_15124 {'L1': 0.122, 'L2': 0.421, 'L3_d2': 0.482, 'L4_e0.01': 0.482, 'L4_e0.05': 0.59} 48s rss=0.76GB
+12B_nf4_rich_zs s2w_64206 {'L1': 0.147, 'L2': 0.343, 'L3_d2': 0.362, 'L4_e0.01': 0.362, 'L4_e0.05': 0.489} 100s rss=0.77GB
+12B_nf4_rich_zs s2w_47915 {'L1': 0.069, 'L2': 0.388, 'L3_d2': 0.421, 'L4_e0.01': 0.45, 'L4_e0.05': 0.516} 51s rss=0.77GB
+12B_nf4_rich_zs s2w_68423 {'L1': 0.019, 'L2': 0.382, 'L3_d2': 0.398, 'L4_e0.01': 0.398, 'L4_e0.05': 0.428} 13s rss=0.76GB
