@@ -9,7 +9,7 @@
 \maketitle
 
 \begin{abstract}
-\noindent When a language model writes a user interface as HTML, almost all of the waiting time is spent producing output tokens one by one. A known remedy is to copy a short draft from example pages and let the model check the whole draft in one step. For HTML, the same short token patterns appear at many places in a page, so the usual way of choosing where to copy from often picks the wrong place. We estimate, for each candidate place, how many draft tokens the model will accept, using where the candidate sits in the page's element tree, with a hand-written rule and with a small learned ranker. Checking stays exact, so the output is unchanged. On a single graphics processor and 100 test requests from apps never seen in training, the learned ranker is 5.9\% faster than the rule and 9.5\% faster than standard prompt lookup, with unchanged quality. On our development requests the rule alone is 7.0\% faster than prompt lookup and keeps this gain under four rewrites of the HTML style, but on the test requests its own gain is not statistically clear. The ranker loses to the rule when the output formatting changes. A faithful reproduction of SuffixDecoding, a strong existing method that reuses the outputs of other requests, needs far fewer model passes than our methods on their own. Added to SuffixDecoding's choice of drafts, our features cut model passes by a further 1 to 3\% in replay. A second HTML source is still being evaluated.
+\noindent When a language model writes a user interface as HTML, almost all of the waiting time is spent producing output tokens one by one. A known remedy is to copy a short draft from example pages and let the model check the whole draft in one step. For HTML, the same short token patterns appear at many places in a page, so the usual way of choosing where to copy from often picks the wrong place. We estimate, for each candidate place, how many draft tokens the model will accept, using where the candidate sits in the page's element tree, with a hand-written rule and with a small learned ranker. Checking stays exact, so the output is unchanged. On a single graphics processor and 100 test requests from apps never seen in training, the learned ranker is 5.9\% faster than the rule and 9.5\% faster than standard prompt lookup, with unchanged quality. On our development requests the rule alone is 7.0\% faster than prompt lookup and keeps this gain under four rewrites of the HTML style, but on the test requests its own gain is not statistically clear. The ranker loses to the rule when the output formatting changes. On 50 pages from WebSight, a different source of HTML, the rule is still faster than prompt lookup, by 1.5 seconds per request, but the ranker gains nothing over the rule. A faithful reproduction of SuffixDecoding, a strong existing method that reuses the outputs of other requests, needs far fewer model passes than our methods on their own. Added to SuffixDecoding's choice of drafts, our features cut model passes by a further 1 to 3\% in replay.
 \end{abstract}
 
 \section{Introduction}
@@ -20,7 +20,7 @@ Two existing ideas already help a lot. The first is to put a few similar example
 HTML is unusually repetitive. A piece such as \texttt{"><div class="} appears many times in one page, so matching the last few tokens finds many places, and taking the most recent one is often wrong. Our contributions are:
 \begin{enumerate}[itemsep=1pt]
 \item \textbf{Structure-conditioned draft utility estimation.} We frame draft selection as choosing the place whose continuation will be accepted the longest, and estimate this from where each candidate sits in the page's element tree.
-\item \textbf{A learned ranker that is faster on unseen apps, measured in real time.} Trained on separate apps, it is 5.9\% faster than a hand-written structure rule and 9.5\% faster than prompt lookup on 100 independent test requests, including its own cost, with unchanged quality. It is not robust to changes in output formatting, where the simpler rule holds up better.
+\item \textbf{A learned ranker that is faster on unseen apps, measured in real time.} Trained on separate apps, it is 5.9\% faster than a hand-written structure rule and 9.5\% faster than prompt lookup on 100 independent test requests, including its own cost, with unchanged quality. It is not robust to changes in output formatting, and its gain over the rule disappears on a different source of HTML. In both cases the simpler rule holds up better.
 \item \textbf{An honest comparison with a strong baseline.} SuffixDecoding is clearly stronger than our methods on their own. Our structure features add a small but statistically clear gain on top of it.
 \item \textbf{An analysis of the remaining room.} With exact checking, choosing the best place one step at a time is already optimal. The largest remaining room lies in searching places across the outputs of other requests as well.
 \end{enumerate}
@@ -53,7 +53,7 @@ Under exact checking, taking at every step the place with the longest accepted d
 \section{Experiments}
 \paragraph{Setup.} We convert Screen2Words, a public set of about 22{,}000 Android app screens with human descriptions, into pairs of a request and the true HTML page. Example pages are retrieved by word similarity from 14{,}522 training screens. The model is Gemma~4 E2B, the smallest Gemma~4 model, in a 4-bit format on one consumer graphics card, generating greedily, that is always taking its most likely token. Real-time runs use 50 requests with three repetitions in shuffled order. We report request-level paired differences with 95\% bootstrap confidence intervals. \emph{Replay} counts model passes by replaying recorded outputs; it matched the measured counts on 450 of 450 runs.
 
-\paragraph{Development and test sets.} Development results use 50 pilot requests, with the ranker trained by five-fold splits by app. For the independent test, a ranker trained only on 150 separate training apps was run once on 100 test requests from 92 apps that share no app with the pilot set. Results on 50 pages from WebSight, a different source of HTML: \pend{pending}.
+\paragraph{Development and test sets.} Development results use 50 pilot requests, with the ranker trained by five-fold splits by app. For the independent test, a ranker trained only on 150 separate training apps was run once on 100 test requests from 92 apps that share no app with the pilot set. As a check on a different source of HTML, the same three methods were run once on 50 pages from WebSight, a public collection of generated web pages, with the ranker trained only on our own training apps.
 
 \paragraph{Starting point.} On 10 requests, combining examples and prompt lookup cuts the median time per screen from 59.4 to 6.6 seconds, and to 5.3 seconds with layout-matched examples and drafts accepted when they draw the same screen. The checklist of requested elements rises from 87\% to 100\%. This 11 times speed-up comes from known techniques.
 
@@ -119,6 +119,29 @@ renamed classes & $+6.2\%$ $[+1.2, +10.7]$ & $+2.6\%$ $[-2.1, +6.6]$\\
 \end{table}
 \textbf{Verified.} The rule stays significantly faster than prompt lookup under all four rewrites, and accuracy does not drop: the checklist stays between 89\% and 96\% for every rewrite and method. The ranker loses to the rule when line breaks are added and shows no clear difference otherwise. The cause is a shift in the model's own output: it also breaks the CSS into lines, which the examples do not do, so the average accepted draft falls from about 4 tokens to 1.5, and the ranker's inputs move far outside the range it was trained on. When only the draft source was rewritten and the model saw the original examples, the rule was faster than prompt lookup for three of the four rewrites in seconds, and the ranker did not fail.
 
+\subsection{A different source of HTML}
+Our pages all come from one converter, so its fixed style may favor our methods. We therefore ran the three methods once on 50 pages from WebSight, whose pages were written by another language model in a different style. The ranker was trained only on our own training apps and not retrained.
+
+\begin{table}[H]\centering\small
+\caption{WebSight, 50 pages, one run each. Element match compares the elements of the output with those of the reference page. Source: \texttt{runs/poc/F\_websight}.}\label{tab:websight}
+\begin{tabular}{lrrrc}
+\toprule
+draft choice & time per request & model passes & tokens per pass & element match\\
+\midrule
+standard prompt lookup & 39.79 s & 683.9 & 2.06 & 0.454\\
+structure rule & 38.28 s & 651.3 & 2.16 & 0.467\\
+learned ranker & 38.28 s & 649.5 & 2.15 & 0.469\\
+\midrule
+\multicolumn{5}{l}{prompt lookup $-$ structure rule: $+1.51$ s $[+0.14, +2.81]$, passes $+4.2\%$ $[+0.7, +7.4]$}\\
+\multicolumn{5}{l}{structure rule $-$ learned ranker: $-0.5\%$ $[-3.4, +2.2]$, not significant}\\
+\multicolumn{5}{l}{prompt lookup $-$ learned ranker: $+3.5\%$ $[+0.9, +6.0]$}\\
+\bottomrule
+\end{tabular}
+\end{table}
+\textbf{Verified.} The rule carries over: it saves 1.5 seconds and 4.2\% of the model passes per request. Measured as a share of each request's time the gain is 3.2\%, with an interval of $[-0.2, +6.5]$ that just includes zero. The ranker's gain does not carry over: it is no faster than the rule, and its gain over prompt lookup is the size of the rule's. Every output renders, and element match differs by at most 0.015.
+
+All gains are smaller here than on our own data. Drafts fit less well, with about 2 tokens accepted per pass instead of 5 to 6. The model also writes far longer pages than the references, about 1,410 tokens against 525, and a few outputs reach the 2,048 token limit. Outputs differ between methods on 48 or more of the 50 pages, so differences in output length add noise to the time comparison.
+
 \subsection{SuffixDecoding}
 SuffixDecoding keeps two memories of text: one for the current request, and a global one built from the outputs of other requests. It drafts the continuation that most often followed the current ending. We reproduced it from its official source code; the main difference is a draft limit of 16 tokens, the default of its serving plugin, with a limit of 64 as a check. Its global memory holds outputs of other apps only, plus the current request's own output, as in the official code.
 
@@ -149,14 +172,14 @@ upper bound: best place including other requests' outputs & 46.9\\
 
 \section{Limitations}
 \begin{itemize}[itemsep=1pt]
-\item Real-time results use one small model, 50 development and 100 test requests, and a single run on the test set; a second HTML source is still being evaluated.
+\item Real-time results use one small model, 50 development and 100 test requests, and a single run on the test set. The second HTML source has only 50 pages and one run.
 \item Outputs equal normal generation only in exact arithmetic; in practice rounding makes about half of them differ slightly, without a significant change in length.
-\item The ranker is not robust to changes in output formatting. The rule is.
+\item The ranker is not robust to changes in output formatting, and it gives no gain on a second source of HTML. The rule holds up in both cases, though on the second source it gains less.
 \item Against SuffixDecoding our gain is 1 to 3\% in replay, and small or absent in its default setting.
 \item The model ran in a 4-bit format that only approximates the official release.
 \end{itemize}
 
 \section{Conclusion}
-For HTML, the place a draft is copied from matters. On top of the 11 times speed-up from known techniques, a learned ranker that reads the element tree is 5.9\% faster than a hand-written structure rule and 9.5\% faster than standard prompt lookup on apps it has never seen, with unchanged quality. The rule alone helps clearly on development requests and under style rewrites, but not significantly on the test set, and the ranker is fragile when the output formatting changes. SuffixDecoding, which reuses other requests' outputs, is stronger than both, and our structure features add only 1 to 3\% on top of it. Choosing places across other requests' outputs by structure is the most promising next step.
+For HTML, the place a draft is copied from matters. On top of the 11 times speed-up from known techniques, a learned ranker that reads the element tree is 5.9\% faster than a hand-written structure rule and 9.5\% faster than standard prompt lookup on apps it has never seen, with unchanged quality. The rule alone helps clearly on development requests and under style rewrites, but not significantly on the test set, and the ranker is fragile when the output formatting changes. On a different source of HTML the rule still beats prompt lookup, while the ranker adds nothing over the rule, so the ranker's gain is so far shown only for the HTML style it was trained on. SuffixDecoding, which reuses other requests' outputs, is stronger than both, and our structure features add only 1 to 3\% on top of it. Choosing places across other requests' outputs by structure is the most promising next step.
 
 \end{document}

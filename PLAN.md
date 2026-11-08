@@ -115,6 +115,7 @@ GenerativeUI/
 - 2026-11-07 18:17: 파일럿 체인을 완료했다(E2B/E4B/12B rich_zs, E2B short_zs, E2B rich_fs, 각 10개). 12B는 NF4로 로드했고 피크 VRAM 8.4GB로 OOM 없이 동작했다.
 - 2026-11-07 20:15: **test 500은 보류했다(사용자 결정).** 지연시간 비교는 파일럿 10개로 마무리한다. E4B와 12B에도 rich_fs를 추가로 측정한다.
 - 2026-11-07 20:30: query_mid(목적 + 핵심 요소 2–4개, 개수·긴 원문 없음)와 체크리스트를 전 split에 추가했다(`data/processed/mid/`, `scripts/build_query_mid.py`, `src/genui/checklist.py`, `scripts/eval_mid_baselines.py`). mid 설정의 주 지표는 체크리스트 충족률, 요소/종류 F1은 보조 지표. 누수 검사 통과 test 100%, GT 자체 점수 1.000, B1 0.080 / B2 0.35–0.37(test). 다음: GPU가 비면 Gemma mid_zs/mid_fs 파일럿 10개(few-shot 예시는 train_pool의 query_mid 검색), 사용자 검토 후 템플릿 수정.
+- 2026-11-08 오전: F WebSight 50개(1회) 완료. 규칙은 lookup보다 +1.51초 [+0.14, +2.81]로 유지, 학습 모델은 규칙 대비 −0.53% [−3.35, +2.22]로 이득 없음, 품질 동일. 보고서·논문·RESEARCH_CONTEXT·POC_method §6.6 반영. Conditional Go 조건에 "다른 출처에서 학습 모델 이득 회복"을 추가했다. 남은 일: 외부 출처 혼합 학습, 학습 모델 실패 원인(특징 분포) 분석, SD+DOM GPU 실측.
 
 ---
 

@@ -9,14 +9,19 @@
    | DOM 규칙 대비 | **+5.9% [+3.2, +8.7]** |
    | 표준 PLD 대비 | **+9.5% [+5.0, +13.3]** |
 
-3. **한계.**
+3. **외부 데이터 WebSight 50개(1회, POC_method.md §6.6, `runs/poc/F_websight/`).**
+   - DOM 규칙 이득은 옮겨간다: PLD − DOM +1.51초 [+0.14, +2.81], fwd +4.17% [+0.71, +7.38]. 요청별 비율은 +3.22% [−0.24, +6.46]로 0을 조금 포함한다.
+   - 학습 모델 이득은 옮겨가지 않는다: DOM − RANKER −0.53% [−3.35, +2.22], 유의하지 않음. PLD − RANKER +3.50% [+0.85, +5.97]는 규칙의 몫과 같다.
+   - 품질 동일: 요소 F1 0.454/0.467/0.469, render_ok 1.0.
+4. **한계.**
    - 정식 SuffixDecoding 위에 DOM 특징을 더한 추가 이득은 1–3%(f16)다. 공식 기본값 f1에서는 0.5% 또는 유의하지 않다(POC_study.md §12b).
    - 학습 모델은 서식 변환(fmt)에 약하다. 조건 A에서 규칙 대비 −11.5%였다(POC_method.md §6.4.2).
-4. **다음 단계.**
+   - 학습 모델 이득은 S2W 변환기 형식 안에서만 확인됐다. WebSight에서는 규칙과 같다.
+5. **다음 단계.**
    - SD+DOM GPU 실측
-   - 형식을 섞은 데이터로 학습
+   - 형식을 섞은 데이터와 외부 출처(WebSight pool 150)를 섞어 학습
    - 전역 캐시를 포함한 위치 검색(오라클 46.9 vs SD f16 94.9, POC_study.md §15)
-5. **사용자 결정 대기.**
+6. **사용자 결정 대기.**
    - 공식 ArcticInference suffix tree 모듈 빌드 승인(RETRIEVAL.md "Official SuffixDecoding vs reproduction")
    - 코드 라이선스
    - 데이터 공개 범위
@@ -255,13 +260,14 @@
 | **E 독립 test** | train-split MLP, test 100, GPU | `runs/poc/E/test100/gate2_summary.md`, `quality.md`; 학습 `runs/poc/E/train150/`, `runs/study/ranker_mlp_trainsplit.npz` | **완료**(§4.5) |
 | **정식 SuffixDecoding** | 재구현 + 공식 global 규칙 재실행 + MAX_SPEC 민감도 + 표현 변화 + 캐시 감사 + 오라클 | `runs/study/sd_formal.json`, `sd_official_rule_ms{16,64}.json`, `sd_p1A*.json`, `sd_cache_audit.json`; POC_study.md §12–15 | **완료**(§4.6). GPU 실측은 없음 |
 | 공식 구현 대조 | 소스 대조와 규칙 이식 | `runs/retrieval/sd_official_check.json`; RETRIEVAL.md | 완료. C++ 빌드는 승인 대기 |
-| **F WebSight** | WebSight v0.2 eval 50 × {PLD, DOM, RANKER(train-split)} GPU | `runs/poc/F_websight/` | **진행 중**. 준비와 대리 재생은 DATASET.md "External data (prep)" |
+| **F WebSight** | WebSight v0.2 eval 50 × {PLD, DOM, RANKER(train-split)} GPU | `runs/poc/F_websight/gate2_summary.md`, `websight_quality.md`; POC_method.md §6.6 | **완료**. 규칙 이득은 유지(+1.51초), 학습 모델은 규칙 대비 −0.53% n.s. 준비와 대리 재생은 DATASET.md "External data (prep)" |
 
 ## 6. 알려진 한계와 편향
 - **같은 변환기 형식**:
   - GT와 few-shot 예시가 모두 같은 결정론적 변환기(`build_dataset.py`)의 출력이다. 그래서 반복 형식이 강하다.
   - 예: ω(e, GT)가 0.69–0.99로 몰린다(POC_study.md §6).
-  - 개선이 이 변환기 형식에만 의존하는지가 P1의 핵심 질문이다. WebSight와 Design2Code로 일반화하는 것은 후속 과제다(PLAN.md).
+  - 개선이 이 변환기 형식에만 의존하는지가 P1의 핵심 질문이다.
+  - WebSight 50개(1회)에서 답의 일부가 나왔다. 규칙 이득은 남고(초 단위 유의), 학습 모델의 추가 이득은 사라졌다. 학습 모델의 이득은 변환기 형식에 묶여 있을 수 있다. Design2Code는 생성 예산에 16개만 들어가 아직 하지 않았다.
 - **test 출신 앱**:
   - cross-fit 순위 모델 데이터의 앱 50개는 모두 pilot(= test split) 출신이다(POC_study.md §11 한계). 학습 데이터의 2/3는 cands6 근사 target이다.
   - 이를 보완하려고 train 앱 150개로만 학습한 모델을 만들어, pilot과 겹치지 않는 test 100(앱 92개)에서 GPU로 평가했다(§4.5).
@@ -293,15 +299,16 @@
 **현재 권고 (Conditional Go, `REPORT_2026-11-08.md` §1)**
 - 계속할 것: 구조 규칙, SD 후보 재순위화.
 - 조건:
-  - 독립 test에서 학습 모델이 규칙보다 느리지 않을 것. **E(ii)에서 충족했다(+5.9%).**
+  - 독립 test에서 학습 모델이 규칙보다 느리지 않을 것. **E(ii)에서 충족했다(+5.9%).** WebSight에서는 규칙과 같다(−0.53%, n.s.).
+  - 다른 출처에서 학습 모델 이득을 회복할 것(외부 출처 혼합 학습). 아직이다.
   - SD+DOM의 GPU 실측 이득을 확인할 것. 아직이다.
 - 멈출 것:
   - "구조만으로 SD를 이긴다"는 주장
-  - "학습 모델이 형식 변화에 강건하다"는 주장
+  - "학습 모델이 형식 변화나 다른 HTML 출처에 강건하다"는 주장
 - 다음 연구 후보: 전역 캐시를 포함한 위치 검색, 형식을 섞은 데이터로 학습.
 
 **원래 우선순위**(모두 진행했다): GPU 실측(P0) → 오라클 격차 분석(P3) → 표현 강건성(P1) → 강한 기준선 비교(P2, 정식 SD) → 논문 초안. 논문 초안은 `paper/genui_paper.pdf`다.
-- 후속(필수): WebSight, Design2Code 데이터, E4B와 12B 모델.
+- 후속(필수): Design2Code 데이터, E4B와 12B 모델. WebSight는 완료(§5).
 - 보류: O3(구조 기반 새 후보 생성), O4(14,522개 전체 구조 인덱스).
 
 **관문 2b 분기**:

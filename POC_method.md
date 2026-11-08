@@ -427,7 +427,35 @@ Quality paired differences are all within ±0.01 and none is significant. For ex
   - A repeat (3 reps) or a fixed-output comparison (forward counts on identical outputs, as in condition B or the replay) would settle the DOM-vs-PLD point on test.
 
 ### 6.6 External data (F): WebSight v0.2 eval 50
-Running since 05:09 (`runs/poc/F_websight/`). It uses the train-split ranker weights. Results follow.
+- **Setup**: 50 WebSight v0.2 eval pages (Tailwind HTML written by another LLM, a different source from our S2W converter). Prompts use TF-IDF top-3 exemplars from the 150 WebSight pool pages (`runs/retrieval/external_websight_prompts.jsonl`). Conditions {PLD, DOM, RANKER} × 1 rep, shuffled order, exact verification. RANKER uses the train-split weights (`runs/study/ranker_mlp_trainsplit.npz`), not retrained. Ran 05:09–06:47. Sources: `runs/poc/F_websight/gate2_summary.md`, `websight_quality.md`.
+
+| metric (mean over requests) | PLD | DOM | RANKER |
+|---|---|---|---|
+| wall-clock total | 39.79 s | 38.28 s | 38.28 s |
+| target forwards | 683.9 | 651.3 | 649.5 |
+| tokens / forward | 2.06 | 2.16 | 2.15 |
+| output tokens | 1420 | 1412 | 1402 |
+| hit max_new (2,048) | 5/50 | 2/50 | 4/50 |
+| draft cost per step | 0.15 ms | 0.36 ms | 0.49 ms |
+| render_ok | 1.000 | 1.000 | 1.000 |
+| element F1 / type F1 / text recall | 0.454 / 0.695 / 0.547 | 0.467 / 0.704 / 0.573 | 0.469 / 0.703 / 0.556 |
+
+| paired difference (n = 50) | wall-clock | wall-clock % | forwards % |
+|---|---|---|---|
+| **PLD − DOM** | **+1.512 s [+0.143, +2.805]** | +3.22% [−0.24, +6.46] | **+4.17% [+0.71, +7.38]** |
+| PLD − RANKER | +1.507 s [+0.491, +2.499] | +3.50% [+0.85, +5.97] | +4.76% [+2.15, +7.18] |
+| DOM − RANKER | −0.005 s [−1.073, +1.089] | −0.53% [−3.35, +2.22] (n.s.) | −0.20% [−3.02, +2.54] (n.s.) |
+
+**Reading the results**
+- **The DOM rule transfers to an outside HTML source.** It is significantly faster than PLD in seconds and in forwards. The per-request percentage CI just includes 0; as in condition B, the verdict is taken in seconds (Gate 2 passed in `gate2_summary.md`).
+- **The learned ranker's gain does not transfer.** It is no faster than the rule (−0.53%, n.s.). Its gain over PLD (+3.5%) is the rule's gain. The ranker was trained only on S2W converter output, so its extra gain over the rule is so far shown only inside that format (Gate 2b not passed).
+- **Quality is unchanged**: element F1 within 0.015, all 150 outputs render.
+- **Caveats**
+  - Drafting works much worse here: 2.1 tok/fwd vs 5–6 on S2W.
+  - Outputs are far longer than the GT (about 1,410 vs 525 tokens), so a request takes about 39 s; 2–5 per condition hit max_new.
+  - Outputs are identical between policies on only 1–2 of 50 requests, so output-length noise enters the wall-clock comparison. n = 50 × 1 rep.
+  - The GT replay proxy predicted −6.1% forwards for DOM (DATASET.md "External data (prep)"); the GPU run gives −4.2%, same direction, smaller.
+  - The cause of the ranker's loss (feature distribution shift, as in the fmt failure) has not been analysed yet.
 
 ## 7. Limitations
 
